@@ -42,7 +42,7 @@ Instructors choose your ice breaker
 
 
 ##Command Line
-![Workflow](../Slide_assets/command_line/dev_workflow.png)
+![Workflow](../assets/command_line/dev_workflow.png)
 
 ---
 
@@ -64,7 +64,7 @@ Instructors choose your ice breaker
 ##Command Line
 ###What And Where Is It?
 
-![Find The Terminal](../Slide_assets/command_line/spotlight.png)
+![Find The Terminal](../assets/command_line/spotlight.png)
 
 ---
 
@@ -79,13 +79,13 @@ Instructors choose your ice breaker
 
 
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](../assets/Code_along_icon_md.png)
 ##Command Line Basics
 
 ---
 
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
+![GeneralAssemb.ly](../assets/Exercise_icon_md.png)
 ## Command Line Basics Exercise
 ---
 
@@ -101,7 +101,7 @@ Instructors choose your ice breaker
 
 
 ##GIT
-![Using Git](../Slide_assets/GitHub/using_gitHub.png)
+![Using Git](../assets/GitHub/using_gitHub.png)
 
 ---
 
@@ -109,8 +109,8 @@ Instructors choose your ice breaker
 ##GIT
 ###What Is GIT?
 
-![Using Git](../Slide_assets/GitHub/git_general_diagram.png)
-<!-- or (../Slide_assets/GitHub/GIT_Drawing.png) -->
+![Using Git](../assets/GitHub/git_general_diagram.png)
+<!-- or (../assets/GitHub/GIT_Drawing.png) -->
 
 ---
 
@@ -122,13 +122,13 @@ Instructors choose your ice breaker
 *	Checkpoints
 *	File recovery 
 
-![Why Use GIT](../Slide_assets/GitHub/why_use_git.png)
+![Why Use GIT](../assets/GitHub/why_use_git.png)
 
 ---
 
 
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](../assets/Code_along_icon_md.png)
 ##Git Basics
 
 ---
@@ -139,20 +139,20 @@ Instructors choose your ice breaker
 
 *	Is Git The Same as GitHub?
 
-![Developer Humor](../Slide_assets/GitHub/octocat.png)
+![Developer Humor](../assets/GitHub/octocat.png)
 
 ---
 
 
 ##GITHUB
 ###FORKS
-![ Git In Class Diagram](../Slide_assets/GitHub/fork_diagram.png)
+![ Git In Class Diagram](../assets/GitHub/fork_diagram.png)
 
 ---
 
 
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](../assets/Code_along_icon_md.png)
 ##Git In Class
 
 ---
@@ -160,13 +160,13 @@ Instructors choose your ice breaker
 
 ##GITHUB
 ###Using Git For Homework
-![ Git In Class Diagram](../Slide_assets/GitHub/fork_diagram_ga.png)
+![ Git In Class Diagram](../assets/GitHub/fork_diagram_ga.png)
 
 ---
 
 
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
+![GeneralAssemb.ly](../assets/Exercise_icon_md.png)
 ## Git It Together
 
 ---
@@ -227,7 +227,7 @@ How do I create a new folder?
 
 
 ####Deleting - (Proceed With Caution)
-```
+
 How do I delete a folder?
 
 		$rm -r folder_name
@@ -240,8 +240,8 @@ How do I delete a file?
 
 How do I move a file?
 
-	$mv file_name folder_name
-	C:\> move file_name folder_name
+		$mv file_name folder_name
+		C:\> move file_name folder_name
 The file is removed from the old location and moved to the new one.
 
 You can rename a file the same way
@@ -276,17 +276,19 @@ Here are some to help you keep up:
 
 **Control + y**: Paste last deleted item
 
-**Control + l**: Clear the screen         
+**Control + l**: Clear the screen        
+ 
 
 
 ##Git Pictures
-![Git Diagram](../Slide_assets/GitHub/git_in_class_diagram.png)
+![Git Diagram](../assets/GitHub/git_in_class_diagram.png)
 
 Fork Button
 
-![Fork Button](../Slide_assets/GitHub/fork_button.png)
+![Fork Button](../assets/GitHub/fork_button.png)
 
-![Pull Requestion](../Slide_assets/GitHub/pull_request_button.png)
+![Pull Requestion](../assets/GitHub/pull_request_button.png)
+
 
 
 ##Still Feel Lost? 
