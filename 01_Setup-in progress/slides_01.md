@@ -146,7 +146,7 @@ Instructors choose your ice breaker
 
 ##GITHUB
 ###FORKS
-![ Git In Class Diagram](../assets/GitHub/fork_diagram.png)
+![ Git In Class Diagram](../assets/GitHub/fork_Diagram.png)
 
 ---
 
