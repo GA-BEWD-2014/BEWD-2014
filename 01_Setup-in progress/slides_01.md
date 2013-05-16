@@ -22,15 +22,7 @@ Instructors current role.
 ##Installation
 ###Terminal
 
-Before we get started lets make sure everyone is ready to go. We will introduce ourselves while your computer installs 
-
-Macs:- Open Terminal (spotlight type terminal)
-	type: ruby -v: should see ruby 2.0.0
-	
-PCs:- Open command line. Start => run => type cmd
-	type: 
-
-If you do not see the above lines run this code:
+Before we get started lets make sure everyone is ready to go. We will introduce ourselves while your computer finishes installation. 
 
 ---
 
@@ -43,6 +35,7 @@ Instructors choose your ice breaker
 
 ##Command Line
 ![Workflow](../assets/command_line/dev_workflow.png)
+![Workflow](assets/command_line/dev_workflow.png "Command Line")
 
 ---
 
