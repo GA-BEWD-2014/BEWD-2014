@@ -13,6 +13,7 @@ Instructors current role.
 
 *	Installation
 *	Intros
+*	What is Web Development
 *	Bash Commands
 *	Using GitHub
 
@@ -22,9 +23,60 @@ Instructors current role.
 ##Installation
 ###Terminal
 
-Before we get started lets make sure everyone is ready to go. We will introduce ourselves while your computer finishes installation. 
+Before we get started lets make sure everyone is ready to go. We will introduce ourselves while your computer installs 
+
+Macs:- Open Terminal (spotlight type terminal)
+	type: ruby -v: should see ruby 2.0.0
+	
+PCs:- Open command line. Start => run => type cmd
+	type: 
+
+If you do not see the above lines run this code:
 
 ---
+
+
+##Installation
+###Terminal
+
+
+Before we get started lets make sure everyone is ready to go. We will introduce ourselves while your computer finishes its installations. 
+
+---
+
+##Introductions
+Instructors choose your ice breaker
+
+---
+
+
+##Web Development
+###What is Back-end Web Development
+
+---
+
+
+##Command Line
+![Workflow](../assets/command_line/dev_workflow.png)
+
+---
+
+
+##Command Line
+###Why Work Like A Developer?
+
+*	Its faster
+	*	Working with keyboard increases your speed. The mouse slows you down.
+	*	You are always typing when coding, staying in the environment is faster.
+
+*	Efficient Workflow
+	*	You can create shortcuts and scripts so the computer does some of the work for you.
+
+
+* Its Cool!
+	*	Impress your friends as you navigate the computer by only using your keyboard.
+---
+
 
 
 ##Introductions
@@ -71,6 +123,26 @@ Instructors choose your ice breaker
 ---
 
 
+=======
+
+##Command Line
+###What And Where Is It?
+
+![Find The Terminal](../assets/command_line/spotlight.png)
+
+---
+
+
+##Command Line
+###How Do You Use It?
+
+*	Shell Commands.
+	*	[List Of Commands]()
+
+---
+
+
+>>>>>>> 718c24041e79bbab4c6ab001cd677b6636529f41
 
 ![GeneralAssemb.ly](../assets/Code_along_icon_md.png)
 ##Command Line Basics
@@ -139,7 +211,7 @@ Instructors choose your ice breaker
 
 ##GITHUB
 ###FORKS
-![ Git In Class Diagram](../assets/GitHub/fork_diagram.png)
+![ Git In Class Diagram](../assets/GitHub/fork_Diagram.png)
 
 ---
 
