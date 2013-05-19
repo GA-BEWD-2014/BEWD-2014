@@ -4,7 +4,7 @@ BACK-END WEB DEVELOPMENT
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
-Lesson: Vairables & Conditional Logic 
+Lesson: Variables & Conditional Logic 
 ========
 
 Learning Objectives
@@ -20,7 +20,7 @@ Schedule
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 20 min | irb / pry | [code_alongs/coa_instr_irb.rb](code_alongs/coa_instr_irb.rb) |We suggest using PRY it has syntax higlighting an is easier to read. | 
+| 20 min | irb / pry | [coa_instr_irb.rb](code_alongs/coa_instr_irb.rb) |We suggest using PRY it has syntax higlighting an is easier to read. | 
 | 45 min | Variables | [coa_instr_teddit_strings](code_alongs/coa_student_teddit_strings)<br>[coa_instr_boolean](code_alongs/coa_instr_boolean) | |
 | 20 min | Methods | [coa_instr_methods](code_alongs/coa_instr_methods) | |
 | 20 min | Conditionals |  | |
