@@ -49,7 +49,7 @@ Instructors current role.
 *	Allows you to create web applications that talk to and query a database.
 
 
-![Ruby Images ](../assets/ruby/ruby_img.png )
+![Ruby Images ](../../assets/ruby/ruby_img.png )
 
 ---
 
@@ -59,7 +59,7 @@ Instructors current role.
 
 *	It will be easier to navigate a Rails project, once we have a basic understanding of  Ruby.
 
-![ Karate Kid](../assets/ruby/karate_kid.jpg)
+![ Karate Kid](../../assets/ruby/karate_kid.jpg)
 <div id ="resources"> 
 [Wax on Wax Off](http://www.youtube.com/watch?v=8aYl7N0JPWs)
 </div>
@@ -90,7 +90,7 @@ defined? do else elsif end in module next nil not return self super then true wh
 ##Math in Ruby
 ###Ruby Arithmetic Operators
 
-![Ruby Arithmetic](../assets/ruby/ruby_arithmetic.jpg)
+![Ruby Arithmetic](../../assets/ruby/ruby_arithmetic.jpg)
 
 ---
 
@@ -185,7 +185,7 @@ Its' either TRUE or FALSE
 ###Logic Operators
 
 
-![](../assets/ruby/logic_operators.png)
+![](../../assets/ruby/logic_operators.png)
 
 
 ---
@@ -270,7 +270,7 @@ Its' either TRUE or FALSE
 ##Conditional Logic
 ###Multiple Conditions
 
-![truth_table](../assets/ruby/truth_table.png)
+![truth_table](../../assets/ruby/truth_table.png)
 
 ---
 
