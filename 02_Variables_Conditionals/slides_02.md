@@ -22,7 +22,6 @@ Instructors current role.
 * 	Conditional Logic
 * 	Lab Time
 
-
 ---
 
 ##QUIZ
