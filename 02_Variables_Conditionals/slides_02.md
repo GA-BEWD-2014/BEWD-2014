@@ -55,7 +55,7 @@ Instructors current role.
 
 
 ##Ruby & Rails
-###We learn ruby first.
+###We learn Ruby first.
 
 *	It will be easier to navigate a Rails project, once we have a basic understanding of  Ruby.
 
