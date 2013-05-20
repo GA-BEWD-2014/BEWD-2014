@@ -131,7 +131,7 @@ defined? do else elsif end in module next nil not return self super then true wh
 		name = "Steven"
 		=> name # "Steven"
 		age = 2013 - 1983
-		age # 30
+		=> age # 30
 ---
 
 
