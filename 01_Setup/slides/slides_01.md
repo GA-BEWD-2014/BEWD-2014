@@ -49,15 +49,35 @@ Instructors choose your ice breaker
 
 ---
 
+##Course Administration
+###Lets Get This Out Of The Way
 
-##Web Development
-###What is Back-end Web Development
+*	To pass the course: 
+	*	Complete 80% of all assigned homework
+	*	Complete [final project]()
+	
+*	What you will get from us
+	* Code Alongs
+	*	Exercises
+	* Slides / resource markdown file to be viewed in GitHub
+	*Quick Fires and Quiz
+	* Awesome instructor
 
 ---
 
 
+##Web Development
+###What is Back-end Web Development?
+
+---
+
+
+
+
+
 ##Command Line
-![Workflow](../assets/command_line/dev_workflow.png)
+###Lets learn how to work like a programmer first.
+![Workflow](../../assets/command_line/dev_workflow.png)
 
 ---
 
@@ -86,8 +106,8 @@ Instructors choose your ice breaker
 
 
 ##Command Line
-![Workflow](../assets/command_line/dev_workflow.png)
-![Workflow](assets/command_line/dev_workflow.png "Command Line")
+![Workflow](../../assets/command_line/dev_workflow.png)
+
 
 ---
 
@@ -109,7 +129,7 @@ Instructors choose your ice breaker
 ##Command Line
 ###What And Where Is It?
 
-![Find The Terminal](../assets/command_line/spotlight.png)
+![Find The Terminal](../../assets/command_line/spotlight.png)
 
 ---
 
@@ -128,7 +148,7 @@ Instructors choose your ice breaker
 ##Command Line
 ###What And Where Is It?
 
-![Find The Terminal](../assets/command_line/spotlight.png)
+![Find The Terminal](../../assets/command_line/spotlight.png)
 
 ---
 
@@ -144,13 +164,13 @@ Instructors choose your ice breaker
 
 >>>>>>> 718c24041e79bbab4c6ab001cd677b6636529f41
 
-![GeneralAssemb.ly](../assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](../../assets/Code_along_icon_md.png)
 ##Command Line Basics
 
 ---
 
 
-![GeneralAssemb.ly](../assets/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../assets/Exercise_icon_md.png)
 ## Command Line Basics Exercise
 ---
 
@@ -174,7 +194,7 @@ Instructors choose your ice breaker
 ##GIT
 ###What Is GIT?
 
-![Using Git](../assets/GitHub/git_general_diagram.png)
+![Using Git](../../assets/GitHub/git_general_diagram.png)
 <!-- or (../assets/GitHub/GIT_Drawing.png) -->
 
 ---
@@ -187,13 +207,13 @@ Instructors choose your ice breaker
 *	Checkpoints
 *	File recovery 
 
-![Why Use GIT](../assets/GitHub/why_use_git.png)
+![Why Use GIT](../../assets/GitHub/why_use_git.png)
 
 ---
 
 
 
-![GeneralAssemb.ly](../assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](../../assets/Code_along_icon_md.png)
 ##Git Basics
 
 ---
@@ -204,7 +224,7 @@ Instructors choose your ice breaker
 
 *	Is Git The Same as GitHub?
 
-![Developer Humor](../assets/GitHub/octocat.png)
+![Developer Humor](../../assets/GitHub/octocat.png)
 
 ---
 
@@ -225,13 +245,13 @@ Instructors choose your ice breaker
 
 ##GITHUB
 ###Using Git For Homework
-![ Git In Class Diagram](../assets/GitHub/fork_diagram_ga.png)
+![ Git In Class Diagram](../../assets/GitHub/fork_diagram_ga.png)
 
 ---
 
 
 
-![GeneralAssemb.ly](../assets/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../assets/Exercise_icon_md.png)
 ## Git It Together
 
 ---
@@ -346,13 +366,13 @@ Here are some to help you keep up:
 
 
 ##Git Pictures
-![Git Diagram](../assets/GitHub/git_in_class_diagram.png)
+![Git Diagram](../../assets/GitHub/git_in_class_diagram.png)
 
 Fork Button
 
-![Fork Button](../assets/GitHub/fork_button.png)
+![Fork Button](../../assets/GitHub/fork_button.png)
 
-![Pull Requestion](../assets/GitHub/pull_request_button.png)
+![Pull Requestion](../../assets/GitHub/pull_request_button.png)
 
 
 
