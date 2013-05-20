@@ -394,7 +394,7 @@ def say (something)
       puts "They said #{something}"
 end
 
- say ("Hello")```
+ say ("Hello")
 
 => They said Hello
 
@@ -415,8 +415,8 @@ __Running .rb from the terminal__
 ###Catch Up With These Resources
 
 - Intro to Ruby [tutorial](http://www.codeschool.com/courses/try-ruby) from Code School for beginners to wrap your head around programming concepts.
--	Beginner Ruby [Tutorial](- http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq?curriculum_id=5059f8619189a5000201fbcb)
--	Book [chapter](http://ruby.bastardsbook.com/chapters/ifelse/) on conditionals.
+- Beginner Ruby [Tutorial](- http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq?curriculum_id=5059f8619189a5000201fbcb)
+- Book [chapter](http://ruby.bastardsbook.com/chapters/ifelse/) on conditionals.
 - [Article](http://ruby.about.com/od/control/a/Conditional-Statements.htm) from about.com about ruby conditional statements.
 - [Article](http://strugglingwithruby.blogspot.com/2008/11/conditional-statements.html) - More about true and false.
 - [Khan academy tutorial](https://www.khanacademy.org/math/geometry/logical-reasoning/e/conditional_statements_and_truth_value) about logical reasoning.
