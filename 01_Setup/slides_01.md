@@ -245,7 +245,7 @@ Instructors choose your ice breaker
 
 
 ## Resources
-Class is Over, but here is some extra resources.
+Class is Over, but here are some extra resources.
 
 Lesson 1: Command Line Basics & Git
 ========
@@ -315,7 +315,7 @@ You can rename a file the same way
 		C:\> move old_name new_names
 
 
-##Tips & Tricks
+##Tips Tricks & Motivation
 
 __How is my instructor moving so fast?__
 
