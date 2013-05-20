@@ -1,20 +1,22 @@
 #Teddit -  Methods
 #Time: 10 min
-#Students file start with version 4 from teddit_strings.
+##Teddit is a Ruby text based news aggregator. Think Reddit in your terminal.
+#This exercise will be used throughout the ruby portion of this course. 
+#Each lesson we will incrementally build a news aggregator. 
+#First we will hard code stories into the code.
+#Eventually we will create a more dynamic Teddit, and pull the latest news stories from Mashable, Digg and Reddit. 
 
-#Adding methods
+
+#Methods and variables
 ###########
 ###########
-
-def show_title(title)
-  puts title
-end
 #
+
 def show_story(story, upvotes)
-  puts "Story: #{story.capitalize} Current upvotes: #{upvotes}"
+  puts story
+  puts upvotes
 end
 #
-show_title("Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!")
 #
 story1 = "Cat makes fortune by showing elderly how to play dice"
 story1_upvotes = 7
