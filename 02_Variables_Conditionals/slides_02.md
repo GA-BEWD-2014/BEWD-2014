@@ -33,6 +33,7 @@ Instructors current role.
 	a. git pull origin master
 	b. git commit -m "push to GitHub"
 	c. git push origin master
+
 ---
 
 ##Ruby & Rails
