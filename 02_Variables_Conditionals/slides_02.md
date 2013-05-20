@@ -397,11 +397,13 @@ end
  say ("Hello")
 
 => They said Hello
-
+```
 
 __Running .rb from the terminal__
 
+```
 	ruby file_name.rb
+```
 
 ##Tips, Tricks and Motivation
 
