@@ -24,14 +24,14 @@ Instructors current role.
 ---
 
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
 ##Code Along
 
 
 ---
 
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
 ##Exercise
 
 ---
@@ -39,11 +39,10 @@ Instructors current role.
 
 ## Homework
 
--	
 
 ---
 
 
-## Resources
-Class is over, but here is some extra resources.
+<div id="resources">
+## Resources: Lesson Title
 
