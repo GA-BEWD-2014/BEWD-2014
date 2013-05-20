@@ -295,7 +295,7 @@ Its' either TRUE or FALSE
 Class is over, but here are some extra resources.
 
 
-Lesson 2: Variables, Conditionals and Methods
+Lesson: Variables, Conditionals and Methods
 =========
 
 
