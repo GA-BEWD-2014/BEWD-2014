@@ -290,16 +290,12 @@ Its' either TRUE or FALSE
 ---
 
 
-
-## id="resrouces" RESOURCES
-Class is over, but here are some extra resources.
-
-
-Lesson: Variables, Conditionals and Methods
-=========
+<div id="resources">
+## Resources: Variables, Conditionals and Methods
 
 
-##Cheat Sheet
+
+###Cheat Sheet
 
 __Variables__
 
@@ -405,7 +401,7 @@ __Running .rb from the terminal__
 	ruby file_name.rb
 ```
 
-##Tips, Tricks and Motivation
+###Tips, Tricks and Motivation
 
 - What is Programming [video](http://www.youtube.com/watch?v=YCDTYlUWkQE)
 - Using Sublime Text 2 [video tutorial](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/)
@@ -413,8 +409,8 @@ __Running .rb from the terminal__
 -	[Learning to Program](http://worrydream.com/LearnableProgramming/)
 
 
-##Still Feel Lost? 
-###Catch Up With These Resources
+###Still Feel Lost? 
+####Catch Up With These Resources
 
 - Intro to Ruby [tutorial](http://www.codeschool.com/courses/try-ruby) from Code School for beginners to wrap your head around programming concepts.
 - Beginner Ruby [Tutorial](- http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq?curriculum_id=5059f8619189a5000201fbcb)

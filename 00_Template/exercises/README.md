@@ -1,19 +1,18 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 
-## Additional Exercises
 
+##Exercise NAme
 
-###Time: 00 min
+###Time: ## min
 
 | | |
 | ------------- |:-------------|
 | __Topics__ |  | 
-| __Description__|  |    
+| __Description__| |    
  
 
 
-####Task Instructions
+####Instructional Design Notes
 
 
 
-**Notes:**

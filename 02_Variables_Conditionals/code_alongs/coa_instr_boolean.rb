@@ -1,5 +1,5 @@
 #Boolean
-#TMIE: 10 min
+#TIME: 10 min
 #INSTRUCTIONAL DESIGN NOTES: 
 # => This code along is meant to be a stepping stone towards understanding conditionals.
 
