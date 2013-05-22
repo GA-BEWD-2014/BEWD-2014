@@ -69,15 +69,22 @@ In addition there is a [student repo](https://github.com/generalassembly-studio/
 
 Your final materials will go here to be shared with the class. 
 
+	
+	
 PREPARING FOR CLASS
 --------
+
+![Instructor Workflow](assets/Github_Instructor_WorkFlow.png)
+
 1.	Review exercises, code alongs and homework.
 2.	Read the slide deck. If using the slide deck __customize the deck before sharing with the class.__
 3.	Decide how you will bring your expertise to the classroom.
 4.	If not using the GA suggested in class labs, look through additional exercises folder and choose one. Still not satisfied, create your own and make sure it hits the same topics and learning objectives.
 5.	Post your personalized materials to your course repo.
 6.	Made an excellent change? Fork branch, create a pull request. We love suggested updates!
-
+	
+	
+	
 	
 GRADING
 --------
@@ -94,3 +101,5 @@ In order to pass this course General Assembly students must:
 QUESTIONS
 ---------
 If you have any questions please send them to [Jessica Skeete](jessicat@generalassemb.ly)
+
+
