@@ -74,8 +74,6 @@ Your final materials will go here to be shared with the class.
 PREPARING FOR CLASS
 --------
 
-![Instructor Workflow](assets/Github_Instructor_WorkFlow.png)
-
 1.	Review exercises, code alongs and homework.
 2.	Read the slide deck. If using the slide deck __customize the deck before sharing with the class.__
 3.	Decide how you will bring your expertise to the classroom.
