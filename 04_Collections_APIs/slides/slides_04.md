@@ -145,7 +145,9 @@ Your application output should look like this:
 
 ####Array of Hashes
 
-	super_heros =[{ hero: 'Batman', secret_identity: 'Bruce Wayne'}, {hero: 'Superman', secret_identity: 'Clark Kent'}, {hero: 'Spiderman', secret_identity: 'Peter 					Parker'}]
+	super_heros =[{ hero: 'Batman', secret_identity: 'Bruce Wayne'}, 
+		{hero: 'Superman', secret_identity: 'Clark Kent'}, 
+		{hero: 'Spiderman', secret_identity: 'Peter Parker'}]
 
 
 ####.each & .map
@@ -181,7 +183,8 @@ __Map versus do__
 
 *	[Video about Difeerence Between Map and Each](http://www.youtube.com/watch?v=jJHzwgPl5lA)
 
-######Still Feel Lost? 
+
+###Still Feel Lost?
 ####Catch Up With These Resources
 
 Look at the resources from lesson 3 class.
