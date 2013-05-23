@@ -145,26 +145,26 @@ Your application output should look like this:
 
 ####Array of Hashes
 
-	```ruby
-		super_heros =[{ hero: 'Batman', secret_identity: 'Bruce Wayne'}, 
-		{hero: 'Superman', secret_identity: 'Clark Kent'}, 
-		{hero: 'Spiderman', secret_identity: 'Peter Parker'}]
-	'''
+```ruby
+	super_heros =[{ hero: 'Batman', secret_identity: 'Bruce Wayne'}, 
+	{hero: 'Superman', secret_identity: 'Clark Kent'}, 
+	{hero: 'Spiderman', secret_identity: 'Peter Parker'}]
+```
 
 
 ####.each & .map
 
-	```ruby
+```ruby
 	super_heros.map do |super_hero| 
 		puts "#{super_hero[:hero]} is #{super_hero[:secret_identity]}"
 	end
-	```
+```
 	
-	```ruby
+```ruby
 	super_heros.each do |super_hero| 
 		puts "#{super_hero[:hero]} is #{super_hero[:secret_identity]}"
 	end
-	```
+```
 
 *	.each returns the original array. 
 *	Map reutrns a new array with the results you added. 
