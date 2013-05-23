@@ -305,6 +305,7 @@ Here are some to help you keep up:
 
 **Control + l**: Clear the screen        
  
+Read this article about how to assess engineers: https://medium.com/tech-talk/d5f8051afce2
 
 
 ##Git Pictures
