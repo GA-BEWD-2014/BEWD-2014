@@ -12,7 +12,7 @@ TERMINOLOGY
 
 |Term|Description|
 |---|---|
-|Course|Refers to all 20 classes which make up the ITR curriculum|
+|Course|Refers to all 20 classes which make up the BEWD curriculum|
 |Lesson |One 3 hour session of the course. |
 |In Class Lab (ICL)|Exercise files that are to be used in class as examples and practice.|
 |Code Along|ICLs where students follow along as the instructor completes code.|
