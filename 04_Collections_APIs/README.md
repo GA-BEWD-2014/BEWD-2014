@@ -4,17 +4,16 @@ BACK-END WEB DEVELOPMENT
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
-Lesson:  Working With Collections & APIs
+Lesson: Working With Collections & APIs
 ========
 
 
 LEARNING OBJECTIVES
 --------
 
--	Use loops, arrays and hashes to work with json returned strings. 
+-	Use loops, arrays and hashes to work with json returned by API. 
 -	Practice and apply all skills learned thus far.
--	Identify how ruby can be a part of  building for the web applications.
--	
+
 
 SCHEDULE
 --------

@@ -15,6 +15,7 @@
 ####Instructional Design Notes
 *	The purpose of this exercise is to allow students to test their understanding thus far. 
 *	Should be completed individually.
+*	Solution file provided uses ternary operators, so ask a few students to share their solutions before sharing the GA solution file.
 
 
 ##Teddit API News
