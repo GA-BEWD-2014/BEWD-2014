@@ -31,7 +31,7 @@ RUBY BASICS
 1.	[Set Up](01_Setup/)
 2.	[Variables Conditionals and Methods](02_Variables_Conditionals)
 3.	[Collections and Loops](03_Collections_Loops)
-4.	[ ]( )
+4.	[Collections and APIs](04_Collections_APIs)
 5.	[ ]( )
 6.	[ ]( )
 
