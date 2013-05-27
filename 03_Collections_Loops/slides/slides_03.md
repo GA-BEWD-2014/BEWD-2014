@@ -473,14 +473,14 @@ end
 
 __Each Loop__
 
-	```ruby
+```ruby
 		# A list of GA Courses
 		courses = [ "FEWD", "BEWD", "CSF" ]
 
 	names.each do|n|
   		puts "GA has a course on #{n}"
 	end
-	```
+```
 
 > GA has a course on FEWD
 
