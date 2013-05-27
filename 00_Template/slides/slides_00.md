@@ -24,14 +24,14 @@ Instructors current role.
 ---
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 ##Code Along
 
 
 ---
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Exercise
 
 ---
