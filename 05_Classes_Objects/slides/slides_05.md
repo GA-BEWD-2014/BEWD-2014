@@ -101,7 +101,7 @@ What are some pros and cons of using hashes?
 
 ##Variable Scope
 
-![GeneralAssemb.ly](../../../assets/ruby/variable_Scope.png)
+![GeneralAssemb.ly](../../../assets/ruby/variable_scope.png)
 
 and of course attr_accessor : Make makes variables available outside the class.
 
