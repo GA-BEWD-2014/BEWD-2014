@@ -101,7 +101,7 @@ What are some pros and cons of using hashes?
 
 ##Variable Scope
 
-![GeneralAssemb.ly](../../../assets/ruby/variable_scope.png)
+![GeneralAssemb.ly](../../assets/ruby/variable_scope.png)
 
 and of course attr_accessor : Make makes variables available outside the class.
 
@@ -138,7 +138,8 @@ and of course attr_accessor : Make makes variables available outside the class.
 
 		class My_Class
   			def to_s
-    			puts "I turned the object into string and put it to the screen. "  			end
+    				puts "I turned the object into string and put it to the screen. "  			
+    			end
 		end
 
 		my_object = My_Class.new
