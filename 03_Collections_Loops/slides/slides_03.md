@@ -489,7 +489,7 @@ __Each Loop__
 > GA has a course on CSF
 
 
-###Tips & Tricks
+###Tips, Tricks & Motivation
 
 - [The Best Way to Learn Ruby AND Rails](http://astonj.com/tech/best-way-to-learn-ruby-rails/)
 -  What is iteration - [article](http://www.computerhope.com/jargon/i/iteration.htm)
