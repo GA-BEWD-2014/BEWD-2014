@@ -32,7 +32,7 @@ RUBY BASICS
 2.	[Variables Conditionals and Methods](02_Variables_Conditionals)
 3.	[Collections and Loops](03_Collections_Loops)
 4.	[Collections and APIs](04_Collections_APIs)
-5.	[ ]( )
+5.	[Classes and Objects](05_Classes_Objects)
 6.	[ ]( )
 
 RUBY ON RAILS

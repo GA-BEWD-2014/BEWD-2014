@@ -21,7 +21,7 @@ Happy coding :)
 
 - - -
 
-##Prior to 4/16 complete the following:
+##Prior to start of class complete the following:
 
 SETUP/INSTALL
 --------
@@ -30,8 +30,10 @@ __DOWNLOAD__
 
 -	Text Editor: 			[Sublime Text 2](http://www.sublimetext.com/2)
 -	Internet Browser: 		[Google Chrome](https://www.google.com/intl/en/chrome/browser/)
--	Download but *_do not install_* [Rails Installer](http://railsinstaller.org/). Only complete step 1 in the link.
 
+MAC Users ONLY
+
+-	Installing Instructions	[Rails etc](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1)
 __SIGN UP__
 
 -	Sign-Up for a [GitHub](https://github.com/signup/free) account
