@@ -30,7 +30,7 @@ SCHEDULE
 | ------------- |:-------------|:-------------------|:-------------------|
 | 45 min | Intros, Installations | | Upon arrival have students start installations if they haven't already done so. Do intros while computers are installing Ruby, Rails and Git. Trust me this will save you oodles of time.
 | 50 min | Command Line| [coa_command_line_basics_code_along](code_alongs/coa_command_line_basics_code_along.md)<br> [ex_command_line_basics_exercise](exercises/ex_command_line_basics_exercise.md)||
-| 75 min | Using GitHub | [coa_git_basics_code_along](code_alonds/coa_git_basics_code_along.md)<br>[coa_git_in_class](code_alongs/coa_git_in_class.md) <br> [ex_git_it_together](exercise/ex_git_it_together.md)|This is specific to using GitHub in this course.|
+| 75 min | Using GitHub | [coa_git_basics_code_along](code_alongs/coa_git_basics_code_along.md)<br>[coa_git_in_class](code_alongs/coa_git_in_class.md) <br> [ex_git_it_together](exercise/ex_git_it_together.md)|This is specific to using GitHub in this course.|
 
 
 [slides_01](slides/slides_01.md)
