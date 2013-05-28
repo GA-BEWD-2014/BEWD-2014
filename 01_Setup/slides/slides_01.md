@@ -23,17 +23,12 @@ Instructors current role.
 ##Installation
 ###Terminal
 
-Before we get started lets make sure everyone is ready to go. 
 
-We will introduce ourselves while your computer installs 
+This class is using Ruby 2.0 and Rails 4. 
 
-Macs:- Open Terminal (spotlight type terminal)
-	type: ruby -v: should see ruby 2.0.0
-	
-PCs:- Open command line. Start => run => type cmd
-	type: 
+We are still putting together instructions for both PCs and MACs. 
 
-If you do not see the above lines run this code:
+For now please have students install using your preferred method.
 
 ---
 
