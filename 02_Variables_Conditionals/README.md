@@ -21,10 +21,10 @@ Schedule
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
 | 20 min | irb / pry | [coa_instr_irb.rb](code_alongs/coa_instr_irb.rb) |We suggest using PRY it has syntax higlighting an is easier to read. | 
-| 45 min | Variables | [coa_instr_teddit_strings](code_alongs/coa_student_teddit_strings.rb)<br>[coa_instr_boolean](code_alongs/coa_instr_boolean.rb) | |
-| 20 min | Methods | [coa_instr_methods](code_alongs/coa_instr_methods.rb) | |
+| 45 min | Variables | [coa_instr_teddit_strings](code_alongs/coa_instr_teddit_strings.rb)<br>[coa_instr_boolean](code_alongs/coa_instr_boolean.rb) | |
+| 20 min | Methods | [coa_instr_teddit_methods](code_alongs/coa_instr_teddit_methods.rb) | |
 | 20 min | Conditionals |  | |
-| 65 min | Lab Time | [ex_strings](exersices/ex_strings.rb)<br>[ex_conditional](exercises/ex_conditional.rb) | |
+| 65 min | Lab Time | [ex_strings_teddit](exersices/ex_strings_teddit.rb)<br>[ex_conditional](exercises/ex_conditional_teddit.rb) | |
 
 
 
