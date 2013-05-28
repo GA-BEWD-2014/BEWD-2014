@@ -437,19 +437,19 @@ arr[1..4]
 
 ####Hashes
 
-	```ruby
+```ruby
 	GA_Markets = { "New York City"=>"NYC", "London"=>"LDN", "Los 	Angeles"=>"LA", "San Francisco"=>"SF", "Boston"=>"BOS", 	"Berlin"=>"BER" }
 
 	GA_Markets["London"]
-	```
+```
 
 > "LDN"
 
-	```ruby
+```ruby
 	super_heros = { batman: "Bruce Wayne", superman: "Clark Kent", 	spiderman: "Peter Parker"}
 
 	super_heros[:superman]
-	```
+```
 	
 > "Clark Kent"
 
@@ -473,14 +473,14 @@ end
 
 __Each Loop__
 
-	```ruby
+```ruby
 		# A list of GA Courses
 		courses = [ "FEWD", "BEWD", "CSF" ]
 
 	names.each do|n|
   		puts "GA has a course on #{n}"
 	end
-	```
+```
 
 > GA has a course on FEWD
 

@@ -101,7 +101,7 @@ What are some pros and cons of using hashes?
 
 ##Variable Scope
 
-![GeneralAssemb.ly](../../assets/ruby/variable_Scope.png)
+![GeneralAssemb.ly](../../assets/ruby/variable_scope.png)
 
 and of course attr_accessor : Make makes variables available outside the class.
 
@@ -138,7 +138,8 @@ and of course attr_accessor : Make makes variables available outside the class.
 
 		class My_Class
   			def to_s
-    			puts "I turned the object into string and put it to the screen. "  			end
+    				puts "I turned the object into string and put it to the screen. "  			
+    			end
 		end
 
 		my_object = My_Class.new
@@ -318,15 +319,15 @@ and of course attr_accessor : Make makes variables available outside the class.
 
 __Create A Class__
 
-	```ruby
+```ruby
 	class class_name
   		#variables and method for this class.
 	end
-	```
+```
 
 __Creating Objects__
 
-	```ruby
+```ruby
 	class GA_course
 		def initialize (course_name)
 			@course_name = course_name
@@ -342,7 +343,7 @@ __Creating Objects__
 
 	my_course.announce_course
 	other_course.announce_course
-	```
+```
 >GA has a course on BEWD
 
 >GA has a course on UXD
@@ -361,7 +362,7 @@ __Variable Scope__
 
 __Method Scope__
 
-	```ruby
+```ruby
 	class GA_course
 		def initialize (course_name)
 			@course_name = course_name
@@ -384,7 +385,7 @@ __Method Scope__
 	my_course = GA_course.new("BEWD")
 	my_course.announce_course #
 	GA_Course.announce_courses 
-	```
+```
 	
 >GA has a course on BEWD
 
