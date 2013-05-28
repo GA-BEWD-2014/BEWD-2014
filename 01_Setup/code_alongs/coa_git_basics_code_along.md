@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
 
-## Git In Class
+## Git Basics
 
 
 ###Time: 30 min
