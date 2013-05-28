@@ -24,7 +24,7 @@ Schedule
 | 45 min | Variables | [coa_instr_teddit_strings](code_alongs/coa_instr_teddit_strings.rb)<br>[coa_instr_boolean](code_alongs/coa_instr_boolean.rb) | |
 | 20 min | Methods | [coa_instr_teddit_methods](code_alongs/coa_instr_teddit_methods.rb) | |
 | 20 min | Conditionals |  | |
-| 65 min | Lab Time | [ex_strings_teddit](exersices/ex_strings_teddit.rb)<br>[ex_conditional](exercises/ex_conditional_teddit.rb) | |
+| 65 min | Lab Time | [ex_strings_teddit](exercices/ex_strings_teddit.rb)<br>[ex_conditional](exercises/ex_conditional_teddit.rb) | |
 
 
 
