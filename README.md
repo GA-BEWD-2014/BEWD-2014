@@ -33,7 +33,7 @@ RUBY BASICS
 3.	[Collections and Loops](03_Collections_Loops)
 4.	[Collections and APIs](04_Collections_APIs)
 5.	[Classes and Objects](05_Classes_Objects)
-6.	[ ]( )
+6.	[Sharing Behavior ](06_Sharing_Behaviour)
 
 RUBY ON RAILS
 
@@ -69,7 +69,17 @@ In addition there is a [student repo](https://github.com/generalassembly-studio/
 
 Your final materials will go here to be shared with the class. 
 
-	
+
+SLIDES
+-----
+
+We are using reveal.js with markdown 
+See [here](https://github.com/hakimel/reveal.js) for further documentation.
+
+You can choose another platform.
+
+
+![](assets/Github_Instructor_WorkFlow.png)
 	
 PREPARING FOR CLASS
 --------
@@ -81,8 +91,7 @@ PREPARING FOR CLASS
 5.	Post your personalized materials to your course repo.
 6.	Made an excellent change? Fork branch, create a pull request. We love suggested updates!
 	
-	
-	
+
 	
 GRADING
 --------
