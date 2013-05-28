@@ -18,7 +18,7 @@
 -	Students should pair program on this.
 -	Walk students through the exercise instructions and address any questions before they begin.
 -	Encourage the use of Ruby docs.
--	
+
 
 ##Arrays
 
