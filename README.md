@@ -33,7 +33,7 @@ RUBY BASICS
 3.	[Collections and Loops](03_Collections_Loops)
 4.	[Collections and APIs](04_Collections_APIs)
 5.	[Classes and Objects](05_Classes_Objects)
-6.	[Sharing Behavior ](06_Sharing_Behaviour)
+6.	
 
 RUBY ON RAILS
 
@@ -78,11 +78,11 @@ See [here](https://github.com/hakimel/reveal.js) for further documentation.
 
 You can choose another platform.
 
-
-![](assets/Github_Instructor_WorkFlow.png)
 	
 PREPARING FOR CLASS
 --------
+
+![](assets/Github_Instructor_WorkFlow.png)
 
 1.	Review exercises, code alongs and homework.
 2.	Read the slide deck. If using the slide deck __customize the deck before sharing with the class.__
