@@ -14,6 +14,7 @@
 
 ####Task Instructions 
 
+-	Pair program.
 -	Make a script in bash to create a directory named lists. 
 -	Change into this folder
 -	Create a file and use the first argument passed as the name.
@@ -21,7 +22,7 @@
 -	Show the contents of the completed file to the terminal
 
 
-**Instructional Notes:**
 
--	Encourage students to pair program.
+
+
 

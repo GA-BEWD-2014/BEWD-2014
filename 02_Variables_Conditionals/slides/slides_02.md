@@ -40,7 +40,7 @@ Instructors current role.
 ###Ruby
 
 *	An open source programming language
-*	Created by Yukihiro Matsumoto aka Matz
+*	Created by Yukihiro Matsumoto (aka Matz)
 *	Natural to read and easy to write
 
 ###Ruby on Rails
@@ -57,7 +57,7 @@ Instructors current role.
 ##Ruby & Rails
 ###We learn Ruby first.
 
-*	It will be easier to navigate a Rails project, once we have a basic understanding of  Ruby.
+*	It will be easier to navigate a Rails project once we have a basic understanding of Ruby.
 
 ![ Karate Kid](../../assets/ruby/karate_kid.jpg)
 <div id ="resources"> 
@@ -115,12 +115,13 @@ defined? do else elsif end in module next nil not return self super then true wh
 ###Its about changing how you think
 *	Think in logical steps to solve a problem
 *	Use Ruby keywords to make programs more efficient
-	*		Conditional Logic
-	*		Iteration
+	*	Conditional Logic
+	*	Iteration
+	
 ---
 
 
-##Some Tools To Help Us Think…
+##Programming Fundamentals
 
 ---
 
@@ -167,8 +168,8 @@ Teddit is a news aggregator we will build during this class.
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 ##Teddit Strings
 
-Hint: Get familiar with using google to look up syntax.
-If you are stuck on syntax write down the steps in English. Let's focus on thinking like a programmer.
+Hint: Get familiar with using Google to look up syntax.
+If you're stuck on syntax write down the steps in English. Let's focus on thinking like a programmer.
 
 ---
 
@@ -176,7 +177,7 @@ If you are stuck on syntax write down the steps in English. Let's focus on think
 ##Data Types
 ###Booleans 
 
-Its' either TRUE or FALSE
+It's either TRUE or FALSE
 
 ---
 
@@ -202,6 +203,7 @@ Its' either TRUE or FALSE
 Data Types
 
 *	Number
+*	Float
 *	String
 *	Booleans
 
@@ -222,9 +224,9 @@ Variables
 
 
 ##Methods
-###Keeps your code DRY
+###Keep your code DRY
 
-* 	Groups your program logic together so you don't have to repeat yourself. 
+* 	Groups program logic together so you don't have to repeat yourself. 
 * 	Can pass variables to methods
 
 		
@@ -232,14 +234,16 @@ Variables
 			puts "Hi #{name}"
 		end
 		
-		say_hello_to "John" #outputs: Hi John
+		say_hello_to "John" 
+		
+	>	outputs: Hi John
 
 ----
 
 ##Conditional Logic
-###Decision Time - Conditionals 
+###Decision Time 
 
-Its' either TRUE or FALSE (like booleans)
+It's either TRUE or FALSE (like booleans)
 
 If you are greater than 18 
 you are an adult
@@ -254,7 +258,6 @@ you are an adult
 ##Conditional Logic
 ###Multiple Conditions
 
-Its' either TRUE or FALSE
 
 	guess = 7 
 	if guess > 5
@@ -282,7 +285,9 @@ Its' either TRUE or FALSE
 
 
 ## Homework
-###DEMO - Secret Number.
+###Secret Number
+
+Let's see a demo of Secret Number
 
 *	HW 1 - Secret Number
 	*	Secret number is a game we will incrementally build for homework during the Ruby portion of the course. 
@@ -300,10 +305,10 @@ Its' either TRUE or FALSE
 __Variables__
 
 
- ```ruby
+```ruby
  real_name = "Bruce Wayne"
  secret_identity = "Batman"
- ```
+```
 
 *String interpolation aka Adding Variables to String*
 
@@ -315,7 +320,7 @@ puts "We just spilled the beans #{real_name} is #{secret_identity}"
 
 __Arithmetic Operators__
 
-| Operator        | Description           | Example (a = 4 and b = 2)  | Output |
+| Operator | Description | Example (a = 4 and b = 2) | Output |
 | ------------- |:-------------| :-----|:-----|
 | ```+```      | Addition (add left to right, give result) |  ```puts a + b```  | 6 |
 | ```-```      |  Subtraction (subtract left from right, give result)    |  ```puts a - b```  | 2 |
@@ -337,6 +342,7 @@ __Conditionals Operators__
 | <= |Less than or equal to | a <= b | false |
 | <=> |Same value? return 0, less than? return -1, greater than? return 1 | a <=> b | 1 |
 | .eql? | same value and same type?| 1.eql?(1.0)| false |
+
 
 __If Syntax__
 

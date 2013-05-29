@@ -24,7 +24,7 @@ Instructors current role.
 ###Terminal
 
 
-This class is using Ruby 2.0 and Rails 4. 
+This class is using Ruby 2.0 and Rails 4.0. 
 
 We are still putting together instructions for both PCs and MACs. 
 
@@ -41,24 +41,27 @@ Instructors choose your ice breaker
 ##Course Administration
 ###Lets Get This Out Of The Way
 
-To set us for a great class we are going to learn command line and git this class. Then Ruby then Rails. 
+During this class we will learn command line, Git, Ruby and Rails, in that order.
 
 *	To pass the course: 
 	*	Complete 80% of all assigned homework
-	*	Complete [final project]()
-	
+	*	Complete final project
+
+---
+
+##Course Administration
+
 *	What you will get from us
-	* Code Alongs
-	*	Exercises
-	* Slides / resource markdown file to be viewed in GitHub
-	*Quick Fires and Quiz
-	* Awesome instructor
+	* 	In class labs
+	* 	Homework
+	* 	Slides / student handout to be viewed in GitHub
+	* 	Awesome instructor
 
 ---
 
 
 ##Web Development
-###What is Back-end Web Development?
+###What is Back-End Web Development?
 
 ---
 
@@ -75,8 +78,7 @@ To set us for a great class we are going to learn command line and git this clas
 ###Why Work Like A Developer?
 
 *	Its faster
-	*	Working with keyboard increases your speed. The mouse slows you down.
-	*	You are always typing when coding, staying in the environment is faster.
+	*	Working with the keyboard increases your speed. The mouse slows you down.
 
 * Its Cool!
 	*	Impress your friends as you navigate the computer by only using your keyboard.
@@ -95,8 +97,7 @@ To set us for a great class we are going to learn command line and git this clas
 ##Command Line
 ###How Do You Use It?
 
-*	Shell Commands.
-	*	[List Of Commands]()
+####Shell Commands.
 
 ---
 
@@ -110,6 +111,7 @@ To set us for a great class we are going to learn command line and git this clas
 
 ![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
 ## Command Line Basics Exercise
+
 ---
 
 
@@ -117,19 +119,18 @@ To set us for a great class we are going to learn command line and git this clas
 ###Join The Developer Club
 
 *	You are now one of the cool kids. 
-	*	Keep practicing and see the GA cheat sheet for now you should know
-		*	cd, ls, rm, mkdir
+	*	Keep practicing and see the cheat sheet in the handout for a list of common commands.
 
 ---
 
 
-##GIT
+##Git
 ![Using Git](../../assets/GitHub/using_gitHub.png)
 
 ---
 
 
-##GIT
+##Git
 ###What Is GIT?
 
 ![Using Git](../../assets/GitHub/git_general_diagram.png)
@@ -138,7 +139,7 @@ To set us for a great class we are going to learn command line and git this clas
 ---
 
 
-##GIT
+##Git
 ###Why Use GIT?
 
 *	Confident Changes
@@ -157,17 +158,17 @@ To set us for a great class we are going to learn command line and git this clas
 ---
 
 
-##GITHUB
+##GitHub
 ###What is GitHub?
 
-*	Is Git The Same as GitHub?
+*	Is Git the same as GitHub?
 
 ![Developer Humor](../../assets/GitHub/octocat.png)
 
 ---
 
 
-##GITHUB
+##GitHub
 ###FORKS
 ![ Git In Class Diagram](../../assets/GitHub/fork_Diagram.png)
 
@@ -181,7 +182,7 @@ To set us for a great class we are going to learn command line and git this clas
 ---
 
 
-##GITHUB
+##GitHub
 ###Using Git For Homework
 ![ Git In Class Diagram](../../assets/GitHub/fork_diagram_ga.png)
 
@@ -197,6 +198,7 @@ To set us for a great class we are going to learn command line and git this clas
 
 ## Homework
 
+-	Create a blog to document your experience
 -	Write about your first BEWD class in your blog
 
 ---
@@ -272,7 +274,7 @@ You can rename a file the same way
 		C:\> move old_name new_names
 
 
-##Tips Tricks & Motivation
+##Tips, Tricks & Motivation
 
 __How is my instructor moving so fast?__
 
@@ -300,17 +302,16 @@ Here are some to help you keep up:
 
 **Control + l**: Clear the screen        
  
-Read this article about how to assess engineers: https://medium.com/tech-talk/d5f8051afce2
 
 
-##Git Pictures
+##Git Diagrams and Pictures
 ![Git Diagram](../../assets/GitHub/git_in_class_diagram.png)
 
 Fork Button
 
 ![Fork Button](../../assets/GitHub/fork_button.png)
 
-![Pull Requestion](../../assets/GitHub/pull_request_button.png)
+![Pull Request](../../assets/GitHub/pull_request_button.png)
 
 
 
