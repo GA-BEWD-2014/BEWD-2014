@@ -45,7 +45,7 @@ What are some pros and cons of using hashes?
 ---
 
 ##Classes & Objects
-###Giving our classes variables
+###Adding variables to a class
 
 
 	# Hashes
@@ -67,7 +67,7 @@ What are some pros and cons of using hashes?
 
 
 ##Classes & Objects
-###Giving our classes methods
+###Adding methods to our class
 
 	class Story
   		attr_accessor :title, :category, :upvotes
@@ -103,7 +103,7 @@ What are some pros and cons of using hashes?
 
 ![GeneralAssemb.ly](../../assets/ruby/variable_scope.png)
 
-and of course attr_accessor : Make makes variables available outside the class.
+attr_accessor : Makes variables available outside the class.
 
 ---
 
@@ -134,7 +134,7 @@ and of course attr_accessor : Make makes variables available outside the class.
 ###Side Note
 
 *	to_s method called with puts command. 
-*	Is can be overwritten
+*	It can be overwritten
 
 		class My_Class
   			def to_s
@@ -221,10 +221,10 @@ and of course attr_accessor : Make makes variables available outside the class.
 ###Classes & Objects
 
 *	Classes allow us to keep code DRY.
-*	In object oriented programs, variables have scope, we need to create local, @instance and @@class variables where needed.
+*	In object oriented programs variables have scope. local, @instance and @@class.
 	*	attr_accessor allows a variable to be accessed outside of a method
 *	We can create class methods by using self.method_name. 
-	*	Class methods with no object or instance. 	
+	*	Class methods can be called with no object or instance. 	
 ---
 
 

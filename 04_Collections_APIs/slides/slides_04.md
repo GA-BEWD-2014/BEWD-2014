@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-#BEWD - Title
+#BEWD - Collections, Loops & APIs
 
 ###Instructor Name
 
@@ -13,7 +13,7 @@ Instructors current role.
 
 *	Recap
 	*	Quick Fire
-*	Pratical Application Of Collections & Loops (APIs)
+*	Practical Application Of Collections & Loops (APIs)
 *	Lab Time	
 
 ---
@@ -69,7 +69,7 @@ Your application output should look like this:
 
 
 ##Working With Collections
-###Let's get pratical
+###Let's get practical
 
 
 ---
@@ -86,7 +86,7 @@ Your application output should look like this:
 ###Working with APIs
 
 1.	Ask for some data
-2. Convert it into format we can work with
+2. Convert it into a format we can work with
 3. Do cool stuff
 
 ---
@@ -132,14 +132,14 @@ Your application output should look like this:
 
 ## Homework
 
-*	Continue to review 
+*	Continue review 
 *	Add another blog entry
 
 ---
 
 
 <div id="resources">
-## Resources: Lesson Title
+## Resources: Collections, Loops & APIs
 
 ###Cheat Sheet
 
@@ -167,7 +167,7 @@ Your application output should look like this:
 ```
 
 *	.each returns the original array. 
-*	Map reutrns a new array with the results you added. 
+*	Map returns a new array with the results you added. 
 
 
 ###Tips, Tricks & Motivation
@@ -186,7 +186,7 @@ __Map versus do__
 
 *	[Difference Between Map And Each](http://stackoverflow.com/questions/9586989/difference-between-map-and-each)
 
-*	[Video about Difeerence Between Map and Each](http://www.youtube.com/watch?v=jJHzwgPl5lA)
+*	[Video about Difference Between Map and Each](http://www.youtube.com/watch?v=jJHzwgPl5lA)
 
 
 ###Still Feel Lost?

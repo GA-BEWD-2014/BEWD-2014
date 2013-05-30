@@ -31,7 +31,7 @@ Instructors current role.
 ---
 
 
-##Iteration - Ruby'esque Loops
+##Iteration - Ruby-esque Loops
 ###Times Iterator
 
 	3.times do
@@ -46,7 +46,7 @@ Instructors current role.
 ---
 
 
-##Iteration - Ruby'esque Loops
+##Iteration - Ruby-esque Loops
 ###.upto
 	
 	1.upto(3) do |num|
@@ -60,7 +60,7 @@ Instructors current role.
 ---
 
 
-##Iteration - Ruby'esque Loops
+##Iteration - Ruby-esque Loops
 ###.downto
 	
 	3.downto(1) do |guess|
@@ -111,7 +111,7 @@ See syntax in the resources section.
 	loop do
   		break if count < 1
   		puts "Looping"
-  	count -= 1
+  		count -= 1
 	end
 	
 ---
@@ -130,7 +130,7 @@ ex_loop.rb
 
 * 	Iteration in programming allows us to keep our code DRY
 * 	Loops are used to repeat lines of code
-* 	Common or Ruby'esque loops are
+* 	Common or Ruby-esque loops are
 	*	.times
 	*	.upto
 	*	.downto
@@ -201,7 +201,7 @@ ex_loop.rb
 
 
 ##Arrays
-###Methods w/ Arrays
+###Array Methods
 
 	name = "Steven"
 	name.upcase
@@ -235,7 +235,7 @@ ex_arrays.rb
 
 *	A collection of data
 *	Can search an array by index or position
-*	Arrays are objects and therefore have methods we can call on them. 
+*	Arrays are objects and therefore have methods. 
 
 ---
 
@@ -354,8 +354,7 @@ ex_arrays.rb
 
 ex_teddit_hashes.rb
 
-You'll need your answer from conditional_teddit.rb
-...or use the answer key
+You'll need your conditional_teddit.rb solution
 
 ---
 
