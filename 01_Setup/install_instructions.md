@@ -5,13 +5,13 @@ BACK-END WEB DEVELOPMENT
 
 ##Apple Mac Users 
 
-1.	__Make sure you have an apple ID__ ()ou should already have one). 
+1.	__Make sure you have an apple ID__ (you should already have one). 
 
 2.	__Xcode installed? __
 	
-	*	Go to step 2
+	*	Go to step 4
 
-	__Xcode not installed?__ 
+3.	__Xcode not installed?__ 
 
 	*	Go to: [https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
 	
@@ -19,13 +19,10 @@ BACK-END WEB DEVELOPMENT
 
 	*	Install Command Line Tools for your operating system.
 
-	*	Check install: 
+	*	Check install: ```$ gcc --version```
 
-		```$ gcc --version```
 
-		Should see: What version you have installed.
-
-3.	__Install homebrew from terminal:__
+4.	__Install homebrew from terminal:__
 
 	*	```$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)```
 
@@ -38,7 +35,7 @@ BACK-END WEB DEVELOPMENT
 		Go back to step 1.
 
 
-4.	__Install Git__
+5.	__Install Git__
 
 	
 	*	```$ brew update```
@@ -53,11 +50,11 @@ BACK-END WEB DEVELOPMENT
 		
 			/use/local/bin/git
 
-5.	__Configure Git with your Name and Email__
+6.	__Configure Git with your Name and Email__
 
 	Make sure you use the same email address for Git, GitHub, and Heroku.
 
-6.	__Install RVM with Ruby 2.0.0__
+7.	__Install RVM with Ruby 2.0.0__
 
 	*	```$ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable```
 
