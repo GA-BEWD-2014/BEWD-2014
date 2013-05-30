@@ -9,28 +9,28 @@ BACK-END WEB DEVELOPMENT
 
 2.	__Xcode installed? __
 	
-	*	Go to step 4
+	* Go to step 4
 
 3.	__Xcode not installed?__ 
 
-	*	Go to: [https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
+	* Go to: [https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
 	
-	*	Log in with your Apple ID and password (same as iTunes).
+	* Log in with your Apple ID and password (same as iTunes).
 
-	*	Install Command Line Tools for your operating system.
+	* Install Command Line Tools for your operating system.
 
-	*	Check install: ```$ gcc --version```
+	* Check install: ```$ gcc --version```
 
 
 4.	__Install homebrew from terminal:__
 
-	*	```$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)```
+	* ```$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)```
 
-	*	After install is complete: ```$ brew doctor```
+	* After install is complete: ```$ brew doctor```
 
 		__If you get following error:__ 
 		
-			"Warning: Experimental support for using Xcode without the "Command Line Tools".
+		"Warning: Experimental support for using Xcode without the "Command Line Tools".
 		
 		Go back to step 1.
 
@@ -38,13 +38,13 @@ BACK-END WEB DEVELOPMENT
 5.	__Install Git__
 
 	
-	*	```$ brew update```
+	* ```$ brew update```
 	
-	*	```$ brew install git```
+	* ```$ brew install git```
 
-	*	Check install:
+	* Check install:
 
-		*	```$ which git```
+		* ```$ which git```
 
 		should get:	 
 		
@@ -56,38 +56,38 @@ BACK-END WEB DEVELOPMENT
 
 7.	__Install RVM with Ruby 2.0.0__
 
-	*	```$ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable```
+	* ```$ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable```
 
-		This will take a few minutes, and once it’s done, quit and relaunch Terminal, then run this command:
+	 This will take a few minutes, and once it’s done, quit and relaunch Terminal, then run this command:
 
-	*	```$ type rvm | head -1```
+	* ```$ type rvm | head -1```
 	
-		If you get rvm is a function, that means RVM was successfully installed. 
+	 If you get rvm is a function, that means RVM was successfully installed. 
 
-	*	Make sure the latest versions of RVM, Ruby and Rails were installed, run the commands below:
+	* Make sure the latest versions of RVM, Ruby and Rails were installed, run the commands below:
 
-		*	For RVM
+		* For RVM
 
-			```$ rvm -v```
+		```$ rvm -v```
 			
-			You should get 
+		You should get 
 				
-				rvm 2.0.0 or higher.
-		*	For Ruby
+			rvm 2.0.0 or higher.
+		* For Ruby
 
-			```$ ruby -v```
+		```$ ruby -v```
 			
-			You should get 
+		You should get 
 					
-				ruby 2.0.0p0 or higher.
+			ruby 2.0.0p0 or higher.
 
-		*	For Rails
+		* For Rails
 
-			```$ rails -v```
+		```$ rails -v```
 			
-			You should get 
+		You should get 
 				
-				Rails 3.2.13 or higher.
+			Rails 3.2.13 or higher.
 
 
 ##Windows Users
