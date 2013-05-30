@@ -80,7 +80,7 @@ To get started you are going to use the Rails installer by rubyinstaller.org, an
 
 
 *	Go to [http://railsinstaller.org/](http://railsinstaller.org/).
-*	Grab the 1.9.3 version (we will upgrade later). This will set up your environment and you can start working with git right away.
+*	Grab the 1.9 version (we will upgrade later). This will set up your environment and you can start working with git right away.
 		
 
 __Extra command line tools: __
