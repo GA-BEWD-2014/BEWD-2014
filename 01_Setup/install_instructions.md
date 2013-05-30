@@ -67,6 +67,8 @@ BACK-END WEB DEVELOPMENT
 					Rails 3.2.13 or higher.
 
 
+Note: Install instructions credit to: [Moncef Belyamani](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1
+)
 ##Windows Users
 
 Ruby Installer:
