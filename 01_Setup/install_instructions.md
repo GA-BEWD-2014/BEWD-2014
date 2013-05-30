@@ -11,25 +11,18 @@ BACK-END WEB DEVELOPMENT
 	*	Go to step 4
 
 3.	__Xcode not installed?__ 
-
-	* Go to: [https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
-	
-	* Log in with your Apple ID and password (same as iTunes).
-
-	* Install Command Line Tools for your operating system.
-
-	* Check install: ```$ gcc --version```
+	*	Go to: [https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
+	*	Log in with your Apple ID and password (same as iTunes).
+	*	Install Command Line Tools for your operating system.
+	*	Check install: ```$ gcc --version```
 
 
 4.	__Install homebrew from terminal:__
-
-	* ```$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)```
-
-	* After install is complete: ```$ brew doctor```
-
-		__If you get following error:__ 
+	*	```$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)```
+	*	After install is complete: ```$ brew doctor```
+		*	__If you get following error:__ 
 		
-		"Warning: Experimental support for using Xcode without the "Command Line Tools".
+			"Warning: Experimental support for using Xcode without the "Command Line Tools".
 		
 		Go back to step 1.
 
