@@ -1,9 +1,9 @@
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-BEWD: MIDTERM
+Back-End Web Development
 --------
 
-#MIDTERM  REQUIREMENTS
+##MIDTERM  REQUIREMENTS
 
 Create a command line based application that fulfills these criteria:
 
@@ -14,9 +14,10 @@ Create a command line based application that fulfills these criteria:
 
 
 ##GRADING
-Your midterm is concidered completed if it meets all requirements above. Your instructor and T.A will provide you with feedback for your midterm.
+Your midterm is concidered completed if it meets all requirements above. Your instructor and T.A will provide you with feedback.
 
 
 Ideas: 
 
-omdapi.com
+*	omdapi.com
+*	Twitter api

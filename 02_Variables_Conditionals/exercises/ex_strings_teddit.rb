@@ -10,7 +10,7 @@
 # 	Show the new story the user added.
 # 	Look for repetition and add methods to keep code DRY. 
 
-#Heres an example of what you should see in the terminal when you finish coding.
+# Heres an example of what you should see in the terminal when you finish coding.
 # 	Welcome to Teddit! A text based news aggregator. Get today's news tomorrow!"
 # 	Please enter a News story:
 # 	=> ***Waits for input*** 
