@@ -22,64 +22,47 @@ BACK-END WEB DEVELOPMENT
 	*	After install is complete: ```$ brew doctor```
 		*	__If you get following error:__ 
 		
-			"Warning: Experimental support for using Xcode without the "Command Line Tools".
+				"Warning: Experimental support for using Xcode without the "Command Line Tools".
 		
 		Go back to step 1.
 
 
 5.	__Install Git__
-
-	
-	* ```$ brew update```
-	
-	* ```$ brew install git```
-
-	* Check install:
-
-		* ```$ which git```
-
-		should get:	 
-		
-			/use/local/bin/git
+	*	```$ brew update```
+	*	```$ brew install git```
+	*	Check install:
+		*	```$ which git```
+			*	should get:	 
+				/use/local/bin/git
 
 6.	__Configure Git with your Name and Email__
-
-	Make sure you use the same email address for Git, GitHub, and Heroku.
+	*	Make sure you use the same email address for Git, GitHub, and Heroku.
 
 7.	__Install RVM with Ruby 2.0.0__
-
-	* ```$ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable```
-
-	 This will take a few minutes, and once it’s done, quit and relaunch Terminal, then run this command:
-
-	* ```$ type rvm | head -1```
-	
-	 If you get rvm is a function, that means RVM was successfully installed. 
-
-	* Make sure the latest versions of RVM, Ruby and Rails were installed, run the commands below:
-
-		* For RVM
-
-		```$ rvm -v```
-			
-		You should get 
+	*	```$ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable```
+		This will take a few minutes, and once it’s done, quit and relaunch Terminal, then run this command:
+	*	```$ type rvm | head -1```
+		If you get rvm is a function, that means RVM was successfully installed. 
+	*	Make sure the latest versions of RVM, Ruby and Rails were installed, run the commands below:
+		*	For RVM
+			*	```$ rvm -v```
 				
-			rvm 2.0.0 or higher.
-		* For Ruby
+				You should get 
+					rvm 2.0.0 or higher.
+		* 	For Ruby
 
-		```$ ruby -v```
+				```$ ruby -v```
 			
-		You should get 
-					
-			ruby 2.0.0p0 or higher.
+				You should get 
+					ruby 2.0.0p0 or higher.
 
-		* For Rails
+		* 	For Rails
 
-		```$ rails -v```
-			
-		You should get 
+				```$ rails -v```
 				
-			Rails 3.2.13 or higher.
+				You should get 
+				
+					Rails 3.2.13 or higher.
 
 
 ##Windows Users
