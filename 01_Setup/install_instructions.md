@@ -3,6 +3,9 @@ BACK-END WEB DEVELOPMENT
 
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
+
+#Install Git, Ruby and Rails
+
 ##Apple Mac Users 
 
 1.	__Make sure you have an apple ID__ (you should already have one). 
@@ -77,7 +80,7 @@ To get started you are going to use the Rails installer by rubyinstaller.org, an
 
 
 *	Go to [http://railsinstaller.org/](http://railsinstaller.org/).
-*	Grab the 1.9.3 version (we will upgrade later). This will set up your environment and you can start working with git right away.
+*	Grab the 1.9 version (we will upgrade later). This will set up your environment and you can start working with git right away.
 		
 
 __Extra command line tools: __
