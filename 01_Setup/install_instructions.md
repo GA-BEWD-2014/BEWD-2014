@@ -48,12 +48,14 @@ BACK-END WEB DEVELOPMENT
 			*	```$ rvm -v```
 				
 				You should get 
+
 					rvm 2.0.0 or higher.
 		* 	For Ruby
 
 			*	```$ ruby -v```
 			
 				You should get 
+
 					ruby 2.0.0p0 or higher.
 
 		* 	For Rails
