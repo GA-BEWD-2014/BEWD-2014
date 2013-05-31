@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+<img id="icon" src="https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png">
 
 #BEWD - Collections, Loops & APIs
 
@@ -35,23 +35,6 @@ TIME : 30 min
 *	But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
 
 *	For numbers which are multiples of both three and five print “FizzBuzz”.
-
-Your application output should look like this: 
-
-	1
-	2
-	Fizz
-	4
-	Buzz
-	Fizz
-	7
-	8
-	Fizz
-	Buzz
-	.
-	.
-	14
-	FizzBuzz
 
 ---
 
@@ -115,9 +98,10 @@ Your application output should look like this:
 ---
 
 
-###Do Cool Stuff
+##Do Cool Stuff
 <img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
-###Getting Tweets
+
+Getting Tweets
 
 
 ---
