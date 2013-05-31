@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+<img id="icon" src="https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png">
 
 #BEWD - Collections & Loops
 
@@ -31,13 +31,13 @@ Instructors current role.
 ---
 
 
-##Iteration - Ruby-esque Loops
+##Iteration (Ruby-esque Loops)
 ###Times Iterator
 
 	3.times do
-  		puts “going...”
+		puts "going…"
 	end
-	puts gone
+	puts "gone""
 	
 	# going...
 	# going...
@@ -46,13 +46,13 @@ Instructors current role.
 ---
 
 
-##Iteration - Ruby-esque Loops
+##Iteration (Ruby-esque Loops)
 ###.upto
 	
 	1.upto(3) do |num|
-  		puts “#{num}. going”
+		puts "#{num}.going"
 	end
-
+	
 	# 1. going
 	# 2. going
 	# 3. going
@@ -60,11 +60,11 @@ Instructors current role.
 ---
 
 
-##Iteration - Ruby-esque Loops
+##Iteration (Ruby-esque Loops)
 ###.downto
 	
 	3.downto(1) do |guess|
-  		puts "You have #{guess} guesses left"
+		puts "You have #{guess} guesses left"
 	end
 
 	# You have 3 guesses left
@@ -75,7 +75,7 @@ Instructors current role.
 
 
 
-##Iteration - Other Loops
+##Iteration (Other Loops) 
 ###Less common in Ruby 
 
 *	These loops are less common in Ruby, but good to know as a programmer.
@@ -88,30 +88,29 @@ See syntax in the resources section.
 ---
 
 
-##Iteration - Other Loops
-###They all do the same thing… 'kinda'
+##Iteration Loops
 
 	10.downto(1) do |count|
-  		puts "Looping"
+		puts "Looping"
 	end
-
+	
 	count = 10
 	while count > 0
-  		puts "Looping"
-  	count -= 1
+		puts "Looping"
+		count -=1
 	end
 
 	count = 10 
 	until count < 1
-  		puts "Looping"
-  	count -= 1
+		puts "Looping"
+		count -= 1
 	end
 
 	count = 10
 	loop do
-  		break if count < 1
-  		puts "Looping"
-  		count -= 1
+		break if count < 1 
+		puts "Looping"
+		count -= 1
 	end
 	
 ---
@@ -165,9 +164,9 @@ ex_loop.rb
 ###Find by Index
 
 	my_array = ["NYC", "LA", "SYD", "LDN"]
-	my_array[0]  #=> "NYC"
-	my_array[1]  #=> "LA"
-	my_array[-1] #=> "SYD"
+	my_array[0] #"NYC"	
+	my_array[1] #"LA"	
+	my_array[-1] #"SYD"			
 
 ---
 
@@ -184,8 +183,8 @@ ex_loop.rb
 ###Find by Position
 
 	my_array = ["NYC", "LA", "SYD", "LDN"]
-	my_array.first  #=> "NYC"
-	my_array.last #=> "LDN"
+	my_array.first #"NYC"
+	my_array.last #"LDN"
 
 
 	# In rails...
@@ -206,7 +205,7 @@ ex_loop.rb
 	name = "Steven"
 	name.upcase
 
-	my_array = [["NYC", "LA", "SYD", "LDN"]
+	my_array = ["NYC", "LA", "SYD", "LDN"]
 	my_array.reverse
 
 ---
@@ -253,9 +252,15 @@ ex_arrays.rb
 
 	ga_markets = {"NYC" => "New York City", "LA" => "Los Angeles", "SYD" => "Sydney", "LDN" => "London"}
 	
-	ga_markets["NYC"]	#=> "New York City"
-	ga_markets[["LA"]	#=> "Los Angeles"
-	ga_markets[["SYD"]	#=> "Sydney"
+	ga_markets["NYC"]	
+	ga_markets[["LA"]
+	ga_markets[["SYD"]
+	
+"New York City"	
+
+"Los Angeles"
+
+"Sydney"
 
 ---
 
@@ -267,7 +272,8 @@ ex_arrays.rb
 	user_hash["name"] = "Steven"
 	user_hash["favorite_color"] = "Green"
 
-	user_hash #=> {"name"=>"Steven", "favorite_color"=>"Green"}
+
+{"name"=>"Steven", "favorite_color"=>"Green"}
 
 ---
 
@@ -283,14 +289,9 @@ ex_arrays.rb
 
 
 ##Symbols
-###Commonly used as keys for hashes
+###Used as keys for hashes
 
-	ga_markets = {
-  		:NYC  => "New York City", 
-  		:LA => "Los Angeles", 
-  		:SYD => "Sydney", 
-  		:LDN => "London"
-	}
+	ga_markets = {:NYC => "New York City", :LA => "Los Angeles", :SYD => "Sydney", :LDN => "London"}
 
 ---
 
@@ -299,16 +300,13 @@ ex_arrays.rb
 ##Hash
 ###Messages
 
-	user = {
-  		user_name: "StevenNunez",
-  		email:     "steven.nunez@gmail.com"
-	}
+	user = {user_name: "StevenNunez", email: "steven.nunez@gmail.com"}
 	
-	user.has_key? :email #=> true
-	user.key? :email #=> true
-	user.include? :email #=> true
+	user.has_key? :email #true
+	user.key? :email #true
+	user.include? :email #true
 	
-	user.has_value? "StevenNunez" #=> true
+	user.has_value? "StevenNunez" #true
 
 ---
 
@@ -318,19 +316,19 @@ ex_arrays.rb
 ###Array of Hashes
 
 
-	user = [
-  			{:user => "Steven Nunez",      :role => "Instructor"}, 
-  			{:user => "Eddie Washington",  :role => "Teacher's Assistant"}, 
-  			{:user => "Stephanie Morillo", :role => "Teacher's Assistant"}, 
-	]
+		users = [
+				{:user => "Seteen Nunez", :role => "Instructor"},
+				{:user => "Eddie Washington", :role=> "TA"}
+				{:user => "Stephanie Morillo", :role => "TA"] 
+		]
 
 
-	# Alternate syntax
-	users = [
-  			{user: "Steven Nunez",      role: "Instructor"}, 
-  			{user: "Eddie Washington",  role: "Teacher's Assistant"}, 
-  			{user: "Stephanie Morillo", role: "Teacher's Assistant"}, 
-	]
+		#Alternate syntax
+		users = [
+			{user: "Steven Nunuz", role: "Instructor"},
+			{user: "Eddie Washington", role: "TA"},
+			{user: "Stephanie Morillo", role: "TA"}
+		]
 	
 ---
 
@@ -354,13 +352,13 @@ ex_arrays.rb
 
 ex_teddit_hashes.rb
 
-You'll need your conditional_teddit.rb solution
+You'll need your conditional_teddit.rb solution to get started.
 
 ---
 
 
 ##Recap
-##Iterating Over Collections
+###Iterating Over Collections
 
 
 ---
@@ -368,7 +366,7 @@ You'll need your conditional_teddit.rb solution
 ## Homework
 
 
-Continue work on Secret Number 1. Due next class (lesson 4)
+Continue work on Secret Number. Due next class (lesson 4)
 
 ---
 
