@@ -96,7 +96,7 @@ Instructors current role.
 ---
 
 ##Mixins
-###When Inheritance Doesn't work.
+###When inheritance doesn't work.
 
 *	What if our classes don't have an "is a" relationship.
 
@@ -119,43 +119,40 @@ Instructors current role.
 
 
 ##Mixins
-###With mixins you can do this
-
 	module Upvotable
-  		def upvote!
+		def upvote!
     		@upvote += 1
-  		end
-
-  		def downvote!
+    	end
+    	
+    	def downvote!
     		@upvote -= 1
-  		end
+    	end
 	end
 
+	
 	class Photo
-  		attr_reader :photographer, :resolution, :upvotes
-  		include Upvotable
-
-  		def initialize(photographer, resolution)
+		attr_reader :photographer, :resolution, :upvotes
+		include Upvotable
+		
+		def initialize(photographer, resolution)
     		@photographer = photographer
     		@resolution = resolution
     		@upvotes = 1
-  		end
+    	end
 	end
 
 	class Story
-  		attr_reader :title, :author, :upvotes
-  		include Upvotable
-
-  		def initialize(title, author)
+		attr_reader :title, :author, :upvotes
+		include Upvotable
+		
+		def initialize(title, author)
     		@title = title
     		@author = author
     		@upvotes = 1
-  		end
-	end
-
+    	end
+    end
 
 ---
-
 
 
 ##Sharing Behavior
@@ -172,16 +169,16 @@ Instructors current role.
 *	What if we wanted to have two bat classes. 
 
 		class Bat
-  			def fly!
-    			puts "So free.. and blind"
-  			end
+			def fly!
+				puts "So free.. and blind"
+			end
 		end
 
 		# Somewhere else in your code
 		class Bat
-  			def made_of
-    			"wood"
-  			end
+			def made_of
+				"wood"
+    		end
 		end
 
 		slugger = Bat.new
@@ -195,21 +192,21 @@ Instructors current role.
 
 
 	module Animal
-  		class Bat
-    		def fly!
-      			puts "So free.. and blind"
+		class Bat
+			def fly!
+				puts "So free.. and blind"
     		end
-  		end
+    	end
 	end
 
 	Animal::Bat.new
 
 	module BaseballUtensils
-  		class Bat
+		class Bat
     		def made_of
       			"wood"
     		end
-  		end
+    	end
 	end
 
 	BaseballUtensils::Bat.new
@@ -221,9 +218,7 @@ Instructors current role.
 ###Namespace It
 
 
-![Name Space Diagram](../../assets/ruby/module_namespace_diagram.jpg)
-
-image from: [http://imulus.com/blog/casey-ohara/coffeescript-namespaces-modules-and-inheritance](http://imulus.com/blog/casey-ohara/coffeescript-namespaces-modules-and-inheritance)
+![http://imulus.com/blog/casey-ohara/coffeescript-namespaces-modules-and-inheritance](../../assets/ruby/module_namespace_diagram.jpg)
 
 ---
 

@@ -32,13 +32,13 @@ What are some pros and cons of using hashes?
 ###Classes to the rescue
 
 *	What is a class?
-*	What is an object
+*	What is an object?
 *	Why/when to use them?
 
 ---
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 ##Creating Objects
 
 
@@ -56,8 +56,9 @@ What are some pros and cons of using hashes?
 	
 	# With an object
 	class Story
-  		attr_accessor :title
+		attr_accessor :title
 	end
+  
 
 	story = Story.new
 	story.title = "Sand angry with flip-flops"
@@ -70,16 +71,16 @@ What are some pros and cons of using hashes?
 ###Adding methods to our class
 
 	class Story
-  		attr_accessor :title, :category, :upvotes
-  		def upvote!
-    		@upvotes += 1
-  		end
+		attr_accessor :title, :category, :upvotes
+		def upvote!
+			@upvotes += 1
+		end
 	end
 
 	story = Story.new
 	story.title = "Fruit Flies find fleas facetious"
 	story.category = "Turf War"
-	story.upvotes  = 1
+	story.upvotes = 1
 
 	story.upvote!
 	story.upvotes #=> 2
@@ -87,7 +88,7 @@ What are some pros and cons of using hashes?
 ---
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 ##Laptop
 
 ---
@@ -101,14 +102,14 @@ What are some pros and cons of using hashes?
 
 ##Variable Scope
 
-![GeneralAssemb.ly](../../assets/ruby/variable_scope.png)
-
 attr_accessor : Makes variables available outside the class.
+
+![GeneralAssemb.ly](../../assets/ruby/variable_scope.png)
 
 ---
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 ##Scope
 
 
@@ -124,7 +125,7 @@ attr_accessor : Makes variables available outside the class.
 
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Class Variables
 
 ---
@@ -137,9 +138,9 @@ attr_accessor : Makes variables available outside the class.
 *	It can be overwritten
 
 		class My_Class
-  			def to_s
-    				puts "I turned the object into string and put it to the screen. "  			
-    			end
+			def to_s
+				"The puts method was called."
+			end
 		end
 
 		my_object = My_Class.new
@@ -155,7 +156,7 @@ attr_accessor : Makes variables available outside the class.
 	batman = "Dark Knight and Gotham Crime Fighter"
 	
 	def batman.secret
-  		puts "He's Billionaire Bruce Wayne"
+		puts "He's Billionaire Bruce Wayne"
 	end
 
 	batman #=> Dark Knight and Gotham Crime Fighter
@@ -171,22 +172,22 @@ attr_accessor : Makes variables available outside the class.
 * You don't need an instance to call a class method
 
 		class StoryBoard
-  			@@stories = []
-  			def StoryBoard.add_story(story)
-    			@@stories << story
-  			end
-
-  			def StoryBoard.stories
+			@@stories = []
+			def StoryBoard.add_story(story)
+				@@stories << story
+			end
+    		
+    		def StoryBoard.stories
     			@@stories
-  			end
+    		end
 		end
 
 		StoryBoard.add_story("Ducks on a rampage")
-		StoryBoard.stories #=> "Ducks on a rampage"
+		StoryBoard.stories #=>"Ducks on a rampage"
 ---
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 ##Self
 
 
@@ -199,16 +200,14 @@ attr_accessor : Makes variables available outside the class.
 *	self keyword allows us to do this instead of StoryBoard.add_story(story)
 
 		class StoryBoard
-  			@@stories = []
-
+			@@stories = []
+			def self.add_story(story)
+				@@stories << story
+			end
 			
-  			def self.add_story(story)
-   	 			@@stories << story
-  			end
-
-  			def self.stories
-   	 			@@stories
-  			end
+			def self.stories
+				@@stories
+			end
 		end
 
 		StoryBoard.add_story("Ducks on a rampage")
@@ -239,19 +238,19 @@ attr_accessor : Makes variables available outside the class.
 
 	# blt.rb
 	class BLT
-  		#...
+		#…
 	end
 
 	class Bacon
-  		#...
+		#…
 	end
 
 	class Lettuce
-  		#...
+		#…
 	end
 
 	class Tomato
-  		#...
+		#…
 	end
 
 ---
@@ -266,19 +265,7 @@ attr_accessor : Makes variables available outside the class.
 	require_relative 'tomato'
 
 	class BLT
-  		#...
-	end
-
-	class Bacon
-  		#...
-	end
-
-	class Lettuce
-  		#...
-	end
-
-	class Tomato
-  		#...
+		#…
 	end
 
 ---
@@ -300,7 +287,7 @@ attr_accessor : Makes variables available outside the class.
 ---
 
 
-![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
+<img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Lab Time
 
 *	Teddit Objects (read the readme.md for instructions).
