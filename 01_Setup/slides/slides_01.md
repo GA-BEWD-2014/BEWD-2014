@@ -318,6 +318,9 @@ Fork Button
 ##Still Feel Lost? 
 ###Catch Up With These Resources
 
+
+-	[Command Line Crash Course](http://cli.learncodethehardway.org/book/)
+
 -	[GitHub Cheat Sheet](https://na1.salesforce.com/help/doc/en/salesforce_git_developer_cheatsheet.pdf)
 
 -	[Intro to Git Videos](http://git-scm.com/videos)

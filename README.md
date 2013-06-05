@@ -33,11 +33,11 @@ RUBY BASICS
 3.	[Collections and Loops](03_Collections_Loops)
 4.	[Collections and APIs](04_Collections_APIs)
 5.	[Classes and Objects](05_Classes_Objects)
-6.	
+6.	[Sharing Behaviour](06_Sharing_Behaviour)
 
 RUBY ON RAILS
 
-7.	[ ]( )
+7.	[My First Rails App](07_First_Rails_App)
 8.	[ ]( )
 9.	[ ]( )
 10.	[ ]( )
@@ -76,7 +76,7 @@ SLIDES
 We are using reveal.js with markdown 
 See [here](https://github.com/hakimel/reveal.js) for further documentation.
 
-You can choose another platform.
+You can choose another presentation tool.
 
 	
 PREPARING FOR CLASS

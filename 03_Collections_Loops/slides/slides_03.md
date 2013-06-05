@@ -495,6 +495,9 @@ __Each Loop__
 ###Still Feel Lost? 
 ####Catch Up With These Resources
  
+-	Teddit Hashes Answer [Video](http://vimeo.com/gatv/review/67752035/a90db9177f) by Steven Nuñez on behalf of General Assembly
+	-	password=> BEWD_GA
+	
 -	Arrays [Ruby Docs](http://ruby-doc.org/core-2.0/Array.html)
 -	Hashes [Ruby Docs](http://ruby-doc.org/core-2.0/Hash.html)
 -	Hashes and Arrays [Tutorial](http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb)

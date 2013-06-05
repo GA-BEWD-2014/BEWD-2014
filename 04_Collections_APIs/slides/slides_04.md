@@ -176,4 +176,7 @@ __Map versus do__
 ###Still Feel Lost?
 ####Catch Up With These Resources
 
-Look at the resources from lesson 3 class.
+-	Fizz Buzz Answer [Video](https://vimeo.com/67752034)
+-	Rest Client [Video](http://vimeo.com/67132957) by Steven Nuñez on behalf of General Assembly
+-	
+	-	password=> testBEWD	

@@ -7,17 +7,7 @@ GENERAL ASSEMBLY
 BACK-END WEB DEVELOPMENT PRE-WORK (~5 – 7 HOURS):
 ========
 
-Congratulations on joining us at General Assembly for the Back-End Web Development course! We are excited to have you in the course, and are looking forward to working with you all soon!
-
-In order to best prepare you for this course, we’ve gathered a list of resources that we’d like for your to complete prior to beginning the course on 4/16. So when you arrive on your first day, we are all up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.
-
-Throughout this course, you will not only be exposed to Ruby and Rails but also various other tools, so in order to be most prepared we recommend going through the tutorials listed below. This should take you around 5– 7 hours to complete. 
-
-Don’t feel like you have to become a master of everything before coming to class –we just want you to feel comfortable and get a little exposure.  Keep these resources as references during the course as they will come in handy.
-
-Please reach out if you have any questions about anything or need help!
-
-Happy coding :)
+Congratulations on joining us at General Assembly for the Back-End Web Development course! We are excited to have you in the course, and are looking forward to working with you all soon!In order to best prepare you for this course, we’ve gathered a list of resources that we’d like for you to complete prior to beginning the course on ENTER DATE. When you arrive on your first day, everyone will be up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.Throughout this course, you will not only be exposed to Ruby and Rails but also various other tools, so in order to be most prepared we recommend going through the tutorials listed below. This should take you around 5– 7 hours to complete. Don’t feel like you have to become a master of everything before coming to class –we just want you to feel comfortable and get a little exposure.  Keep these resources as references during the course as they will come in handy.Please reach out if you have any questions about anything or need help!Happy coding :)
 
 - - -
 
@@ -31,9 +21,6 @@ __DOWNLOAD__
 -	Text Editor: 			[Sublime Text 2](http://www.sublimetext.com/2)
 -	Internet Browser: 		[Google Chrome](https://www.google.com/intl/en/chrome/browser/)
 
-MAC Users ONLY
-
--	Installing Instructions	[Rails etc](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1)
 __SIGN UP__
 
 -	Sign-Up for a [GitHub](https://github.com/signup/free) account

@@ -391,7 +391,8 @@ Its ok, we will see these terms again in Rails, but you can also,
 
 ####Catch Up With These Resources
 
-
+*	Working with Enumerables [Video](http://vimeo.com/gatv/review/67752032/67e8f877bb)
+	*	password => BEWD_GA	
 *	[Modules](http://marakana.com/bookshelf/ruby_tutorial/modules.html
 )
 *	[Mixins](http://samwho.co.uk/blog/2011/09/12/ruby-mixins/)

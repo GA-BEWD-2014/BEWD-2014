@@ -277,7 +277,7 @@ you are an adult
 
 ---
 
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 ##Lab Time
 * 	Conditional Teddit
 
@@ -424,3 +424,5 @@ __Running .rb from the terminal__
 - [Article](http://ruby.about.com/od/control/a/Conditional-Statements.htm) from about.com about ruby conditional statements.
 - [Article](http://strugglingwithruby.blogspot.com/2008/11/conditional-statements.html) - More about true and false.
 - [Khan academy tutorial](https://www.khanacademy.org/math/geometry/logical-reasoning/e/conditional_statements_and_truth_value) about logical reasoning.
+- More on Methods [Videos](https://vimeo.com/gatv/review/67752033/50fc5adfa7) by Steven Nuñez for GA.
+	-	password => BEWD_GA 
