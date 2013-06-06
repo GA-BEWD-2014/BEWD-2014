@@ -13,7 +13,7 @@
 # 3. In Employee, create an initialize method that accepts a first and
 #    last name and save those into instance variables.
 #
-# 4. In Manager, create an initilize method that accepts a title,
+# 4. In Manager, create an initialize method that accepts a title,
 #    a first, and a last name and save those into instance variables.
 #
 # 5. Create attr_accessors in each class for the instance variables.

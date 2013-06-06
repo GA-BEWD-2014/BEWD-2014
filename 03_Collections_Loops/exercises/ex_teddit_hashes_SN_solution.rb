@@ -1,6 +1,6 @@
 # Step 1: Working with Arrays and Hashes
 
-# Copy your solution from conditional_exercise.rb. 
+# Copy your solution from conditional_teddit.rb. 
 # Create an empty stories array. This will be used to hold all stories we capture.
 # Users enter the story as they do now, but it gets put in a hash instead. 
 # Update any reference to the story (upvotes, category and title) 

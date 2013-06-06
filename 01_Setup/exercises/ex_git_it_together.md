@@ -7,17 +7,17 @@
 
 | | |
 | ------------- |:-------------|
-| __Topics__ | bash commands, terminal, git, gitHub| 
-| __Description__| practice using Git and creating pull request.|    
+| __Topics__ | bash commands, terminal, git, GitHub| 
+| __Description__| Practice using Git and creating pull request.|    
  
 
 
 ####Task Instructions
 
--	In the cloned repository there is a file named blog. Answer the questions in this file.
+-	Add a .txt file named blog and type your name and the URL to your blog
 -	Commit your changes
 -	Push them to your repository
--	Submit a pull request for me to access those changes
+-	Submit a pull request for your instructor to access those changes
 
 **Instructional Notes:**
 

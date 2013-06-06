@@ -278,7 +278,7 @@ ex_arrays.rb
 ---
 
 
-##Hases
+##Hashes
 ###Symbols
 
 -	Commonly used for hashes
@@ -317,7 +317,7 @@ ex_arrays.rb
 
 
 		users = [
-				{:user => "Seteen Nunez", :role => "Instructor"},
+				{:user => "Steven Nunez", :role => "Instructor"},
 				{:user => "Eddie Washington", :role=> "TA"}
 				{:user => "Stephanie Morillo", :role => "TA"] 
 		]
@@ -325,7 +325,7 @@ ex_arrays.rb
 
 		#Alternate syntax
 		users = [
-			{user: "Steven Nunuz", role: "Instructor"},
+			{user: "Steven Nuñez", role: "Instructor"},
 			{user: "Eddie Washington", role: "TA"},
 			{user: "Stephanie Morillo", role: "TA"}
 		]
@@ -488,7 +488,7 @@ __Each Loop__
 
 ###Tips, Tricks & Motivation
 
-- [The Best Way to Learn Ruby AND Rails](http://astonj.com/tech/best-way-to-learn-ruby-rails/)
+- [The Best Way to Learn Ruby & Rails](http://astonj.com/tech/best-way-to-learn-ruby-rails/)
 -  What is iteration - [article](http://www.computerhope.com/jargon/i/iteration.htm)
 
 

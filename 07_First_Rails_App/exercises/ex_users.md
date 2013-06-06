@@ -13,7 +13,7 @@
 ####Task Instruction: 
 
 *	Create a new application called User_Scaffold. 
-*	The resource should be `User` and it should have the attributes: 
+*	The resource should be `User` and it should have these attributes: 
 	*	First Name
 	*	Last Name
 	*	Age

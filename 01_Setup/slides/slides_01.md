@@ -11,7 +11,7 @@ Instructors current role.
 
 ##Agenda
 
-*	Installation
+*	Install
 *	Intros
 *	What is Web Development
 *	Bash Commands
@@ -81,13 +81,12 @@ During this class we will learn command line, Git, Ruby and Rails, in that order
 	*	Working with the keyboard increases your speed. The mouse slows you down.
 
 * Its Cool!
-	*	Impress your friends as you navigate the computer by only using your keyboard.
+	*	Impress your friends as you navigate the computer using your keyboard.
 ---
 
 
 
 ##Command Line
-###What And Where Is It?
 
 ![Find The Terminal](../../assets/command_line/spotlight.png)
 
@@ -182,14 +181,6 @@ During this class we will learn command line, Git, Ruby and Rails, in that order
 ---
 
 
-##GitHub
-###Using Git For Homework
-![ Git In Class Diagram](../../assets/GitHub/fork_diagram_ga.png)
-
----
-
-
-
 ![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
 ## Git It Together
 
@@ -207,7 +198,7 @@ During this class we will learn command line, Git, Ruby and Rails, in that order
 <div id="resources">
 ## Resources: Command Line Basics & Git
 
-Class is Over, but here are some extra resources.
+Class is over, but here are some extra resources.
 
 ##Cheat Sheet
 
@@ -305,11 +296,12 @@ Here are some to help you keep up:
 
 
 ##Git Diagrams and Pictures
-![Git Diagram](../../assets/GitHub/git_in_class_diagram.png)
 
 Fork Button
 
 ![Fork Button](../../assets/GitHub/fork_button.png)
+
+Pull Request Buttons
 
 ![Pull Request](../../assets/GitHub/pull_request_button.png)
 

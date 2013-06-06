@@ -5,7 +5,7 @@
 # Secret Number is a game you will build in two parts.
 # The purpose of the game is to have players guess a secret number from 1-10.
 #
-# Read the insturctions below.
+# Read the instructions below.
 # This exercise will test your knowledge of Variables and Conditionals.
 #
 ###############################################################################

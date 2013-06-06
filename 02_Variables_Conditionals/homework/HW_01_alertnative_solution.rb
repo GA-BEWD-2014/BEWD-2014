@@ -1,7 +1,7 @@
 ###############################################################################
 #
 # Back-End Web Development - Secret Number 1 Solution
-# Here is another solution to home work 1.
+# Here is another solution to homework 1.
 ################################################################################
 
 puts "Welcome! This game is brought to you by Eddie Washington."

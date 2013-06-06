@@ -33,7 +33,7 @@ RUBY BASICS
 3.	[Collections and Loops](03_Collections_Loops)
 4.	[Collections and APIs](04_Collections_APIs)
 5.	[Classes and Objects](05_Classes_Objects)
-6.	[Sharing Behaviour](06_Sharing_Behaviour)
+6.	[Sharing Behavior](06_Sharing_Behaviour)
 
 RUBY ON RAILS
 

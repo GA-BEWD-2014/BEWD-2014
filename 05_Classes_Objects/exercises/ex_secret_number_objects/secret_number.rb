@@ -2,9 +2,9 @@
 #
 # Introduction to Ruby on Rails
 #
-# Homework 02 - Object Oriented Secret Number
+# Object Oriented Secret Number
 #
-# Read the links below and complete the exercises in this file. This Lab
+# Read the links below and complete this file. This Lab
 # is to practice your knowledge of object oriented programming. 
 #
 ###############################################################################
@@ -12,7 +12,7 @@
 #	
 # Your updated game should have 4 classes (Main, Secret_Number, Game and Player)
 #
-# Below is a description of each class and some other guidelines to follow. 
+# Below is a description of each class and some guidelines for each. 
 #
 # Main
 #	The main class is where the game begins. This class should tell the player who made it.
@@ -29,7 +29,7 @@
 # Game
 #	This class holds most of the game logic and should:
 #		Welcome players and inform them of the game rules.
-#		Initialize the Players class.
+#		Initialize the Player class.
 # 		Initialize the Secret Number class.
 # 		Prompt the user to choose a number, verify if the user guessed correctly.
 # 		If the user guesses incorrectly let them know if they were too high or too low.

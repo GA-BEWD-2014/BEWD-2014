@@ -8,13 +8,13 @@
 | | |
 | ------------- |:-------------|
 | __Topics__ | times iterator, .downto | 
-| __Description__| Students create a program that prints the lyrics to "99 bottles of bear on the wall"|    
+| __Description__| Students create a program that prints the lyrics to "99 bottles of beer on the wall"|    
  
 
 
 ####Instructional Design Notes
 
--	There is no code along for loops. Provide general syntax and allow students to work through the problem We are training students to use documentation.
+-	There is no code along for loops. Provide general syntax and allow students to work through the problem. We are training students to use documentation.
 -	Students should pair program on this.
 -	Walk students through the exercise instructions and address any questions before they begin.
 -	Encourage the use of Ruby docs.
@@ -27,7 +27,7 @@
 | | |
 | ------------- |:-------------|
 | __Topics__ | arrays and array methods | 
-| __Description__| This file asks students series of questions about arrays. The goal is to have them research some more array methods and practice using the. There is a test built into this exercise to verify student answers.   |    
+| __Description__| This file asks students a series of questions about arrays. The goal is to have them research array methods and practice. There is a test built into this exercise to verify student answers.   |    
  
 
 ####Instructional Design Notes
@@ -50,7 +50,7 @@
 -	Students start with completed code from Teddit Conditional exercise.
 -	This exercise is difficult. The goal is to have students become familiar with hashes and iteration to better understanding of APIs and Params during Rails.
 -	Allow students to complete part 1. As a class and discuss the answers.
--	Then allow them to complete part 2. 
+-	Then complete part 2. 
 
 
 

@@ -4,8 +4,6 @@
 
 ###Instructor Name
 
-Instructors current role.
-
 ---
 
 
@@ -13,12 +11,12 @@ Instructors current role.
 
 
 *	Quiz
-*	Intro to Ruby & Using irb / pry
+*	Intro to Ruby & irb / pry
 * 	Variables
 	* 	Numbers
 	*	Strings
 	*	Booleans
-* 	Intro To Methods
+* 	Method Basics
 * 	Conditional Logic
 * 	Lab Time
 
@@ -27,7 +25,7 @@ Instructors current role.
 ##QUIZ
 1.	How do I change directories using the command line?
 2.	What is Git and GitHub?
-3.	How do I add files to be committed using git?
+3.	How do I add files to git?
 4.	What is a GitHub Repository?
 5.  What is the correct way to push changes to your GitHub repo?
 	a. git pull origin master
@@ -45,8 +43,8 @@ Instructors current role.
 
 ###Ruby on Rails
 
-*	Open source web application framework runs on Ruby
-*	Allows you to create web applications that talk to and query a database.
+*	Open source web application framework that runs on Ruby
+*	Allows you to create web applications that query a database.
 
 
 ![Ruby Images ](../../assets/ruby/ruby_img.png )
@@ -55,14 +53,11 @@ Instructors current role.
 
 
 ##Ruby & Rails
-###We learn Ruby first.
+###Ruby first.
 
 *	It will be easier to navigate a Rails project once we have a basic understanding of Ruby.
 
 ![ Karate Kid](../../assets/ruby/karate_kid.jpg)
-<div id ="resources"> 
-[Wax on Wax Off](http://www.youtube.com/watch?v=8aYl7N0JPWs)
-</div>
 
 ---
 
@@ -70,13 +65,13 @@ Instructors current role.
 ##Ruby & Rails
 ###Ruby Keywords
 
-*	The vocabulary you will need to speak Ruby language: 
+*	The vocabulary you will need to "_speak_" Ruby: 
 
 ENCODING break case ensure false or redo undef unless FILE LINE class 
 def loop for if rescue retry until when BEGIN END alias and begin
 defined? do else elsif end in module next nil not return self super then true while yield
 
-###This is it!
+###That's It!
 
 ---
 
@@ -114,7 +109,7 @@ defined? do else elsif end in module next nil not return self super then true wh
 ##Robot Recap
 ###Its about changing how you think
 *	Think in logical steps to solve a problem
-*	Use Ruby keywords to make programs more efficient
+*	Use Ruby keywords to help solve those problems
 	*	Conditional Logic
 	*	Iteration
 	
@@ -144,13 +139,13 @@ defined? do else elsif end in module next nil not return self super then true wh
 		"I'm a string tool".class	#String
 
 
---
+---
 
 
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
 ##Teddit - Strings
 
-Teddit is a news aggregator we will build during this class.
+Teddit is a news aggregator we will build during this course.
 
 ---
 
@@ -168,8 +163,8 @@ Teddit is a news aggregator we will build during this class.
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 ##Teddit Strings
 
-Hint: Get familiar with using Google to look up syntax.
-If you're stuck on syntax write down the steps in English. Let's focus on thinking like a programmer.
+__Hint:__ Get familiar with using Google to look up syntax.
+If you're stuck on syntax write down the steps in English. Focus on thinking like a programmer.
 
 ---
 
