@@ -38,7 +38,7 @@ RUBY BASICS
 RUBY ON RAILS
 
 7.	[My First Rails App](07_First_Rails_App)
-8.	[ ]( )
+8.	[Routes Views Controllers](08_routes_cont_views)
 9.	[ ]( )
 10.	[ ]( )
 11.	[ ]( )
@@ -46,10 +46,10 @@ RUBY ON RAILS
 13.	[ ]( )
 14.	[ ]( )
 15.	[ ]( )
-16.
-17.
-18.
-19.
+16.	[ ]( )
+17. [ ]( )
+18.	[ ]( )
+19.	[ ]( )
 20. Project Presentations
 
 
