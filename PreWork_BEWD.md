@@ -55,6 +55,9 @@ _**Make sure you can**_:
 __VERSION CONTROL__
 
 We will be using git to make it easy for you to collaborate, share and submit your code for review.
+
+-	[GA Front Row GitHub Video]( http://generalassembly.wistia.com/medias/vpno3bu6hb
+)
 -	[What is Version Control?](http://www.skillcrush.com/terms/version-control.html)
 -	[TryGit tutorial](http://www.codeschool.com/courses/try-git)
 
