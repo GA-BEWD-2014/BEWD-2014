@@ -305,7 +305,9 @@ Pull Request Buttons
 
 ![Pull Request](../../assets/GitHub/pull_request_button.png)
 
+__Adding A Remote__
 
+[GitHub help](https://help.github.com/articles/adding-a-remote)
 
 ##Still Feel Lost? 
 ###Catch Up With These Resources

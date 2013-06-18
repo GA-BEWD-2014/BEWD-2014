@@ -4,7 +4,6 @@
 
 ###Instructor Name
 
-Instructors current role.
 
 ---
 

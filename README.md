@@ -39,8 +39,8 @@ RUBY ON RAILS
 
 7.	[My First Rails App](07_First_Rails_App)
 8.	[Routes Views Controllers](08_routes_cont_views)
-9.	[ ]( )
-10.	[ ]( )
+9.	[Models & Active Record ](09_models_active_record)
+10.	[Forms](10_Forms)
 11.	[ ]( )
 12.	[ ]( )
 13.	[ ]( )
@@ -76,7 +76,7 @@ SLIDES
 We are using reveal.js with markdown 
 See [here](https://github.com/hakimel/reveal.js) for further documentation.
 
-You can choose another presentation tool.
+You can choose another presentation tool i.e Keydown is another alernative.
 
 	
 PREPARING FOR CLASS

@@ -45,5 +45,5 @@ Each game further explains the use of Routes Views and Controllers:
 	*	Demonstrates how views can link to a path and pass param to the controller.
 	*	Shows that logic in the controller can render a specific view
 	
-*	__Rock Paper Scissors
+*	__Rock Paper Scissors__
 	*	An exercise completed during lab time. Students practice transfer of skills learned during the code along. We also test their ruby skills with the bonus question by having students write the logic for the game Rock Paper Scissors.
