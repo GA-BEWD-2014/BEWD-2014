@@ -33,7 +33,7 @@ SCHEDULE
 HOMEWORK
 --------
 
-Complete movie_app exercise. Counts towards assigned work.
+Complete movie_app exercise. Counts towards assigned work. (due lesson 11)
 
 
 What's Due?
