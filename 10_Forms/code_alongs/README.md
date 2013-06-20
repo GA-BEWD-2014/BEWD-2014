@@ -38,15 +38,12 @@ In lesson 10 it would be long for students to sit through building the entire ap
 __Here is our suggestion on how to incrementally build:__
 
 1.	__Routes__
-
-	* Add routes to index page.
+	*	 Add routes to index page.
 
 2.	__Controller__
-
 	*	Manually create controller with index action
 
 3.	__Views__
-
 	*	Show all shirts in index.html.erb. 
 	*	Add [images](ShirtsAppPics.zip) to public folder. This is to give more color to the app.
 		
