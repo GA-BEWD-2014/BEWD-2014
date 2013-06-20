@@ -29,10 +29,10 @@ Paring is Sharing, and happy coding :)
 Add to your movie_app
 
 *	Generate a Movie model with title, description and year_released attributes
-*	Use the [seeds](/) file to populate your database with movies.
+*	Use the [seeds](seeds.rb) file to populate your database with movies.
 *	Update your movie's index.html.erb so that it list all movies in the database. 
 	*	Rails console is your friend. Use it to you complete this exercise.	
-Note: This application will due lesson 11. 
+Note: This application is due lesson 11. 
 
 
 

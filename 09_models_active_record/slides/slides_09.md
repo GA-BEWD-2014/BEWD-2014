@@ -93,7 +93,7 @@ A programming language used to search and save data to databases.
 
 Shirt Management app is an application we will build incrementally during class.
 
-The app allows users to manage their T-Shirts collection, and discover new T-Shirts that vendors are selling.
+The app allows users to manage their T-Shirts collection, by adding and deleting shirts to the database. 
 
 For this lesson we will add a basic T-Shirt Model.
 

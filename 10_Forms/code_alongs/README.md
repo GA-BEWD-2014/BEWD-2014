@@ -48,7 +48,7 @@ __Here is our suggestion on how to incrementally build:__
 3.	__Views__
 
 	*	Show all shirts in index.html.erb. 
-	*	Add images to public folder. This is to give more color to the app.
+	*	Add [images](ShirtsAppPics.zip) to public folder. This is to give more color to the app.
 		
 
 This app will serve as a reference for students to complete the exercise Movie. 

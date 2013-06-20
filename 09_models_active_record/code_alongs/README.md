@@ -44,7 +44,7 @@ Below is our suggestion on how to incrementally build this app during lesson 9.
 2.	__Migrations__
 
 	*	Generate migration to add the image field.
-	*	Used [seeds.rb](/) to populate the database.
+	*	Used [seeds.rb](seeds.rb) to populate the database.
 
 3.	__Active Record__
 
