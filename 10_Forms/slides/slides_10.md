@@ -98,7 +98,7 @@ When a user clicks 'Search'
 
 
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
-##Movie App
+##Movie App - Search
 
 *	Create a search box that will search for a term in the movie's title, description and the year
 *	Create partials for the search box

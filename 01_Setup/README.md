@@ -4,7 +4,7 @@ BACK-END WEB DEVELOPMENT
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
-LESSON: Getting Your Developer Legs
+LESSON 1: Getting Your Developer Legs
 ========
 
 LEARNING OBJECTIVES
