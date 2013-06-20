@@ -21,15 +21,15 @@ SCHEDULE
 | Time        | Topic| GA Materials| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
 | 30 min | Quick Fire |[qf_fizz_buzz.rb](exercises/quick_fire/qf_fizz_buzz.rb) | This is a recap exercise that allows students to test their knowledge of ruby and programming thus far. | 
-| 60 min | APIs | [coa_instr_getting_tweets.rb](code_alongs/coa_instr_getting_tweets.rb)<br>  | A practical exmaple of loops and collections using the twitter api. |
-| 90 min | Lab Time | [ex_teddit_api_news.rb](exercises/ex_teddit_api_news.rb) | Students repeat steps from getting_tweets_code_along.rb with either Mashable, Digg or Reddit apis.|
+| 60 min | APIs | [coa_instr_getting_tweets.rb](code_alongs/coa_instr_getting_stories.rb)<br>  | A practical exmaple of loops and collections using the reddit api. |
+| 90 min | Lab Time | [ex_teddit_api_news.rb](exercises/ex_teddit_api_news.rb) | Students repeat steps from coa_getting_stories.rb with Mashable and Digg apis.|
 
 
 
 HOMEWORK
 --------
--	Students should add another blog post to their blog.
--	Finish / review labs completed in this class.
+
+-	Review labs completed in this class.
 
 
 

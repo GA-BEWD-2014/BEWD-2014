@@ -101,7 +101,7 @@ TIME : 30 min
 ##Do Cool Stuff
 <img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 
-Getting Tweets
+Getting Stories
 
 
 ---
@@ -117,7 +117,6 @@ Getting Tweets
 ## Homework
 
 *	Continue review 
-*	Add another blog entry
 
 ---
 

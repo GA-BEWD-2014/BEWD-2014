@@ -33,4 +33,5 @@
 *	This exercise will be the majority of the class
 *	We suggest that you encourage students to view / navigate the returned data using arrays and hash methods learned the previous lesson. 
 *	Students should pair program on this exercise. 
+*	Our major goal is to have students practice using irb to navigate the returned data and use the available methos they have to them. 
 
