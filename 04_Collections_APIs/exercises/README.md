@@ -24,7 +24,7 @@
 | | |
 | ------------- |:-------------|
 | __Topics__ |variables, conditionals, iteration, programming challenge apis | 
-| __Description__|Students add dynamic stories to Teddit using APIs.|    
+| __Description__|Students add dynamic stories to Teddit using Mashable and Digg APIs.|    
  
 
 

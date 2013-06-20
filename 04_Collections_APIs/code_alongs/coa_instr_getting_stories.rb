@@ -1,10 +1,13 @@
-# We're going to add a remote data source to pull in stories, Digg and Mashable.
-  # http://mashable.com/stories.json
-  # http://digg.com/api/news/popular.json
-# These stories will also be upvoted based on our rules. No more user input!
+#Iterating Over Collections
+#TIME: 25 min
+#INSTRUCTIONAL DESIGN NOTES: 
+# => This exercise brings a practical approach to how hashes and arrays are useful in Rails.
+# => We are using Digg in this example but you can use another API.
+# => Build this file from scratch with the students. When testing in NYC we found it helpful
+# to work in irb and show how the data is returned from Digg, before running this code in the terminal.
+# => Show students how to approach the problem so they are prepared for lab.
+# => During the lab students will add Mashable or Digg stories.	
 
-# Pull the json, parse it and then make a new story hash out of each story(Title, Category, Upvotes)
-# Add each story to an array and display your "Front page"
 
 require 'json'
 require 'rest-client'
@@ -41,26 +44,6 @@ def show_all_stories(stories)
   end
 end
 
-def get_from_mashable
-  res = JSON.load(RestClient.get('http://mashable.com/stories.json'))
-  res["hot"].map do |story|
-    s = {title: story["title"], category: story["channel"]}
-    calculate_upvotes s
-    show_new_story_notification s
-    s
-  end
-end
-
-def get_from_digg
-  res = JSON.load(RestClient.get('http://digg.com/api/news/popular.json'))
-  res["data"]["feed"].map do |story|
-    s = {title: story["content"]["title"], category: story["content"]["tags"].map{|s| s["display"]}.join(', ')}
-    calculate_upvotes s
-    show_new_story_notification s
-    s
-  end
-end
-
 def get_from_reddit
   res = JSON.load(RestClient.get('http://www.reddit.com/.json'))
   res["data"]["children"].map do |story|
@@ -73,7 +56,7 @@ def get_from_reddit
 end
 
 show_message("Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!")
-stories = get_from_mashable
-stories += get_from_digg
+stories = get_from_reddit
 show_all_stories stories
+
 
