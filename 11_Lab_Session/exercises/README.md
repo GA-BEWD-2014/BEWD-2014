@@ -14,7 +14,7 @@ Here is a brief overview of the app.
 
 * 	Visitors to Ritly will be able to request a randomly generated code for their URL link and save it to the database.
 *	Visitors to Ritly can go to ```localhost:3000/random_generated_code``` and the application will redirect them to the  matched link in the database. 
-*	Visitors to Ritly can go to ```localhost:3000/random_generated_code/preview``` and preview the mathcing URL link from the database. 
+*	Visitors to Ritly can go to ```localhost:3000/random_generated_code/preview``` and preview the matching URL link from the database. 
 
 
 ###Task Instructions
@@ -54,6 +54,45 @@ Here are a few hints.
 ####Generating a Random Number or Hash
 
 *	To generate a random number in Ruy ```rand(1000000)```.
-*	__Bonus__: Use SecureRandom.urlsafe_base64(8) to generate a random hash code.
+*	__Bonus__ Use SecureRandom.urlsafe_base64(8) to generate a random hash code.
 
 Remember Google is your friend!
+
+
+
+#Rewsly
+
+###App Description
+
+The City times needs an app and has hired BEWDiful students to build it. They want to enter the 21st century and move their print newspaper online. 
+
+You will build Rewsly during lesson 11 & 12.
+
+####Time: 60 min
+
+Here are the features needed by next class.
+
+For now City times is only interested in linking to other news sources instead of writing their own news. 
+
+*	The front page welcomes visitors "Welcome to Rewsly" and list all titles in the stories table. 
+*	Visitors can view a story's details link, upvotes, and  category by clicking on the title from the front page.
+*	Visitors can search for a specific story by title from the front page.
+*	Visitors can add stories to the database if all fields are present. 
+	*	Prevent visitors from saving a record if it has errors.
+
+
+We've supplied you with a [seeds](seeds.rb) file.
+
+__Bonus__
+
+*	Only show stories with 4 or more upvotes on the front page.
+*	Only show only stories created today on the fron page.
+
+Remember, Google is your friend!
+
+Happy coding :)
+
+
+
+
+
