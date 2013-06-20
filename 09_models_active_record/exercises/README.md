@@ -5,9 +5,14 @@
 
 Our client RetFlix wants BEWDiful students to develop an app for them. 
 
-They want an application that allows their users to read and write reviews for  movies in the database. 
+They want an application that allows visitors to:
 
-We will build a Rails app for RetFlix during lesson 9 -12. Each lesson we will add more functionality to the app. 
+*	View all movies in the database. 
+*	Add a new movie to the database.
+*	Edit a movie in the database. 
+*	And search for a specific movie.
+
+We will build a Rails app for RetFlix during lesson 9 & 10. Each lesson we will add more functionality to the app. 
 
 Paring is Sharing, and happy coding :)
 
@@ -26,13 +31,14 @@ Paring is Sharing, and happy coding :)
 
 ####Task Instructions
 
-Add to your movie_app
+Add to your Movie_app
 
 *	Generate a Movie model with title, description and year_released attributes
 *	Use the [seeds](seeds.rb) file to populate your database with movies.
-*	Update your movie's index.html.erb so that it list all movies in the database. 
-	*	Rails console is your friend. Use it to you complete this exercise.	
-Note: This application is due lesson 11. 
+*	Update your movie's index.html.erb so that it list all movies in the database. (Google is your friend).
+	*	Rails console is also your friend. Use it to explore active record methods that help you interact with the database.	
+	
+__NOte__: This application is due lesson 11. 
 
 
 

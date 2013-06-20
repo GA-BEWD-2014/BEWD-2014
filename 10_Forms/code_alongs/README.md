@@ -1,23 +1,19 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
 
 
-#[Shirt Management App](https://github.com/TheBEWDifulPeople/ShirtsAppByLesson/branches)
-
+#Shirt Management App
 ###App Description
  
-Shirt Management is an incremental code along. This app will be used in lesson 9 - 10. 
+Shirt Management is an incremental code along. This app will be used in lesson 9 & 10. 
 
-It is a Rails application that stores T-Shirts. 
+Shirt Management App is a Rails application that stores information about T-Shirts. This app was built for T-shirt enthusiast.
 
 Here are the user stories for the app. 
 
-*	As a user, I want to view all T-shirts stored in the database. 
-*	As a user, I want to search the database for a specific shirt.
-*	As a user, I want to add T-Shirts to the database.
-*	As a user, I want to edit T-Shirts in the database.
-
-The [app](https://github.com/TheBEWDifulPeople/ShirtsAppByLesson/branches) is hosted on GitHub. Each branch is the final state at the end of the 
-lesson. The master branch is the completed app styled w/ Twitter Bootstrap
+*	As a visitor, I want to view all T-shirts in the database. 
+*	As a visitor, I want to search the database for a specific shirt.
+*	As a visitor, I want to add T-Shirts to the database.
+*	As a visitor, I want to edit T-Shirts in the database.
 
 In lesson 10 it would be long for students to sit through building the entire app all at once, so we've broken the app into 3 code alongs, see below. 
 
@@ -31,7 +27,7 @@ In lesson 10 it would be long for students to sit through building the entire ap
 
 ####Key Teaching Points
 
-*	Utilize active record method .all to display all shirts in the index.html.erb view.
+*	Implement active record method ```.all``` in the controller to display all shirts in the index.html.erb view.
 	*	We add a Shirt controller and view to the shirt management app during this code along. This is meant to help those that are stuggling with the [Movie App](../09_models_active_record/exercises) homework assignment.
 
 
@@ -41,7 +37,7 @@ __Here is our suggestion on how to incrementally build:__
 	*	 Add routes to index page.
 
 2.	__Controller__
-	*	Manually create controller with index action
+	*	Manually create controller with index action. (This will help students understand rails the naming convention).
 
 3.	__Views__
 	*	Show all shirts in index.html.erb. 
@@ -49,7 +45,7 @@ __Here is our suggestion on how to incrementally build:__
 		
 
 This app will serve as a reference for students to complete the exercise Movie. 
-We will add forms in the next code along (see below) 
+We will add forms in the next code along (see below).
 
 
 
@@ -77,7 +73,7 @@ __Here is our suggestion on how to incrementally build__
 4.	Get the results from our model
 5.	Create a method on the Model to get our records passed in from search box
 6.	Display search results in the search.html.erb
-6.	Look for duplication in our view and use partials to package reusable bits of markup.
+6.	Look for duplication in our views and use partials to package reusable bits of markup.
 
 
 ## Create & Edit Forms 
@@ -97,7 +93,7 @@ __Here is our suggestion on how to incrementally build__
 
 __Here is our suggestion on how to incrementally build__
 
-1.	Update routes file to use :resources keyword2
+1.	Update routes file to use :resources keyword
 2.	Build show page for Shirts, detailing just one shirt
 3.	Build new page, for creating a new shirt in the system
 4.	Validation: Deal with validations

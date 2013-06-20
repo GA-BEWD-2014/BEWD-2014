@@ -28,9 +28,12 @@
 
 ---
 
+##Review
 
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
-##Movies App
+###Movies App - Quick Fire
+
+####Time: 20min
 
 ---
 
@@ -269,7 +272,7 @@ __shirts/index.html.erb__
 
 ## Homework
 
-Complete and submit the movies app (due lesson 11)
+Complete and submit the Movies app - Movie Model(due lesson 11)
 
 Let's start now.
 
@@ -277,9 +280,7 @@ Let's start now.
 
 
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
-##Movie App
-
-Pair program
+##Movie App - Movie Model
 
 ---
 
@@ -365,7 +366,7 @@ __Delete__
 
 ###Still Feel Lost? 
 
-At the end of this course you should have an understanding of what databases are and the general structure of a database table. In addition you should be familiar with how to create, update and delete records using active record in the Rails console.
+At the end of this course you should have an understanding of what databases are and the general structure of a database table (rows and colums). In addition you should be familiar with how to create, update and delete records using active record in the Rails console.
 
 ####Catch Up With These Resources
 

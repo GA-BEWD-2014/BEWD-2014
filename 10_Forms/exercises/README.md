@@ -5,11 +5,17 @@
 
 Our client RetFlix wants BEWDiful students to develop an app for them. 
 
-They want an application that allows users to add movies, read and write reviews. 
+They want an application that allows visitors to:
 
-We will build a Rails app for RetFlix during lesson 9-12. Each lesson we will add more functionality to the app. 
+*	View all movies in the database. 
+*	Add a new movie to the database.
+*	Edit a movie in the database. 
+*	And search for a specific movie.
+
+We will build a Rails app for RetFlix during lesson 9 & 10. Each lesson we will add more functionality to the app. 
 
 Paring is Sharing, and happy coding :)
+
 
 ##Search Movies 
 ####Time: 15 min
@@ -35,6 +41,7 @@ Paring is Sharing, and happy coding :)
 	*	Rating must be a number between 1 and 5
 *	Set messages to show up if a movie doesn't save
 
+Google is your friend!
 
 __Best Practices__
 

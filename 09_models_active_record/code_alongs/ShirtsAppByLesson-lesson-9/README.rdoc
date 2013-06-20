@@ -1,0 +1,4 @@
+== README
+Shirt Management App
+
+Used for General Assembly's BEWD Class lesson 9 (Models, Migrations and Active Record)
