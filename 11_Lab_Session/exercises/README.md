@@ -26,11 +26,11 @@ Here are a few hints.
 
 ####The URLs Table
 
-|id|link |hash_code|created_at|updated_at|
+|id|link |hash code|created at|updated at|
 |:-|:----|:--------|:---------|:---------|
-|1|http://www.generalassemb.ly|_Ujq4Psg_SE|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
+|1|http://www.generalassemb.ly|Ujq4PsgSE|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
 |2|http://www.google.com|WG7VG9UwGdk|Wed, 19 Jun 2013 21:25:32 UTC +00:00|Wed, 19 Jun 2013 21:25:32 UTC +00:00|
-|1|http://www.bustedtees.com|P4G79ou-8zI|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
+|3|http://www.bustedtees.com|P4G79ou-8zI|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
 
 
 ####The routes.rb file
