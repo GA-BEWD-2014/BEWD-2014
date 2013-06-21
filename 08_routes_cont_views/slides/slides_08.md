@@ -19,7 +19,7 @@ Learning Objective: Understand flow of control in a Rails app.
 ---
 
 
-##Response Request
+##Request Response
 ###Review
 
 ![Request Response Diagram](../../assets/rails/response_request.png)

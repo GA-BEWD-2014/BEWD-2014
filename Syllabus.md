@@ -17,7 +17,7 @@ Lesson 05: Everything Is An Object	Lesson 06: Sharing Behavior With Inheritanc
 *	ShirtApp
 *	MovieApp
 Lesson 10: All About Forms - partials	and validations
-*	ShirtApp*	MovieAPP
+*	ShirtApp*	MovieAPP
 
 ###WEEK 6
 Lesson 11: Review & Project Lab Session
@@ -33,10 +33,13 @@ Lesson 05: Everything Is An Object	Lesson 06: Sharing Behavior With Inheritanc
 Lesson 13: Finding and Coding Associations 
 
 *	Rewsly: [users have many stories, stories belong to users, comment belongs to user and belongs to user, user has many] 
-*	Write models and associations for your app homework version 1.Lesson 14: Starting Your Project
+*	Write models and associations for your app homework version 1.
+
+Lesson 14: Starting Your Project
+
+User stories 
 
 *	Start Standup
-*	Start stand up
 *	Writing user stories.
 
 

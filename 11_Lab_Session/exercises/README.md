@@ -56,7 +56,7 @@ Here are a few hints.
 *	To generate a random number in Ruby ```rand(1000000)```.
 *	__Bonus__ Use SecureRandom.urlsafe_base64(8) to generate a random hash code.
 
-Remember Google is your friend!
+Remember, Google is your friend!
 
 
 
@@ -64,7 +64,7 @@ Remember Google is your friend!
 
 ###App Description
 
-The City times needs an app and has hired BEWDiful students to build it. They want to enter the 21st century and move their print newspaper online. 
+The City Times needs an app and has hired BEWDiful students to build it. They want to enter the 21st century and move their print newspaper online. 
 
 You will build Rewsly during lesson 11 & 12.
 

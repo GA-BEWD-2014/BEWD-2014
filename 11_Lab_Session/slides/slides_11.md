@@ -1,47 +1,54 @@
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-#BEWD - Title
+#BEWD - Review Lab Session
 
 ###Instructor Name
-
 
 ---
 
 
 ##Agenda
 
+*	Review
+*	Lab Time
+	
+---
 
+
+##Review
+###Request-response
+
+![Request Response Diagram](../../assets/rails/response_request.png)
 
 ---
 
 
-##Topic
-###Sub Topic
 
+##Review
+###Routes, Views, Controllers and Forms
 
-
----
-
-
-<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
-##Code Along
-
+Instructors, you know your class best. What do your students need to review?
 
 ---
+
+
 
 
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
-##Exercise
+##Lab Time
+
+####Ritly 
+60 min
+
+####Rewsly 
+45 min
 
 ---
 
 
 ## Homework
 
+Complete Rewsly
 
 ---
-
-
-<div id="resources">
-## Resources: Lesson Title
 

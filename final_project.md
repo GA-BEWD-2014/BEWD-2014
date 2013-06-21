@@ -25,13 +25,12 @@ To pass projects must include:
 
 
 ##MILESTONES
-Week 4 - Project Proposal Due
 
-Week 7 - Version 1
-
-Week 8 - Version 2
-
-Week 10 - Final version
+|Due Date| Deliverable|
+|:-------|:-----------|
+|Week 4|Project Proposal Due|
+|Week 8| Version 1 |
+|Week 10| Final version|
 
 
 ##DELIVERABLES
