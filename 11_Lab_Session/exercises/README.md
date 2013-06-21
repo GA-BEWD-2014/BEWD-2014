@@ -53,7 +53,7 @@ Here are a few hints.
 
 ####Generating a Random Number or Hash
 
-*	To generate a random number in Ruy ```rand(1000000)```.
+*	To generate a random number in Ruby ```rand(1000000)```.
 *	__Bonus__ Use SecureRandom.urlsafe_base64(8) to generate a random hash code.
 
 Remember Google is your friend!
@@ -75,7 +75,7 @@ Here are the features needed by next class.
 For now City times is only interested in linking to other news sources instead of writing their own news. 
 
 *	The front page welcomes visitors "Welcome to Rewsly" and list all titles in the stories table. 
-*	Visitors can view a story's details link, upvotes, and  category by clicking on the title from the front page.
+*	Visitors can view a story's upvotes, category and link to more details by clicking on the title from the front page.
 *	Visitors can search for a specific story by title from the front page.
 *	Visitors can add stories to the database if all fields are present. 
 	*	Prevent visitors from saving a record if it has errors.
@@ -85,8 +85,8 @@ We've supplied you with a [seeds](seeds.rb) file.
 
 __Bonus__
 
-*	Only show stories with 4 or more upvotes on the front page.
-*	Only show only stories created today on the fron page.
+*	Only display stories with 4 or more upvotes on the front page.
+*	Only display stories created today on the front page.
 
 Remember, Google is your friend!
 
