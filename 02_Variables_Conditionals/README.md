@@ -10,9 +10,9 @@ Lesson 2: Variables & Conditional Logic
 Learning Objectives
 --------
 
--	Define computational thinking and translate instructions into basic pseudo code.
--	Define variables and data types.
--	Utilize conditional logic and variables to create a simple Ruby program. 
+*	Define computational thinking and translate instructions into basic pseudo code.
+*	Define variables and data types.
+*	Utilize conditional logic and variables to create a simple Ruby program. 
 
 
 Schedule

@@ -10,10 +10,10 @@ Lesson 8: Routes, Controllers & Views
 LEARNING OBJECTIVES
 --------
 
-- Explain the MVC structure and differentiate between viewS and controllers. 
-- Describe the request reponse cycle and the flow of control in a Rails app.
-- Generate a controller with a view.
-- Identify where to put css and JavaScript files.
+*	Explain the MVC structure and differentiate between viewS and controllers. 
+*	Describe the request reponse cycle and the flow of control in a Rails app.
+*	Generate a controller with a view.
+*	Identify where to put css and JavaScript files.
 
 
 

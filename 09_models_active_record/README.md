@@ -11,8 +11,8 @@ LEARNING OBJECTIVES
 --------
 
 - Describe a models function in the MVC framework. 
-- Define Rails migration and apply rake:db 
-- Implement migrations to 
+- Define Rails migration and apply rake:db.
+- Implement migrations to update database tables.
 - Operate ActiveRecord to save and access model data.
 
 

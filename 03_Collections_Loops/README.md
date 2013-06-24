@@ -9,9 +9,9 @@ Lesson 3: Collections & Iteration
 
 Learning Objectives
 --------
--	Define arrays, hashes and differentiate between the two.
--	Describe iteration in computational thinking and relate to loops.
--	Apply loops to manipulate collections  (arrays and hashes). 
+*	Define arrays, hashes and differentiate between the two.
+*	Describe iteration in computational thinking and relate to loops.
+*	Apply loops to manipulate collections  (arrays and hashes). 
 
 
 

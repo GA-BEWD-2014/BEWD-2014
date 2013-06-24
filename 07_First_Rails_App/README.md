@@ -11,11 +11,11 @@ Lesson 7: My First Rails App
 LEARNING OBJECTIVES
 --------
 
--	Define how DNS servers, web servers and web browsers work together to deliver a Rails app. 
--	Describe HTTP URI structure and Rails request handling cycle.
--	Define framework and explain how Ruby works with Rails. 
--	Create a basic Rails application using scaffolding.
--	Review Rails application file structure. 
+*	Define how DNS servers, web servers and web browsers work together to deliver a Rails app. 
+*	Describe HTTP URI structure and Rails request handling cycle.
+*	Define framework and explain how Ruby works with Rails. 
+*	Create a basic Rails application using scaffolding.
+*	Review Rails application file structure. 
 
 
 SCHEDULE

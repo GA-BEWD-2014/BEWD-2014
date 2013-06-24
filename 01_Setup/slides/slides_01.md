@@ -189,8 +189,7 @@ During this class we will learn command line, Git, Ruby and Rails, in that order
 
 ## Homework
 
--	Create a blog to document your experience
--	Write about your first BEWD class in your blog
+*	Review command line and GitHub
 
 ---
 

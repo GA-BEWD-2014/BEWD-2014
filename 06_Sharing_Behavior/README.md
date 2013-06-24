@@ -10,10 +10,10 @@ Lesson 6: Sharing Behavior
 LEARNING OBJECTIVES
 --------
 
--	Create classes that use inheritance to share behavior.
--	Define modules in Ruby program.
-- 	Define how modules and mixins extend class behavior.
--	Describe how to handle exceptions.
+*	Create classes that use inheritance to share behavior.
+*	Define modules in Ruby program.
+*	Define how modules and mixins extend class behavior.
+
 
 
 

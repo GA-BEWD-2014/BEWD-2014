@@ -57,5 +57,5 @@ Lesson 15: Authentication Part Two - OmniAuth (OAuth w/ Ruby) 2 hours
 *	Start StandupLesson 18: Working With Third Party APIs	
 
 *	New App - Shouter###WEEK 10
-Lesson 19: Project Lab Session	
-$*	Start StandupLesson 20: Final Presentations and Demos	
+Lesson 19: Project Lab Session	
+Lesson 20: Final Presentations and Demos	

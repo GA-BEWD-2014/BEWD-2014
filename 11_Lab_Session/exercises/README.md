@@ -7,7 +7,7 @@ Time to review. You now have all the necessary knowledge to build a small Rails 
 
 We are going to build an app similar to [Bitly](https://bitly.com), called Ritly. The challenge is going to be understanding the flow of control in a Rails app.
  
-View demo [here](http://localhost:3000).
+Instructors demo the app for students.
 
 
 Here is a brief overview of the app. 
@@ -28,9 +28,9 @@ Here are a few hints.
 
 |id|link |hash code|created at|updated at|
 |:---|:----|:--------|:---------|:---------|
-|1|http://www.generalassemb.ly|Ujq4PsgSE|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
-|2|http://www.google.com|WG7VG9UwGdk|Wed, 19 Jun 2013 21:25:32 UTC +00:00|Wed, 19 Jun 2013 21:25:32 UTC +00:00|
-|3|http://www.bustedtees.com|P4G79ou-8zI|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
+|1|http://www.generalassemb.ly|516396|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
+|2|http://www.google.com|234687|Wed, 19 Jun 2013 21:25:32 UTC +00:00|Wed, 19 Jun 2013 21:25:32 UTC +00:00|
+|3|http://www.bustedtees.com|093674|Wed, 19 Jun 2013 21:23:30 UTC +00:00|Wed, 19 Jun 2013 21:23:30 UTC +00:00|
 
 
 ####The routes.rb file
@@ -53,7 +53,7 @@ Here are a few hints.
 
 ####Generating a Random Number or Hash
 
-*	To generate a random number in Ruby ```rand(1000000)```.
+*	To generate a random number in Ruby ```rand(10000)```.
 *	__Bonus__ Use SecureRandom.urlsafe_base64(8) to generate a random hash code.
 
 Remember, Google is your friend!
@@ -76,10 +76,10 @@ For now City times is only interested in linking to other news sources instead o
 
 *	The front page welcomes visitors "Welcome to Rewsly" and list all titles in the stories table. 
 *	Visitors can view a story's upvotes, category and link to more details by clicking on the title from the front page.
-*	Visitors can search for a specific story by title from the front page.
+*	Visitors can search for a specific story by title and category from the front page.
 *	Visitors can add stories to the database if all fields are present. 
 	*	Prevent visitors from saving a record if it has errors.
-
+	
 
 We've supplied you with a [seeds](seeds.rb) file.
 

@@ -12,14 +12,14 @@ LEARNING OBJECTIVES
 
 This lesson was created to intro students to working like a developer.
 
--	Set course expectations
--	Complete necessary installations
--	Recognize the difference between a web site and a web application.
--	Utilize the shell commands to create and change directories.
--	Describe fundamental web development roles. 
--	Configure Ruby development environment.
--	Define Git and articulate the benefits of using it.
--	Configure Git on computer and push/pull from a repository
+*	Set course expectations
+*	Complete necessary installations
+*	Recognize the difference between a web site and a web application.
+*	Utilize the shell commands to create and change directories.
+*	Describe fundamental web development roles. 
+*	Configure Ruby development environment.
+*	Define Git and articulate the benefits of using it.
+*	Configure Git on computer and push/pull from a repository
 
 
 
@@ -37,7 +37,7 @@ SCHEDULE
 
 HOMEWORK
 --------
--	Write about your first BEWD class in your blog. 
+Review command line and Github
 
 
 
