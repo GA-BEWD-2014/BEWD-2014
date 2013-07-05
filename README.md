@@ -41,10 +41,10 @@ RUBY ON RAILS
 8.	[Routes Views Controllers](08_routes_cont_views)
 9.	[Models & Active Record ](09_models_active_record)
 10.	[Forms](10_Forms)
-11.	[ ]( )
-12.	[ ]( )
-13.	[ ]( )
-14.	[ ]( )
+11.	[Lab Session](11_Lab_Session)
+12.	[Authentication](12_Authentication)
+13.	[Associations](13_Associations)
+14.	[Getting Started](14_Starting)
 15.	[ ]( )
 16.	[ ]( )
 17. [ ]( )
@@ -76,7 +76,7 @@ SLIDES
 We are using reveal.js with markdown 
 See [here](https://github.com/hakimel/reveal.js) for further documentation.
 
-You can choose another presentation tool i.e Keydown is another alernative.
+You can choose another presentation tool (i.e Keydown is another alernative).
 
 	
 PREPARING FOR CLASS
@@ -84,13 +84,12 @@ PREPARING FOR CLASS
 
 ![](assets/Github_Instructor_WorkFlow.png)
 
-1.	Review exercises, code alongs and homework.
-2.	Read the slide deck. If using the slide deck __customize the deck before sharing with the class.__
-3.	Decide how you will bring your expertise to the classroom.
-4.	If not using the GA suggested in class labs, look through additional exercises folder and choose one. Still not satisfied, create your own and make sure it hits the same topics and learning objectives.
-5.	Post your personalized materials to your course repo.
-6.	Made an excellent change? Fork branch, create a pull request. We love suggested updates!
-	
+1.	__Customize the deck before sharing with the class.__
+2.	Decide how you will bring your expertise to the classroom.
+3.	Review exercises, code alongs and homework.
+4.	If not using the GA suggested in class labs, look through additional exercises folder and choose one. Still not satisfied, create your own and make sure it hits the same topics and learning objectives for that lesson.
+5.	Post your personalized materials to the BEWDiful_Student repo.
+6.	Made an excellent change? Make note and lets us know during one of your checkins'.	
 
 	
 GRADING
@@ -102,8 +101,20 @@ In order to pass this course General Assembly students must:
 	
 
 *	Complete and submit the course project (which may include a presentation), earning 	proficiency. 
-	*	Course projects will be assessed based on the course project rubric, which all students will receive early in the course. 
+	*	Share project requirements early in the course. 
 	
+
+CHECK'NS
+--------
+
+You will meet with your instructional designer (ID) 4 times. This is to answer any questions you may have and help you with lesson planning.
+
+|Week|Checkin|Comments|
+|---|---|---|
+| -5 | Lesson Planning Overview| 5 weeks before you begin your course, you will meet with your ID for the first time. We will go over a lesson you have prepared and discuss how you can make the curriculum your own.|
+| 2 | Q & A| 2 weeks into the course you probably have questions. This check'in is to answer those questions.|
+| 7 | Final Project Grading | Students should be working on their final project, and you may have some questions about grading. We will discuss grading here.|
+| 11 | Exit |Debrief about the course and your experience.|
 
 QUESTIONS
 ---------
