@@ -1,0 +1,6 @@
+== README
+Movie App
+
+Used for General Assembly's BEWD Class
+
+Add consumer keys and secret to make the app run.
