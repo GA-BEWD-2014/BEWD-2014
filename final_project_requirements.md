@@ -38,7 +38,7 @@ To pass projects must include:
 |Due Date| Deliverable|
 |:-------|:-----------|
 |Week 4|Project Proposal Due|
-|Week 8| Models and Associations List|
+|Week 8| User Stories, Models and Associations List|
 |Week 10| Final version|
 
 
