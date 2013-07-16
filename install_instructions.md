@@ -14,27 +14,27 @@ application. It can be found in Applications/Utilities.
 1.	__Make sure you have an apple ID__ (you should already have one). 
 
 2. __Install Command Line Tools__
-  * https://developer.apple.com/downloads/index.action
-  * Search for "Command Line Tools" and select the version appropriate
-    for your operating system.
-  * Install the command line tools from the downloaded file.
+	*	[https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
+	* Search for "Command Line Tools" and select the version appropriate for your operating system.
+	* Install the command line tools from the downloaded file.
 
 3. __Install Homebrew__
-  * ```ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"```
-  * The install page if you have trouble: http://mxcl.github.io/homebrew/
 
-5.	__Install git__
+	* ```ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"```
+	* The install page if you have trouble: [http://mxcl.github.io/homebrew/](http://mxcl.github.io/homebrew/)
+4.	__Install git__
 	*	```brew update```
 	*	```brew install git```
 
 6.	__Configure git with your Name and Email__
-  * https://help.github.com/articles/setting-your-email-in-git
-  * https://help.github.com/articles/setting-your-username-in-git
+  	* [https://help.github.com/articles/setting-your-email-in-git](https://help.github.com/articles/setting-your-email-in-git)
+  	* [https://help.github.com/articles/setting-your-username-in-git](ttps://help.github.com/articles/setting-your-username-in-git)
 
 7.	__Install RVM with Ruby 2.0.0__
-  * ```\curl -L https://get.rvm.io | bash -s stable --ruby```
-  * ```rvm use 2.0.0 --default```
-	*	Make sure the latest versions of RVM and Ruby were installed, run the commands below:
+  	* ```\curl -L https://get.rvm.io | bash -s stable --ruby```
+  	* ```rvm use 2.0.0 --default```
+8.	__Make sure the latest versions of RVM and Ruby were installed__
+	*	run the commands below:
 		*	For RVM
 			*	```rvm -v```
 				
@@ -65,6 +65,7 @@ application.
 4. __Install RVM__
   * ```\curl -L https://get.rvm.io | bash -s stable --ruby```
   * The backslash in font of "curl" is not a typo.
+  *	Close and reopen terminal
   * ```rvm use 2.0.0 --default```
 	*	Make sure the latest versions of RVM and Ruby were installed, run the commands below:
 		*	For RVM

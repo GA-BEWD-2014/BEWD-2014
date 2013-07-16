@@ -1,0 +1,3 @@
+* Remove recoverable form devise in order to avoid having to set up a mailer 
+* Run `bundle install --without production` to avoid having to install the pg gem
+* Run `heroku run rake db:migrate` after it's on heroku to run all of your migrations
