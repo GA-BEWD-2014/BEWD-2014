@@ -45,12 +45,12 @@ RUBY ON RAILS
 12.	[Authentication](12_Authentication)
 13.	[Associations](13_Associations)
 14.	[Getting Started](14_Starting)
-15.	[ ]( )
-16.	[ ]( )
-17. [ ]( )
-18.	[ ]( )
-19.	[ ]( )
-20. Project Presentations
+15.	[OAuth](15_OAuth)
+16.	[Finishing Touches](16_Finishing_Touches)
+17. 	[Gems](17_Gems)
+18.	[Third Party APIs](18_Third_Party_API)
+19.	[Project Lab Session](19_Project_Lab_Session)
+20. 	Project Presentations
 
 
 
