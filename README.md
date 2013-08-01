@@ -1,4 +1,4 @@
-Back-End Web Development
+Back-End Web Development 1.0.1
 ============================
 
 ![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
