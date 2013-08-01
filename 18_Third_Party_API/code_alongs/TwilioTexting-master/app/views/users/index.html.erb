@@ -1,0 +1,17 @@
+<section>
+  <% @users.each do |user| %>
+    <article>
+      <%= form_tag user_messages_path(user), method: :post do %>
+        <header>
+        <p><%= user.name %></p>
+        </header>
+        <div>
+        <%= text_area_tag :body, "", placeholder: "Enter a message for #{user.name}" %></li>
+        </div>
+        <%= submit_tag "Send message" %>
+      <% end %>
+    </article>
+  <% end %>
+</section>
+
+<p><%= link_to "Add a new contact", new_user_path %></p>

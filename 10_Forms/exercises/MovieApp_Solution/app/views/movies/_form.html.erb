@@ -1,0 +1,28 @@
+<% if @movie.errors.any? %>
+  <h2>There were errors saving your shirt</h2>
+  <ul>
+    <% @movie.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= form_for @movie do |f| %>
+  <div>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  </div>
+  <div>
+  <%= f.label :description %>
+  <%= f.text_area :description %>
+  </div>
+  <div>
+  <%= f.label :year_released %>
+  <%= f.number_field :year_released, min: 1886, max: Date.today.year %>
+  </div>
+  <div>
+  <%= f.label :rating %>
+  <%= f.number_field :rating, min: 1, max: 5 %>
+  </div>
+  <%= f.submit %>
+<% end %>
