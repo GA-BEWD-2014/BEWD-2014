@@ -1,4 +1,0 @@
-== README
-Shirt Management App
-
-Used for General Assembly's BEWD Class

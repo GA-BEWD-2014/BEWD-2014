@@ -1,6 +1,0 @@
-In order to get Twilio working, be sure to set the following environment variables
-TWILIO_SID, TWILIO_TOKEN, and SOURCE_PHONE_NUMBER
-
-export TWILIO_SID=your_sid_here
-export TWILIO_TOKEN=your_token_here
-export SOURCE_PHONE_NUMBER=your_twilio_number_here
