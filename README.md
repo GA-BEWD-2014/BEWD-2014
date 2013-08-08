@@ -15,7 +15,7 @@ TERMINOLOGY
 |Course|Refers to all 20 classes which make up the BEWD curriculum|
 |Lesson |One 3 hour session of the course. |
 |In Class Lab (ICL)|Exercise files that are to be used in class as examples and practice.|
-|Code Along| Are meant to be code by the instructor to demonstrate a concept. Type slowly and explain the concepts while students follow along.|
+|Code Demo|In class lab coded by the instructor to demonstrate a concept. Type slowly and explain the concepts while students follow along with code and type notes. Every code demo has a matching instructor file for you.|
 |Exercise |ICLs to be completed without instructor guidance.|
 |Quick Fire| A programming challenge students must complete in class. aprox 30 min - 1 hour|
 |Quiz|3-5 questions based on the material from the previous class.|
