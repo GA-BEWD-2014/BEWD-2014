@@ -1,4 +1,3 @@
-
 BACK-END WEB DEVELOPMENT
 ============================
 
@@ -24,7 +23,7 @@ __NOTE:__ This lesson is meant to be on the light side. We want to give instruct
 
 
 | Time        | Topic| GA ICLS| Comments |
-|:-------------|:-------------------|:-------------------|
+|:-------------|:---------|:----------|:-------------------|
 | 60 min | Inheritance | [coa_instr_inheritance.rb](code_alongs/coa_instr_inheritance.rb) | Students should have a basic understanding of what inheritance is. | 
 | 30 min | Modules Mixins | none | Mixins will be seen in Rails and can be further explained. There are exercise in the [additional_exercises](additional_exercises/) folder if you wish to provide more detail. |
 | 120 min | Lab Time | secret number <br> midterm  | This is time for students to review and practice basic ruby programming.|
