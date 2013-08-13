@@ -4,13 +4,13 @@ BACK-END WEB DEVELOPMENT
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
-Lesson 7: My First Rails App
-========
+##Lesson 7: My First Rails App
+
 
 *	During the Rails portion of the class we will share exercise instructions in markdown files and solutions will be full Rails apps.
 
-LEARNING OBJECTIVES
---------
+###Learning Objectives
+
 
 *	Define how DNS servers, web servers and web browsers work together to deliver a Rails app. 
 *	Describe HTTP URI structure and Rails request handling cycle.
@@ -19,8 +19,7 @@ LEARNING OBJECTIVES
 *	Review Rails application file structure. 
 
 
-SCHEDULE
---------
+###Schedule
 
 
 | Time        | Topic| GA ICLS| Comments |
@@ -32,13 +31,12 @@ SCHEDULE
 | 60 min | Lab Time | User_Scaffold |  |
 
 
-HOMEWORK
---------
--	[Final project proposal](homework/README.md) due lesson 9.
+###Homework
+
+-	[Final project proposal](homework/README.md) due lesson 
 
 
-What's Due?
---------
+### What's Due?
 
 Next lesson Ruby midterm due.
 
