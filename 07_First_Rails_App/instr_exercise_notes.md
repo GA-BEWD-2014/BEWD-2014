@@ -1,10 +1,10 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 
-##Instructor Notes - Exercises
+#Instructor Notes - Exercises
 
 Remember to share the [starter_code](starter_code/) at the beginning of class. Share completed code_demo files before lab time so students have an example to reference. 
 
-###[Draw The Internet](starter_code/ex_draw_internet.md)
+##[Draw The Internet](starter_code/ex_draw_internet.md)
 
 ####Time: 20 min
 
@@ -21,7 +21,7 @@ Remember to share the [starter_code](starter_code/) at the beginning of class. S
 *	Understanding how the Internet works at a basic level will help students understand the flow of control in their app and better understand routes (routes covered next lesson). 
 
 
-###[Scaffold Users](starter_code/ex_users.md)
+##[Scaffold Users](starter_code/ex_users.md)
 
 ####Time: 30 min
 
