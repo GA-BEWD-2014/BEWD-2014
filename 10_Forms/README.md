@@ -27,12 +27,11 @@ BACK-END WEB DEVELOPMENT
 
 
 ###Homework
---------
 
 *	Movie App due next lesson
 
 
 ###What's Due?
---------
+
 Nothing
 
