@@ -15,9 +15,7 @@ They want an application that allows visitors to:
 *	Edit a movie in the database. 
 *	And search for a specific movie.
 
-We will build a Rails app for RetFlix during lesson 9 & 10. Each lesson we will add more functionality to the app. 
-
-Paring is Sharing, and happy coding :)
+We will build a Rails app for RetFlix during lesson 9 & 10. Each lesson students will add more functionality to the app. 
 
 
 ##[Search Movies](starter_code/movie_app_part2.md) 
@@ -32,12 +30,12 @@ Paring is Sharing, and happy coding :)
 
 ####Instructional Design Notes
 
-*	Student use the Shirts Managements app as a reference to add search functionality in the movies app. Make sure all students have a functioning version of shirts app, so they are able to complete this exercise.
+*	Students use the Shirts Management app as a reference to add search functionality in the movies app. Make sure all students have a functioning version of shirts app, so they are able to complete this exercise.
 
 
 ##[Create & Edit Movie Forms](starter_code/movie_app_part2.md) (Lab Time)
 
-####Time: Due Lesson 11
+####Time: Remaining time, due lesson 11
 
 | | |
 |------------- |:-------------|
@@ -50,7 +48,7 @@ Paring is Sharing, and happy coding :)
 
 *	Review requirements with students before they begin. You may need to coach students on how to start.
 *	Students aren't expected to completed this exercise in class. It should be turned in as homework lesson 11. 
-*	Ideally we would like students to move all complex data queries to the model, however most will struggle with queries. 
+*	Ideally we would like students to move all complex data queries to the model, however most will struggle with queries. The instructional team should walk the floor and use this time to help those that are struggling.
 
 
 
