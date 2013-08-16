@@ -5,7 +5,7 @@ BACK-END WEB DEVELOPMENT
 ![GeneralAssemb.ly](../assets/ICL_icons/instr_agenda.png)
 
 ##Lesson 5 - Classes & Objects
-========
+
 
 ###Learning Objectives
 

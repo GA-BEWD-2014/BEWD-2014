@@ -6,7 +6,7 @@ BACK-END WEB DEVELOPMENT
 
 
 ##Lesson 6 - SHARING BEHAVIOR
-=======
+
 
 ###Learning Objectives
 

@@ -1,6 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
-
-#Instructor Notes - Code Demo
+![Code Demo Notes](../assets/ICL_icons/instr_code_demo.png)
 
 __NOTE__: Lesson 7 code demos have no answer keys. Lesson 8-20 will have full rails app solutions.
 

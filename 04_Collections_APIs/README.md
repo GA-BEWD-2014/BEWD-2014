@@ -6,7 +6,6 @@ BACK-END WEB DEVELOPMENT
 
 
 ##Lesson 4 - Working With Collections & APIs
-========
 
 
 ###Learning Objectives

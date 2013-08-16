@@ -1,6 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
-
-#Instructor Notes - Exercises
+![Exercise - Instructor](../assets/ICL_icons/instr_lab.png)
 
 Remember to share the [starter_code](starter_code/) at the beginning of class. Share completed code_demo files before lab time so students have an example to reference. 
 

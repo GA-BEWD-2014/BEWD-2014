@@ -1,6 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
-
-#Instructor Notes - Exercises
+![Exercise - Instructor](../assets/ICL_icons/instr_lab.png)
 
 ##[Netflix Associations](starter_code/netflix_associations.md)
 ####Time: 20 min

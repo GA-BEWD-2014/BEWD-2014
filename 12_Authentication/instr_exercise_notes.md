@@ -1,6 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
-
-#Instructor Notes - Exercises
+![Exercise - Instructor](../assets/ICL_icons/instr_lab.png)
 
 #Ritly
 

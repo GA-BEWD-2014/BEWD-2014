@@ -1,6 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
-
-#Instructor Notes - Code Demo
+![Code Demo Notes](../assets/ICL_icons/instr_code_demo.png)
 
 # Movie App
 #### App Description

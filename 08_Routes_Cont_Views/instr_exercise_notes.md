@@ -1,7 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
-
-
-#Instructor Notes - Exercises
+![Exercise - Instructor](../assets/ICL_icons/instr_lab.png)
 
 ##[Rock Paper Scissors](starter_code/rock_paper_scissors.md)
 

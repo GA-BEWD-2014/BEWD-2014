@@ -5,7 +5,7 @@ BACK-END WEB DEVELOPMENT
 
 
 ##Lesson 1 - DEVELOPER WORKFLOW
-========
+
 
 ###Learning Objectives
 

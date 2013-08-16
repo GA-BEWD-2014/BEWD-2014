@@ -1,6 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
-
-#Instructor Notes - Exercises
+![Exercise - Instructor](../assets/ICL_icons/instr_lab.png)
 
 This lesson is a lab session where students will spend the whole class building. Students will need the solution files as a reference to complete the two labs for this lesson. Make all code demo and exercise rails app solutions available for students.
 

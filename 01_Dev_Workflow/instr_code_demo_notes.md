@@ -1,7 +1,4 @@
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
-
-#Instructor CODE DEMO NOTES
-
+![Code Demo](../assets/ICL_icons/instr_code_demo.png)
 
 ## Git Basics
 
