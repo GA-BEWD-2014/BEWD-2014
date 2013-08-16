@@ -1,5 +1,7 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 
+#Instructor Notes - Exercises
+
 #Ritly
 
 ##[Ritly Authentication](starter_code/)

@@ -1,0 +1,17 @@
+<h1>Add a classified</h1>
+<%= form_for @classified do |f| %>
+  <fieldset>
+    <%= label_tag :category %>
+    <%= text_field_tag :category, "",  data: {provide: "typeahead", source: @categories}, required: true, autocomplete: "off"%>
+    <%= f.label :title %>
+    <%= f.text_field :title, required: true%>
+    <%= f.label :description %>
+    <%= f.text_area :description, required: true%>
+    <%= f.label :price %>
+    <span class="add-on">$</span>
+    <%= f.number_field :price, :size => 5, :value => 0, :step => 1, :min => 0 %>
+    <span class="add-on">.00</span>
+  </fieldset>
+  <%= f.submit class: "btn btn-success btn-large" %>
+  <%= link_to "Back", :back,  class: "btn btn-danger btn-large" %>
+<% end %>

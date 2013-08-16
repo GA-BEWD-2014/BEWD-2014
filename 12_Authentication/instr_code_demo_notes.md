@@ -1,5 +1,6 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
 
+#Instructor Notes - Code Demo
 
 #Rewsly
 ###App Description

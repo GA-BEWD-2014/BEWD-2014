@@ -4,12 +4,12 @@ BACK-END WEB DEVELOPMENT
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
-LESSON 12: Authentication (part 1)
-========
+##Lesson 12: Authentication (part 1)
 
 
-LEARNING OBJECTIVES
---------
+
+###Learning Objectives
+
 
 *	Differentiate between sessions and cookies.
 *	Practice storing identities and user data.
@@ -18,8 +18,7 @@ LEARNING OBJECTIVES
 *	Define user stories and how to use them to plan and build a Rails app.
 
 
-SCHEDULE
---------
+###Schedule
 
 | Time        | Topic| GA ICLS| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
@@ -29,8 +28,8 @@ SCHEDULE
 | 60 min | Lab Time | [Ritly](instr_exercise_notes.md) | Students add authentication and limit access to unauthorized users.|
 
 
-HOMEWORK
---------
+###Homework
+
 
 What's in your database?
 
@@ -41,7 +40,7 @@ We want students to start thinking about their models and inadvertently associat
 (i.e. In my Rewsly app I want to store my users name, and email address. I also want to keep track of how many stories they created).
 
 
-What's Due? 
------------
+###What's Due? 
+
 Nothing
 
