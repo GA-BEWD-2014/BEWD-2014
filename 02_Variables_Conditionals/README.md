@@ -7,7 +7,6 @@ BACK-END WEB DEVELOPMENT
 
 ##Lesson 2 - Variables & Conditional Logic 
 
-
 ###Learning Objectives
 
 
