@@ -1,7 +1,7 @@
 BACK-END WEB DEVELOPMENT
 ============================
 
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![GeneralAssemb.ly](../assets/ICL_icons/instr_agenda.png)
 
 
 ##Lesson 16: Finishing Touches
