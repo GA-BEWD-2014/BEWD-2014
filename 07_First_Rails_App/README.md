@@ -1,9 +1,5 @@
-BACK-END WEB DEVELOPMENT
-============================
-
 
 ![GeneralAssemb.ly](../assets/ICL_icons/instr_agenda.png)
-
 
 
 ##Lesson 7: My First Rails App

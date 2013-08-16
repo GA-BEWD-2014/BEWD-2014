@@ -1,12 +1,6 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-
 ![GeneralAssemb.ly](../assets/ICL_icons/instr_agenda.png)
 
-
 ##Lesson 4 - Working With Collections & APIs
-
 
 ###Learning Objectives
 
