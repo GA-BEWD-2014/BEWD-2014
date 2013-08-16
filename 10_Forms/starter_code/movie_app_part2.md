@@ -32,13 +32,17 @@ Paring is Sharing, and happy coding :)
 ###Task Instructions
 
 *	Update routes file to use :resources
+
 *	Add a link to show just the movie that was clicked
+
 *	Build form for adding a new movie
+
 *	Add validations to the Movie model
 	*	All titles and descriptions must be present
 	*	Descriptions must be greater than 10 characters
 	*	Year released must be a number greater than 0
 	*	Rating must be a number between 1 and 5
+
 *	Set messages to show up if a movie doesn't save
 
 Google is your friend!
