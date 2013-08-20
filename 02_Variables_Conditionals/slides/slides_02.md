@@ -34,20 +34,32 @@
 
 ---
 
-##Ruby & Rails
-###Ruby
+##Ruby
+###A programming language
 
 *	An open source programming language
-*	Created by Yukihiro Matsumoto (aka Matz)
-*	Natural to read and easy to write
+*	Easy to read and natural to write
+*	Created by Yukihiro Matsumoto (aka Matz) with the goal of building a language FOR developers
+*	Regularly maintained and evolved (recently reached version 2.0.0)
 
-###Ruby on Rails
+<div style="text-align:center;">
+  <img src="../../assets/ruby/ruby_img.png" />
+</div>
 
-*	Open source web application framework that runs on Ruby
+---
+
+##Rails
+###A web application framework
+
+*	Open source web application framework that is built in Ruby
 *	Allows you to create web applications that query a database.
+*	Created by DHH (David Heinemer Hansson) to simplify the task of building web applications, with the help of _conventions_
 
+<div style="text-align:center;">
+  <img src="../../assets/rails/dhh.jpg" style="margin-right:20px;"/>
+  <img src="../../assets/rails/rails.png" />
+</div>
 
-![Ruby Images ](../../assets/ruby/ruby_img.png )
 
 ---
 
@@ -56,22 +68,8 @@
 ###Ruby first.
 
 *	It will be easier to navigate a Rails project once we have a basic understanding of Ruby.
-
-![ Karate Kid](../../assets/ruby/karate_kid.jpg)
-
----
-
-
-##Ruby & Rails
-###Ruby Keywords
-
-*	The vocabulary you will need to "_speak_" Ruby: 
-
-ENCODING break case ensure false or redo undef unless FILE LINE class 
-def loop for if rescue retry until when BEGIN END alias and begin
-defined? do else elsif end in module next nil not return self super then true while yield
-
-###That's It!
+*	We will first teach you how to write simple Ruby scripts as stand-alone applications
+*	Once we have become familiarized with Ruby, we will start building Rails applications (which are essentially groups of Ruby script files that work together)
 
 ---
 
@@ -117,27 +115,82 @@ defined? do else elsif end in module next nil not return self super then true wh
 
 
 ##Programming Fundamentals
+* In order to start writing our own Ruby programs, we need to learn some of the basic fundamental tools
+* Specifically, we need to learn:
+	* Variables
+	* Methods
+	* Conditions
+* We will first learn the basics on their own, and then try to apply our skills in a simple interactive Ruby script
+
+---
+
+
+##Saving Values
+### Using Variables
+
+* We can tell our program to remember values for us to use later on
+* The action of saving a value to memory is called **assignment**
+* The entity we use to store the value is called a **variable**
+* The action of getting the value from a variable is called **accessing** the variable
+* We will use all the above techniques to store values into variables, and generate new values using existing variables
 
 ---
 
 
 ##Variables
-###Store Values
+###Storing Values
 
-		name = "Steven"
-		=> name # "Steven"
-		age = 2013 - 1983
-		=> age # 30
+	>> name = "Steven"
+	 => "Steven"
+	>> age = 2013 - 1983
+	 => age # 30
 ---
-
 
 ##Data Types
 
-		1.class 					#Fixnum
-		1.99.class					#Float
-		'Hi! String here!'.class 	#String
-		"I'm a string tool".class	#String
+* The types of different values we support include numbers, text, and other more complex ones we'll see in the future
+* Ruby has its own names for these:
 
+		1						#Fixnum
+		1.99					#Float
+		'Hi! String here!' 		#String
+		"I'm a string tool"		#String
+
+---
+
+
+![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+##Variables
+
+Let's learn how to assign and access simple integer and string variables
+
+---
+
+##Saving Code
+###Using Methods
+
+* The same way we can store VALUES in memory by using variables…
+* We can store CODE in memory by using methods.
+* In other words, we can train the program to 'remember' a set of commands, and give that set of tasks a command name
+* Then, we can call that command by name and the program will perform those tasks
+
+---
+
+
+![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+##Methods
+
+Let's learn how to call simple methods, and how to declare our own methods.
+
+---
+
+##Methods
+###Recap
+
+* Methods let us train the program to 'remember' a set of code to perform later
+* Making a new method is called **declaring** a method
+* Declaring a method does NOT run the method immediately
+* If the method takes in variables to use while it is doing its tasks, those are called **parameters**
 
 ---
 
@@ -150,16 +203,6 @@ Teddit is a news aggregator we will build during this course.
 ---
 
 
-##Variables
-### Getting Info From Users
-
-		puts "Can you help me with these groceries?"
-		response = gets
-		=> program waits for you to type your response
-		
----
-
-
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 ##Teddit Strings
 
@@ -169,10 +212,12 @@ If you're stuck on syntax write down the steps in English. Focus on thinking lik
 ---
 
 
-##Data Types
+##More Data Types
 ###Booleans 
 
-It's either TRUE or FALSE
+* Besides strings and integers, Ruby also has a Boolean data type
+* A boolean is a simple value that is either ```true``` or ```false```
+* When different data types are compared to each other, the result of that comparison is a boolean result (e.g. 5 < 7 => true)
 
 ---
 
@@ -198,42 +243,16 @@ It's either TRUE or FALSE
 Data Types
 
 *	Number
-*	Float
+*	Float (number with decimals)
 *	String
 *	Booleans
 
 Variables
 
-*	Store values 
-*	Values can change
-*	Can be passed to methods.
-
+*	Store values
+*	Can be passed to methods as parameters
 
 ---
-
-
-![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
-##Methods
-
----
-
-
-##Methods
-###Keep your code DRY
-
-* 	Groups program logic together so you don't have to repeat yourself. 
-* 	Can pass variables to methods
-
-		
-		def say_hello_to(name)
-			puts "Hi #{name}"
-		end
-		
-		say_hello_to "John" 
-		
-	>	outputs: Hi John
-
-----
 
 ##Conditional Logic
 ###Decision Time 
