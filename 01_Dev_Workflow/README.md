@@ -22,7 +22,7 @@ This lesson was created to intro students to working like a developer.
 | ------------- |:-------------|:-------------------|:-------------------|
 | 60 min | Intros | | This time is allocated to intros and communication about course expectations. |
 | 45 min | Command Line| code demo - [command line basics](instr_code_demo_notes.md)<br> ex - [command_line_basics_exercise](instr_exercise_notes.md)||
-| 60 min | Using GitHub | code demo - [git basics instr](instr_code_demo_notes.md)<br>code demo - [git in class instr](instr_code_demo_notes.md) <br> ex [git_it_together](instr_exercise_notes.md)|This is specific to using GitHub for this course.|
+| 60 min | Using GitHub | code demo - [git basics](instr_code_demo_notes.md)<br>code demo - [git in class](instr_code_demo_notes.md) <br> ex [git_it_together](instr_exercise_notes.md)|This is specific to using GitHub for this course.|
 
 
 ###Homework
