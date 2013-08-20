@@ -19,10 +19,10 @@
 | Time        | Topic| Materials| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
 | 20 min | Review| lesson 2 material|Review student questions before moving on to new content.| 
-| 25 min | Iteration | [ex_loop.rb](exercises/ex_loop.rb)|No code along here. Students will use what is on the slides and ruby docs to complete the iteration exercise.|
-| 50 min | Arrays|[coa_instr_array.rb](code_alongs/coa_instr_array.rb) <br> [ex_arrays.rb](exercises/ex_arrays.rb)| |
-| 25 min | Hases | [coa_instr_collections_management.rb](code_alongs/coa_instr_collection_management.rb)| Focus is on understanding the logic behind hashes. Less on syntax|
-| 60 min | Lab Time|[ex_teddit_hashes.rb](exercises/ex_teddit_hashes.rb) | Includes working with arrays and hashes. |
+| 25 min | Iteration | ex - [loop.rb](instr_exercise_notes.md)|No code along here. Students will use what is on the slides and ruby docs to complete the iteration exercise.|
+| 50 min | Arrays|code demo - [instr_array.rb](instr_code_demos/instr_array.rb) <br> ex -[arrays.rb](instr_exercise_notes.md)| |
+| 25 min | Hases | code demo - [instr_collections_management.rb](instr_code_demos/instr_collection_management.rb)| Focus is on understanding the logic behind hashes. Less on syntax|
+| 60 min | Lab Time|ex - [teddit_hashes.rb](instr_exercise_notes.md) | Includes working with arrays and hashes. |
 
 
 

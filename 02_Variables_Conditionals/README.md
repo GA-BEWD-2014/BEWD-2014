@@ -17,11 +17,10 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 20 min | irb / pry | [coa_instr_irb.rb](code_alongs/coa_instr_irb.rb) | | 
-| 45 min | Variables & Methods | [coa_instr_teddit_strings](code_alongs/coa_instr_teddit_strings.rb)<br>[coa_instr_boolean](code_alongs/coa_instr_boolean.rb) | |
+| 20 min | irb / pry | code demo - [instr_irb.rb](instr_code_demos/instr_code_demo_irb.rb) | | 
+| 45 min | Variables & Methods | code demo - [instr_teddit_strings.rb](instr_code_demos/instr_teddit_strings.rb)<br> code demo - ß[instr_boolean](instr_code_demos/instr_code_demo_boolean.rb) | |
 | 20 min | Conditionals |  | There is no code along for this topic. We will start to pull back so that students can test their knowledge of programming based on your explanation and slides. |
-| 65 min | Lab Time | [ex_strings_teddit](exercises/ex_strings_teddit.rb)<br>[ex_conditional](exercises/ex_conditional_teddit.rb) | |
-
+| 65 min | Lab Time | ex - [strings teddit](instr_exercise_notes)<br> ex - [conditional](instr_exercise_notes) | |
 
 
 ###Homework

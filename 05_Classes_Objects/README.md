@@ -14,8 +14,8 @@
 
 | Time        | Topic| GA ICLS| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 90 min | Objects & Classes | [coa_instr_creating_objetcs.rb](code_alongs/coa_instr_creating_objetcs.rb)<br> [coa_instr_apartment.rb](code_alongs/coa_instr_apartment.rb)| | 
-| 70 min | Lab Time | [ex_apartment_objects](exercises/ex_apartment_objects)<br>[ex_secret_number_objects](exercises/ex_secret_number_objects) | We were ambitious this lab time. At minimum complete and review answers to Apartment objects and start Secret Number. There will be additional lab time for students to complete Secret Number next lesson. Alternatively you can assign for homework, due next class.|
+| 90 min | Objects & Classes | code demo - [instr_creating_objetcs.rb](instr_code_demos/instr_creating_objetcs.rb)<br> code demo - [instr_apartment.rb](instr_code_demos/instr_apartment.rb)| | 
+| 70 min | Lab Time | ex - [apartment_objects](instr_exercise_notes.md)<br> ex - [secret_number_objects](inst_exercise_notes.md)| We were ambitious this lab time. At minimum complete and review answers to Apartment objects and start Secret Number. There will be additional lab time for students to complete Secret Number next lesson. Alternatively you can assign for homework, due next class.|
 
 
 

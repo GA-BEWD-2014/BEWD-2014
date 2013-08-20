@@ -2,7 +2,7 @@
 ![GeneralAssemb.ly](../assets/ICL_icons/instr_agenda.png)
 
 
-##Lesson 6 - SHARING BEHAVIOR
+##Lesson 6 - Sharing Behavior
 
 
 ###Learning Objectives
@@ -22,10 +22,9 @@ __NOTE:__ This lesson is meant to be on the light side. We want to give instruct
 
 | Time        | Topic| GA ICLS| Comments |
 |:-------------|:---------|:----------|:-------------------|
-| 60 min | Inheritance | [coa_instr_inheritance.rb](code_alongs/coa_instr_inheritance.rb) | Students should have a basic understanding of what inheritance is. | 
-| 30 min | Modules Mixins | none | Mixins will be seen in Rails and can be further explained. There are exercise in the [additional_exercises](additional_exercises/) folder if you wish to provide more detail. |
-| 120 min | Lab Time | secret number <br> midterm  | This is time for students to review and practice basic ruby programming.|
-
+| 60 min | Inheritance | code demo - [instr_inheritance.rb](instr_code_demo_notes.rb) | Students should have a basic understanding of what inheritance is. | 
+| 30 min | Modules Mixins | none | Mixins will be seen in Rails and can be further explained.|
+| 120 min | Lab Time | [secret number](Homework/Ruby/Secret_Number/secret_number.rb) <br> [midterm](Homework/Ruby/midterm.md)  | This is time for students to review and practice basic ruby programming.|
 
 
 
