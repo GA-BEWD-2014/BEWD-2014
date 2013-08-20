@@ -1,4 +1,3 @@
-
 ![GeneralAssemb.ly](../assets/ICL_icons/instr_agenda.png)
 
 
@@ -22,8 +21,8 @@ This lesson was created to intro students to working like a developer.
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
 | 60 min | Intros | | This time is allocated to intros and communication about course expectations. |
-| 45 min | Command Line| [coa_command_line_basics_instr](coa_command_line_basics_instr)<br> [ex_command_line_basics_exercise](ex_instructor_notes.md)||
-| 60 min | Using GitHub | [coa_git_basics_instr](coa_git_basics_instr)<br>[coa_git_in_class_instr](coa_git_in_class_instr) <br> [ex_git_it_together](ex_instructor_notes.md)|This is specific to using GitHub for this course.|
+| 45 min | Command Line| code demo - [command line basics](instr_code_demo_notes.md)<br> ex - [command_line_basics_exercise](instr_exercise_notes.md)||
+| 60 min | Using GitHub | code demo - [git basics instr](instr_code_demo_notes.md)<br>code demo - [git in class instr](instr_code_demo_notes.md) <br> ex [git_it_together](instr_exercise_notes.md)|This is specific to using GitHub for this course.|
 
 
 ###Homework
