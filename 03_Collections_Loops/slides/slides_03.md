@@ -4,8 +4,6 @@
 
 ###Instructor Name
 
-Instructors current role.
-
 ---
 
 
@@ -16,7 +14,6 @@ Instructors current role.
 	*	Arrays
 	*	Hashes
 
-	
 
 ---
 
@@ -37,8 +34,8 @@ Instructors current role.
 	3.times do
 		puts "going…"
 	end
-	puts "gone""
-	
+	puts "gone"
+
 	# going...
 	# going...
 	# going...
@@ -48,11 +45,11 @@ Instructors current role.
 
 ##Iteration (Ruby-esque Loops)
 ###.upto
-	
+
 	1.upto(3) do |num|
 		puts "#{num}.going"
 	end
-	
+
 	# 1. going
 	# 2. going
 	# 3. going
@@ -62,7 +59,7 @@ Instructors current role.
 
 ##Iteration (Ruby-esque Loops)
 ###.downto
-	
+
 	3.downto(1) do |guess|
 		puts "You have #{guess} guesses left"
 	end
@@ -75,32 +72,29 @@ Instructors current role.
 
 
 
-##Iteration (Other Loops) 
-###Less common in Ruby 
+##Iteration (Ruby-esque Loops)
+###Less common in Ruby
 
 *	These loops are less common in Ruby, but good to know as a programmer.
-	
-	*	While 
-	*	loop do
-		
-See syntax in the resources section.
- 
+
+	*	X.times
+	*	upto
+	*	downto
+
+* For additional help with syntax, see the Resources at the end of the slides.
+
 ---
 
 
-##Iteration Loops
+##Conditional Loops
 
-	10.downto(1) do |count|
-		puts "Looping"
-	end
-	
 	count = 10
 	while count > 0
 		puts "Looping"
 		count -=1
 	end
 
-	count = 10 
+	count = 10
 	until count < 1
 		puts "Looping"
 		count -= 1
@@ -108,18 +102,16 @@ See syntax in the resources section.
 
 	count = 10
 	loop do
-		break if count < 1 
+		break if count < 1
 		puts "Looping"
 		count -= 1
 	end
-	
+
 ---
 
 
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
-##Loop 
-
-ex_loop.rb
+##Loop
 
 ---
 
@@ -134,7 +126,7 @@ ex_loop.rb
 	*	.upto
 	*	.downto
 	* 	.each (we will see in a moment)
-		
+
 ---
 
 
@@ -164,9 +156,9 @@ ex_loop.rb
 ###Find by Index
 
 	my_array = ["NYC", "LA", "SYD", "LDN"]
-	my_array[0] #"NYC"	
-	my_array[1] #"LA"	
-	my_array[-1] #"SYD"			
+	my_array[0] #"NYC"
+	my_array[1] #"LA"
+	my_array[-1] #"LDN"
 
 ---
 
@@ -202,7 +194,7 @@ ex_loop.rb
 ##Arrays
 ###Array Methods
 
-	name = "Steven"
+	name = "Salman"
 	name.upcase
 
 	my_array = ["NYC", "LA", "SYD", "LDN"]
@@ -223,8 +215,6 @@ to irb!
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Arrays
 
-ex_arrays.rb
-
 ---
 
 
@@ -234,7 +224,7 @@ ex_arrays.rb
 
 *	A collection of data
 *	Can search an array by index or position
-*	Arrays are objects and therefore have methods. 
+*	Arrays are objects and therefore have methods.
 
 ---
 
@@ -244,19 +234,23 @@ ex_arrays.rb
 
 ![Labeled Accordion](../../assets/ruby/labeled_accordian.jpeg)
 
+*	Often referred to as dictionaries
+*	Each entry in a hash needs a *key* and a *value*
+*	If you access a hash at a specific key, it will return the value at that key
+
 ---
 
 
-##Hases
+##Hashes
 ###Find by key
 
 	ga_markets = {"NYC" => "New York City", "LA" => "Los Angeles", "SYD" => "Sydney", "LDN" => "London"}
-	
-	ga_markets["NYC"]	
-	ga_markets[["LA"]
-	ga_markets[["SYD"]
-	
-"New York City"	
+
+	ga_markets["NYC"]
+	ga_markets["LA"]
+	ga_markets["SYD"]
+
+"New York City"
 
 "Los Angeles"
 
@@ -265,48 +259,76 @@ ex_arrays.rb
 ---
 
 
-##Hases
+##Hashes
 ###Setting Values
 
 	user_hash = {}
-	user_hash["name"] = "Steven"
+	user_hash["name"] = "Salman"
 	user_hash["favorite_color"] = "Green"
+	user_hash
 
-
-{"name"=>"Steven", "favorite_color"=>"Green"}
-
----
-
-
-##Hashes
-###Symbols
-
--	Commonly used for hashes
-	
-		:i_am_a_symbol
+	>> {"name"=>"Salman", "favorite_color"=>"Green"}
 
 ---
 
 
 ##Symbols
-###Used as keys for hashes
+###New Ruby type
 
-	ga_markets = {:NYC => "New York City", :LA => "Los Angeles", :SYD => "Sydney", :LDN => "London"}
+-	A symbol is a special type of object in ruby, used extensively
+-	It is always preceded by a colon
+-	Cannot contain spaces or numbers
+-	Symbols are used because:
+	-	they are immutable and take less memory
+	-	they are easier to compare to other objects
+	-	they are cleaner in syntax
+-	Examples:
+	-	```:hello```
+	-	```:this_is_a_symbol```
+
+---
+
+
+##Symbols
+###Primarily used as keys for hashes
+
+	ga_markets = {}
+	ga_markets = {:NYC => "New York City"}
+	ga_markets[:LA] = "Los Angeles"
+	ga_markets
+
+	>> {:NYC => "New York City", :LA => "Los Angeles"}
+
 
 ---
 
 
 
 ##Hash
-###Messages
+###Methods
 
-	user = {user_name: "StevenNunez", email: "steven.nunez@gmail.com"}
-	
+	user = {:user_name => "SalmanAnsari", :email => "salman.ansari@gmail.com"}
+
 	user.has_key? :email #true
 	user.key? :email #true
 	user.include? :email #true
-	
-	user.has_value? "StevenNunez" #true
+
+	user.has_value? "SalmanAnsari" #true (note: extremely inefficient!)
+
+---
+
+##Hash
+###Ruby 1.9+ Alternate Syntax
+
+	user = {:user_name => "SalmanAnsari", :email => "salman.ansari@gmail.com"}
+
+	# becomes
+
+	user = {user: "SalmanAnsari", email: "salman.ansari@gmail.com"}
+
+	# a little bit more concise
+	# more closely matches JSON format
+	# considered an 'alternate' syntax, not a replacement
 
 ---
 
@@ -315,24 +337,23 @@ ex_arrays.rb
 ##Collections
 ###Array of Hashes
 
+	users = [
+		{:user => "Salman Ansari", :role => "Instructor"},
+		{:user => "Brooks Swinnerton", :role=> "TA"}
+		{:user => "Brian Fountain", :role => "TA"]
+	]
 
-		users = [
-				{:user => "Steven Nunez", :role => "Instructor"},
-				{:user => "Eddie Washington", :role=> "TA"}
-				{:user => "Stephanie Morillo", :role => "TA"] 
-		]
+
+	# Alternate syntax for Ruby 1.9+
+
+	users = [
+		{user: "Salman Ansari", role: "Instructor"},
+		{user: "Brooks Swinnerton", role: "TA"},
+		{user: "Brian Fountain", role: "TA"}
+	]
 
 
-		#Alternate syntax
-		users = [
-			{user: "Steven Nuñez", role: "Instructor"},
-			{user: "Eddie Washington", role: "TA"},
-			{user: "Stephanie Morillo", role: "TA"}
-		]
-	
 ---
-
-
 
 
 ##Iterating Over Collections
@@ -340,7 +361,7 @@ ex_arrays.rb
 
 	ga_markets = ["NYC", "LA", "SYD", "LDN"]
 
-	ga_markets.each {|market| puts name}
+	ga_markets.each {|market| puts market}
 
 
 ---
@@ -349,10 +370,6 @@ ex_arrays.rb
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Lab Time
 ###Teddit Collections
-
-ex_teddit_hashes.rb
-
-You'll need your conditional_teddit.rb solution to get started.
 
 ---
 
@@ -371,8 +388,7 @@ Continue work on Secret Number. Due next class (lesson 4)
 ---
 
 
-<div id="resources">
-## Resources: Collections, Loops and APIs 
+## Resources: Collections, Loops and APIs
 
 
 ###Cheat Sheet
@@ -382,7 +398,7 @@ Continue work on Secret Number. Due next class (lesson 4)
 __Creating Arrays__
 
 ```ruby
-my_array = ["Apples", "Oranges", "Pears"] 
+my_array = ["Apples", "Oranges", "Pears"]
 ```
 
 > ["Apples", "Oranges", "Pears"]
@@ -395,12 +411,12 @@ my_array = Array.new
 
 ```ruby
 Array.new(3)
-```  
+```
 
 > [nil, nil, nil]
 
 ```ruby
-Array.new(3, "BEWD") 
+Array.new(3, "BEWD")
 ```
 
 > ["BEWD", "BEWD", "BEWD"]
@@ -410,8 +426,8 @@ __Assessing Elements__
 ```ruby
 arr = ["NYC", "LDN", "LA", "SF", "BOS", "BER"]
 arr[0]
-arr[100] 
-arr[-3] 
+arr[100]
+arr[-3]
 ```
 
 > NYC
@@ -427,7 +443,7 @@ arr[2, 3] #=> [3, 4, 5]
 > ["LA", "SF", "BOS"]
 
 ```ruby
-arr[1..4] 
+arr[1..4]
 ```
 
 > [LDN, LA, SF, BOS]
@@ -447,7 +463,7 @@ arr[1..4]
 
 	super_heros[:superman]
 ```
-	
+
 > "Clark Kent"
 
 ####Loops
@@ -457,7 +473,7 @@ __Iterator loop__
 ```ruby
 4.times do
   puts "This will be printed 4 times"
-end 
+end
 ```
 
 > This will be printed 4 times
@@ -492,12 +508,12 @@ __Each Loop__
 -  What is iteration - [article](http://www.computerhope.com/jargon/i/iteration.htm)
 
 
-###Still Feel Lost? 
+###Still Feel Lost?
 ####Catch Up With These Resources
- 
+
 -	Teddit Hashes Answer [Video](http://vimeo.com/gatv/review/67752035/a90db9177f) by Steven Nuñez on behalf of General Assembly
 	-	password=> BEWD_GA
-	
+
 -	Arrays [Ruby Docs](http://ruby-doc.org/core-2.0/Array.html)
 -	Hashes [Ruby Docs](http://ruby-doc.org/core-2.0/Hash.html)
 -	Hashes and Arrays [Tutorial](http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb)

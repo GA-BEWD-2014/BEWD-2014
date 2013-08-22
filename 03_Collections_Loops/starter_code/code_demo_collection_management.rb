@@ -1,15 +1,18 @@
 #Arrays and Hashes
 #TIME: 25 min
-#INSTRUCTIONAL DESIGN NOTES: 
-# => Your can change the values in the hashes or arrays. Make it personal to you.
-# => Students struggle the most with hashes and is often a dropout point. 
-# => Provide this file (minus these instructions) to students so they can follow along 
+#INSTRUCTIONAL DESIGN NOTES:
+# => You can change the values in the hashes or arrays. Make it personal to you.
+# => Make sure to emphasize that a hash is a dictionary (e.g. phone book) so students can relate
+# => Provide this file (minus these instructions) to students so they can follow along
 #and focus on logic and understanding rather than stress over syntax.
 # => In class labs for hashes are a stepping stone to using JSON returned string from the Mashable and Reddit in the Teddit app.
 
 
 
 # Print the name of each of the 3 stooges
+# If you call `puts` without any parameters, it will output an empty line
+# Use that to space out your output nicely
+
 stooges = ["Larry", "Curly", "Moe"]
 stooges.each{|stooge| puts stooge}
 puts
@@ -26,6 +29,9 @@ tv_shows = [
   {"show_name" => "The Walking Dead", "protagonist" => "Rick and his fellow survivors"}
 ]
 
+# Explain how the `each do` syntax is the same as `each {`
+# (i.e. at a high level, explain that blocks can be {} or do/end)
+
 tv_shows.each do |show|
   puts "#{show['show_name']} follows the story of #{show['protagonist']}"
 end
@@ -34,11 +40,14 @@ puts
 
 # What about a hash with an array as a value?
 # Notice the formatting
-recipe = {name: "Key Lime Pie", 
-          description: "Key lime pie is an American dessert made of key lime juice, egg yolks, and sweetened condensed milk in a pie crust.", 
-          ingredients: ["Eggs", 
-                        "Key lime juice", 
-                        "Condensed Milk", 
+# Explain that ruby 2.0 syntax is OPTIONAL and the string key syntax
+# will not go away anytime soon
+
+recipe = {name: "Key Lime Pie",
+          description: "Key lime pie is an American dessert made of key lime juice, egg yolks, and sweetened condensed milk in a pie crust.",
+          ingredients: ["Eggs",
+                        "Key lime juice",
+                        "Condensed Milk",
                         "Graham cracker crust"]
 }
 

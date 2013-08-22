@@ -1,3 +1,7 @@
+# ====================================================================
+# ====================================================================
+# ====================================================================
+# ====================================================================
 def assert_equal(expected, actual)
   unless expected == actual
     abort "Expected #{expected} to match #{actual} on line #{caller.first.split(":")[1]}"
@@ -7,6 +11,35 @@ end
 def ___(*arguments)
   abort  "You have to fill in the blank on line #{caller.first.split(":")[1]}".center(100, "*")
 end
+# ====================================================================
+# ====================================================================
+# ====================================================================
+# ====================================================================
+# EVERYTHING ABOVE THIS LINE IS SETUP CODE, YOU DON'T NEED TO CHANGE IT
+# ====================================================================
+# ====================================================================
+# ====================================================================
+
+# INSTRUCTIONS:
+# Go through each scenario below and fill in the blanks.
+
+# MORE DETAILS:
+# For each scenario, you will see three underscores (___) to indicate
+# a blank that you need to fill in with some code
+# After the scenario is complete, you will see another line that looks like:
+# assert_equal <something>, <something else>
+# That is a simple way to verify that you filled in the blank correctly,
+# once you run the Ruby script in terminal
+
+# STEPS:
+# So, to do this exercise, simply:
+# 1. Look at a scenario
+# 2. Fill in the blank
+# 3. Run the script (type `ruby ex_arrays.rb` in your terminal to do so)
+# 4. The script will throw an assert error at the point where there is a failure
+# 5. Pay close attention to the line number, then go back to the file and find that scenario
+# 6. Fill in the blank correctly for that scenario (or try again)
+# 7. Repeat until the script reaches the bottom and you see "YOU'RE DONE!"
 
 # Create an empty array named categories with using a literal
 categories = []
@@ -46,7 +79,7 @@ end
 assert_equal(true, categories.include?("Family"))
 
 # Print all of the Array elements as a comma separated string in alphabetical order
-# persist the sorting of categories 
+# persist the sorting of categories
 assert_equal("Animals, Family, Florida, Music, Shopping, Weather", categories.sort!.join(", "))
 assert_equal(%w(Animals Family Florida Music Shopping Weather), categories)
 

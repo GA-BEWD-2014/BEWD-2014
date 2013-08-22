@@ -1,4 +1,4 @@
-# Use your completed version of Teddit strings. 
+# Use your completed version of Teddit strings.
 # Or Copy the code from the strings_exercise_SN_solution.rb. This is your start point.
 #
 # New Teddit Feature! If the Story is about cats multiply the upvotes by 5
@@ -9,7 +9,7 @@
 # "Cats frolic despite tuna shortage" should give you 5 times the upvotes!
 
 def get_input
-  gets.strip 
+  gets.strip
 end
 
 def calculate_upvotes(story, category)
@@ -18,12 +18,13 @@ def calculate_upvotes(story, category)
   if story.downcase.include? 'cat'
     upvotes *= 5
   elsif story.downcase.include? 'bacon'
-    upvotes *=8
+    upvotes *= 8
   end
 
   if category.downcase == "food"
     upvotes *= 3
   end
+
   upvotes
 end
 
