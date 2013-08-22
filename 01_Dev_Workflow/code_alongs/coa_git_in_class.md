@@ -21,4 +21,4 @@
 
 **Instructional Notes:**
 
--	Encourage students to take notes incase they would like to do this on their o
+-	Encourage students to take notes incase they would like to do this on their own
