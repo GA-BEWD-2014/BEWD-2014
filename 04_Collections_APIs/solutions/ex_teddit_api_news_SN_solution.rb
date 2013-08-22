@@ -9,12 +9,12 @@
 require 'json'
 require 'rest-client'
 
-def show_message(message)
-  puts message
+def get_input
+  gets.strip
 end
 
-def get_input
-  gets.strip 
+def show_message(message)
+  puts message
 end
 
 def show_new_story_notification(story)
@@ -42,38 +42,47 @@ def show_all_stories(stories)
 end
 
 def get_from_mashable
-  res = JSON.load(RestClient.get('http://mashable.com/stories.json'))
-  res["hot"].map do |story|
-    s = {title: story["title"], category: story["channel"]}
-    calculate_upvotes s
-    show_new_story_notification s
-    s
+  response = JSON.load(RestClient.get('http://mashable.com/stories.json'))
+
+  response["hot"].map do |entry|
+    story = {title: entry["title"], category: entry["channel"]}
+    calculate_upvotes story
+    show_new_story_notification story
+    story
   end
 end
 
 def get_from_digg
-  res = JSON.load(RestClient.get('http://digg.com/api/news/popular.json'))
-  res["data"]["feed"].map do |story|
-    s = {title: story["content"]["title"], category: story["content"]["tags"].map{|s| s["display"]}.join(', ')}
-    calculate_upvotes s
-    show_new_story_notification s
-    s
+  response = JSON.load(RestClient.get('http://digg.com/api/news/popular.json'))
+
+  response["data"]["feed"].map do |entry|
+    title = entry["content"]["title"]
+    category = entry["content"]["tags"].map { |tag| tag["display"] }.join(', ')
+    story = {title: category, category: category}
+
+    calculate_upvotes story
+    show_new_story_notification story
+
+    story
   end
 end
 
 def get_from_reddit
-  res = JSON.load(RestClient.get('http://www.reddit.com/.json'))
-  res["data"]["children"].map do |story|
-    s = {title: story["data"]["title"], category: story["data"]["subreddit"]}
-    calculate_upvotes s
-    show_new_story_notification s
-    s
-  end
+  response = JSON.load(RestClient.get('http://www.reddit.com/.json'))
 
+  response["data"]["children"].map do |entry|
+    story = {title: story["data"]["title"], category: story["data"]["subreddit"]}
+
+    calculate_upvotes story
+    show_new_story_notification story
+
+    story
+  end
 end
 
 show_message("Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!")
-stories = get_from_mashable
-stories += get_from_digg
+
+stories = get_from_mashable + get_from_digg + get_from_reddit
+
 show_all_stories stories
 

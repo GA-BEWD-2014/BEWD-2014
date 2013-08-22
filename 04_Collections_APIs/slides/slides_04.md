@@ -4,8 +4,6 @@
 
 ###Instructor Name
 
-Instructors current role.
-
 ---
 
 
@@ -14,7 +12,7 @@ Instructors current role.
 *	Recap
 	*	Quick Fire
 *	Practical Application Of Collections & Loops (APIs)
-*	Lab Time	
+*	Lab Time
 
 ---
 
@@ -30,9 +28,9 @@ Instructors current role.
 
 TIME : 30 min
 
-*	Write a program that prints numbers from 1 to 100. 
+*	Write a program that prints numbers from 1 to 100.
 
-*	But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
+*	But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”.
 
 *	For numbers which are multiples of both three and five print “FizzBuzz”.
 
@@ -80,7 +78,7 @@ TIME : 30 min
 
 
 *	We need to use a gem to ask for data.
-		
+
 		$ gem install rest-client
 
 ---
@@ -91,7 +89,7 @@ TIME : 30 min
 
 
 *	JSON - JavaScript Object Notation
-		
+
 		'{"NY":"New York","LA":"Los Angeles","SYD":"Sydney","LDN":"London"}'
 
 
@@ -116,7 +114,7 @@ Getting Stories
 
 ## Homework
 
-*	Continue review 
+*	Continue review
 
 ---
 
@@ -129,8 +127,8 @@ Getting Stories
 ####Array of Hashes
 
 ```ruby
-	super_heros =[{ hero: 'Batman', secret_identity: 'Bruce Wayne'}, 
-	{hero: 'Superman', secret_identity: 'Clark Kent'}, 
+	super_heros =[{ hero: 'Batman', secret_identity: 'Bruce Wayne'},
+	{hero: 'Superman', secret_identity: 'Clark Kent'},
 	{hero: 'Spiderman', secret_identity: 'Peter Parker'}]
 ```
 
@@ -138,19 +136,19 @@ Getting Stories
 ####.each & .map
 
 ```ruby
-	super_heros.map do |super_hero| 
-		puts "#{super_hero[:hero]} is #{super_hero[:secret_identity]}"
-	end
-```
-	
-```ruby
-	super_heros.each do |super_hero| 
+	super_heros.map do |super_hero|
 		puts "#{super_hero[:hero]} is #{super_hero[:secret_identity]}"
 	end
 ```
 
-*	.each returns the original array. 
-*	Map returns a new array with the results you added. 
+```ruby
+	super_heros.each do |super_hero|
+		puts "#{super_hero[:hero]} is #{super_hero[:secret_identity]}"
+	end
+```
+
+*	.each returns the original array.
+*	Map returns a new array with the results you added.
 
 
 ###Tips, Tricks & Motivation
@@ -163,7 +161,7 @@ Getting Stories
 *	[Understand Rest Client (Advanced)](http://www.ibm.com/developerworks/library/os-understand-rest-ruby/)
 
 *	[JSON What It Is, How It Works and How To Use It](http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/)
-	*	The code in this article is JavaScript. Read the article to get a better understanding of what is JSON don't worry about the code.	
+	*	The code in this article is JavaScript. Read the article to get a better understanding of what is JSON don't worry about the code.
 
 __Map versus do__
 
@@ -177,5 +175,5 @@ __Map versus do__
 
 -	Fizz Buzz Answer [Video](https://vimeo.com/67752034)
 -	Rest Client [Video](http://vimeo.com/67132957) by Steven Nuñez on behalf of General Assembly
--	
-	-	password=> testBEWD	
+-
+	-	password=> testBEWD
