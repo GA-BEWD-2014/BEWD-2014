@@ -8,9 +8,9 @@ Students add more functinoality to Teddit.
 
 | | |
 | ------------- |:-------------|
-| __Topics__ | gets.strip, strings, methods | 
-| __Description__| Students create a version of teddit that accepts stories from users. |    
- 
+| __Topics__ | gets.strip, strings, methods |
+| __Description__| Students create a version of teddit that accepts stories from users. |
+
 
 ####Instructional Design Notes
 -	Students should pair program on this.
@@ -26,9 +26,9 @@ Students add more functinoality to Teddit.
 
 | | |
 | ------------- |:-------------|
-| __Topics__ | gets.strip(), strings, methods, if statements | 
-| __Description__| Students add to reddit again and use conditionals to determine upvotes. |    
- 
+| __Topics__ | gets.strip, strings, methods, if statements |
+| __Description__| Students add to reddit again and use conditionals to determine upvotes. |
+
 
 
 ####Instructional Design Notes
