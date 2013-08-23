@@ -1,6 +1,8 @@
 #IRB: Instructor's File
 #TIME: 10 min
 #INSTRUCTIONAL DESIGN NOTES:
+# => Demonstrate using irb and arithmetic operators,
+# => Allow students to explore using irb.
 # => Demonstrate how to ASSIGN integer & string variables (explain assignment)
 # => How to access variables, and what they return
 # => How to assign variables to the result of an expression (the RIGHT side)
