@@ -6,14 +6,14 @@
 
 | | |
 | ------------- |:-------------|
-| __Topics__ | Object Oriented Programming | 
-| __Description__| This is an exercise in reading and writing code. You will create a simple apartment management ruby application. |    
- 
+| __Topics__ | Object Oriented Programming |
+| __Description__| This is an exercise in reading and writing code. You will create a simple apartment management ruby application. |
+
 
 ####Task Instructions
 
 *	Pair Program
-*	Read the main file and use it to determine what variables and methods are needed for the Person, Apartment and Building classes. 
+*	Read the main file and use it to determine what variables and methods are needed for the Person, Apartment and Building classes.
 
 
 
@@ -23,11 +23,11 @@
 
 | | |
 | ------------- |:-------------|
-| __Topics__ | object oriented program. | 
-| __Description__|This is an exerise in writing code. Re-write secret number into an object oriented program.  |    
- 
+| __Topics__ | object oriented program. |
+| __Description__|This is an exerise in writing code. Re-write secret number into an object oriented program.  |
+
 
 ####Instructional Design Notes
 
-*	Start with the solution from the Secret Number homework file. 
+*	Start with the solution from the Secret Number homework file.
 

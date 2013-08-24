@@ -4,15 +4,13 @@
 
 ###Instructor Name
 
-Instructors current role.
-
 ---
 
 
 ##Agenda
 
 *	Creating Classes & Objects
-*	Lab Time	
+*	Lab Time
 
 ---
 
@@ -45,18 +43,18 @@ What are some pros and cons of using hashes?
 ###Recap
 
 *	Adding variables to a class
-	
+
 		# Hashes
 		story = {}
-		story[:title] = "Sand angry with flip-flops" 
+		story[:title] = "Sand angry with flip-flops"
 		story[:title] #=> Returns your value
-	
-	
+
+
 		# With an object
 		class Story
 			attr_accessor :title
 		end
-  
+
 
 		story = Story.new
 		story.title = "Sand angry with flip-flops"
@@ -93,12 +91,12 @@ What are some pros and cons of using hashes?
 ---
 
 
-##Apartment 
+##Apartment
 ###Recap
 
-*	The initialize method is called by .new (see laptop.rb for refresh)
-*	to_s method called with puts command. 
-*	It can be overwritten
+*	The initialize method is invoked when Apartment.new is called
+*	to_s method called automatically on objects interpolated in a string (e.g. with puts)
+*	to_s can be overridden:
 
 		class My_Class
 			def to_s
@@ -106,27 +104,30 @@ What are some pros and cons of using hashes?
 			end
 		end
 
-		my_object = My_Class.new
-		puts my_object
+		>> my_object = My_Class.new
+		>> puts my_object
+		The puts method was called.
+		=> nil
 
 ---
 
 
-##Apartment 
+##Apartment
 ###Recap
 
 *	Classes allow us to keep code DRY.
-*	In object oriented programs variables have scope. local, @instance and @@class.
+*	In object oriented programs variables have scope (key scopes are local vs @instance).
 	*	attr_accessor allows a variable to be accessed outside of a method
-*	We can create class methods by using self.method_name. 
-	*	Class methods can be called with no object or instance. 	
+*	We can create class methods by using self.method_name.
+	*	Class methods (e.g. Apartment.new) can be called on a class (which is an object too!)
+
 ---
 
 
 ##Classes & Objects
 ###Classes in separate .rb files
 
-	
+
 ---
 
 ##Classes & Objects
@@ -177,7 +178,7 @@ What are some pros and cons of using hashes?
 
 ## Homework
 
-*	Midterm due lesson 8. 
+*	Midterm due lesson 8.
 
 ---
 
@@ -189,7 +190,6 @@ What are some pros and cons of using hashes?
 2.	Secret Number Objects
 
 ---
-
 
 
 <div id="resources">
@@ -219,7 +219,7 @@ __Creating Objects__
 			puts "GA has a course on #{@course_name}"
 		end
 	end
- 
+
 	my_course = GA_course.new("BEWD")
 	other_course = GA_course.new("UXD")
 
@@ -241,7 +241,7 @@ __Variable Scope__
 | Class   | @@name  | Same shared value for all instances of a class, available from any method of that class.|
 | Global   | $name  | Same shared value for all code running within a single Ruby program.|
 
-	
+
 ###Still Feel Lost?
 ####Catch Up With These Resources
 

@@ -1,26 +1,27 @@
-require 'lib/Person'
-require 'lib/Secret_Number'
+require 'lib/person'
+require 'lib/secret_number'
 
 class Game
-  attr_accessor :new_game, :new_player, :guesses_left
+  attr_accessor :secret, :player, :guesses_left
 
-  def initialize(name)
-    @new_game = Secret_Number.new
-    @new_player = Person.new(name)
+  def initialize(player_name)
+    @secret = SecretNumber.new
+    @player = Person.new(player_name)
     @guesses_left = 3
-    game_time
   end
 
-  def game_time
-    puts "Welcome #{@new_player.name}! You get 3 chances to guess the Secret Number between 1 and 10."
+  def start
+    puts "\nWelcome #{@player.name}! You get 3 chances to guess the Secret Number between 1 and 10.\n"
 
     while @guesses_left != 0
-      play_game
-      break if @guess == @new_game.number
+      get_guess
+      break if @guess == @secret.number
     end
   end
 
-  def play_game
+  private
+
+  def get_guess
     puts "What is your guess?"
     @guess = gets.to_i
     @guesses_left -= 1
@@ -29,16 +30,20 @@ class Game
   end
 
   def check_guess(guess)
-    if guess == @new_game.number
-      puts "You win!"
-    elsif guess != @new_game.number && guesses_left != 0
-     if guess < @new_game.number
+    if guess == @secret.number
+      puts "┏(-_-)┛┗(-_-﻿ )┓┗(-_-)┛┏(-_-)┓"
+      puts
+      puts "CONGRATULATIONS! YOU WIN!!!"
+      puts
+      puts "┏(-_-)┛┗(-_-﻿ )┓┗(-_-)┛┏(-_-)┓"
+    elsif guess != @secret.number && guesses_left > 0
+      if guess < @secret.number
         puts "You guessed #{guess}, Guess higher! Number of guesses left: #{guesses_left}"
-      elsif guess > @new_game.number
+      elsif guess > @secret.number
         puts "You guessed #{guess}, Guess lower! Number of guesses left: #{guesses_left}"
       end
     else
-        puts "Game Over! The secret number was #{@new_game.number}"
+      puts "Game Over! The secret number was #{@secret.number}"
     end
   end
 end

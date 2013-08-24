@@ -1,12 +1,11 @@
 $:.unshift (File.dirname(__FILE__))
-require 'lib/Game'
+require 'lib/game'
 
-def start_game
-  puts "Welcome! This game is brought to you by Eddie Washington."
-  puts "Please provide your name:"
-  input = gets.chomp.capitalize
+puts `clear`
+puts "Welcome to Secret Number!"
+puts "To begin, please enter your name:"
 
-  game = Game.new(input)
-end
+player_name = gets.chomp.capitalize
 
-start_game
+game = Game.new(player_name)
+game.start
