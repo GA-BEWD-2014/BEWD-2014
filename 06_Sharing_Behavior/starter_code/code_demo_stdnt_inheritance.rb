@@ -35,7 +35,7 @@
 #
 #    Example: "Rachel Ober (Teacher)"
 #
-# 8. Finally, create a few examples of Employees and Managers and try
+# 8. Finally, create a few examples of Employees and Managers (and perhaps other classes) and try
 #    different output statements.
 #
 ################################################################################
