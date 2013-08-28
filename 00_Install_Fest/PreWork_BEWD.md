@@ -43,7 +43,7 @@ __COMMAND LINE BASICS__
 
 If you are using a Windows machine, read through the tutorial below. If you are using Mac OSX or Linux you can try a few of these commands.
 
-Before we dive into programming make sure you know are familiar with unix commands so you can use your computer like a developer. Complete one of the three tutorials below. 
+Before we dive into programming make sure you know are familiar with UNIX commands so you can use your computer like a developer. Complete one of the three tutorials below. 
 
 -	[Unix / Linux Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/) only tutorial one through three.
 	
