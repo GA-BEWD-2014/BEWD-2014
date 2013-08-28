@@ -7,7 +7,17 @@ GENERAL ASSEMBLY
 BACK-END WEB DEVELOPMENT PRE-WORK (~5 – 7 HOURS):
 ========
 
-Congratulations on joining us at General Assembly for the Back-End Web Development course! We are excited to have you, and are looking forward to working with you all soon!In order to best prepare and ensure success in the course, we’ve gathered a list of resources that we’d like you to complete prior to the course start date ( __ENTER DATE__ ). When you arrive on your first day, everyone will be up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.Learning Ruby on Rails, is not just about learning to code, it is also about exposure to other developer tools. So, in order to be most prepared we recommend going through the tutorials listed below. This should take you around 5– 7 hours to complete. Don’t feel like you have to become a master of everything before coming to class –we just want you to feel comfortable with some of the terms we will cover in class. Keep these resources as a reference during the course as they will come in handy.Please reach out if you have any questions about anything or need help!####Happy coding :)
+Congratulations on joining us at General Assembly for the Back-End Web Development course! We are excited to have you, and are looking forward to working with you all soon!
+
+In order to best prepare and ensure success in the course, we’ve gathered a list of resources that we’d like you to complete prior to the course start date ( __ENTER DATE__ ). When you arrive on your first day, everyone will be up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.
+
+Learning Ruby on Rails, is not just about learning to code, it is also about exposure to other developer tools. So, in order to be most prepared we recommend going through the tutorials listed below. This should take you around 5– 7 hours to complete. 
+
+Don’t feel like you have to become a master of everything before coming to class –we just want you to feel comfortable with some of the terms we will cover in class. Keep these resources as a reference during the course as they will come in handy.
+
+Please reach out if you have any questions about anything or need help!
+
+####Happy coding :)
 
 - - -
 
@@ -29,6 +39,8 @@ __SIGN UP__
 TUTORIALS:
 --------
 
+For Mac OS and Linux users.
+
 __COMMAND LINE BASICS__ 
 
 Before we dive into programming make sure you know your way around your computer and how to use it like a developer. Complete one of the two tutorials below. 
@@ -41,7 +53,7 @@ Before we dive into programming make sure you know your way around your computer
 
 	Another quick command line tutorial to solidify the basics and includes some good tips.
 
-_**Make sure you can**_: s
+_**Make sure you can**_:
 
 1.	Create a new directory
 2.	Remove/delete a file or directory
@@ -52,6 +64,7 @@ _**Make sure you can**_: s
 7.	List all the files or directories that begin with “G”
 8.	Use tab completion to view recently typed commands using the up arrow
 
+For everyone
 __VERSION CONTROL__
 
 We will be using git to make it easy for you to collaborate, share and submit your code for review. Please watch the video and read the article about version control. Complete the Git tutorial and we will review in class.
