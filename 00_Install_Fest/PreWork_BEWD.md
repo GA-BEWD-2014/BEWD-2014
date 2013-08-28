@@ -39,32 +39,35 @@ __SIGN UP__
 TUTORIALS:
 --------
 
-For Mac OS and Linux users.
-
 __COMMAND LINE BASICS__ 
 
-Before we dive into programming make sure you know your way around your computer and how to use it like a developer. Complete one of the two tutorials below. 
+If you are using a Windows machine, read through the tutorial below. If you are using Mac OSX or Linux you can try a few of these commands.
+
+Before we dive into programming make sure you know are familiar with unix commands so you can use your computer like a developer. Complete one of the three tutorials below. 
+
+-	[Unix / Linux Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/) only tutorial one through three.
+	
+	Knowing how to use the command line (Terminal) is a critical skill for a developer, and we’ll be spending a lot of time here. This tutorial is all about practice. Work through the entire thing.
 
 -	[Learn Command Line the Hard Way](http://cli.learncodethehardway.org/book/)
 
-	Knowing how to use the command line (Terminal) is a critical skill for a developer, and we’ll be spending a lot of time here. This tutorial is all about practice. Work through the entire thing.
+	Another quick command line tutorial to solidify the basics and includes some good tips.
 
 -	[Command Line Tutorial](http://www.davidbaumgold.com/tutorials/command-line/)
 
 	Another quick command line tutorial to solidify the basics and includes some good tips.
 
-_**Make sure you can**_:
+_**Most Important Take Aways **_:
 
 1.	Create a new directory
 2.	Remove/delete a file or directory
 3.	Easily navigate to your home directory
 4.	List all the contents of your home directory including hidden files
-5.	View/open files
-6.	Navigate using relative paths
-7.	List all the files or directories that begin with “G”
-8.	Use tab completion to view recently typed commands using the up arrow
+5.	Navigate using relative paths
+6.	List all the files or directories that begin with “G”
+7.	Use tab completion to view recently typed commands using the up arrow
 
-For everyone
+
 __VERSION CONTROL__
 
 We will be using git to make it easy for you to collaborate, share and submit your code for review. Please watch the video and read the article about version control. Complete the Git tutorial and we will review in class.
