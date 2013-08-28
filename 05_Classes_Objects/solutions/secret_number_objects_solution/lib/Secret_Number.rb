@@ -1,4 +1,4 @@
-class Secret_Number
+class SecretNumber
   attr_accessor :number
 
   def initialize

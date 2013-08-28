@@ -1,12 +1,12 @@
 
 #Why use Objects
 #TIME: 45 min
-#INSTRUCTIONAL DESIGN NOTES:  
+#INSTRUCTIONAL DESIGN NOTES:
 # => Provide this file (minus these instructions) to students so they can follow along.
 # 	 Focus on logic and understanding rather than stress syntax.
-# => Dealing with Objects and Classes is an abstract concept and difficult for students to grasp. 
-# 	 In previous instances of this course we've seen students struggle with 
-#	 the difference between using hashes and objects. This intro code along aims at showing how hashes are inefficient for some tasks, while introducing objects. 
+# => Dealing with Objects and Classes is an abstract concept and difficult for students to grasp.
+# 	 In previous instances of this course we've seen students struggle with
+#	 the difference between using hashes and objects. This intro code along aims at showing how hashes are inefficient for some tasks, while introducing objects.
 # => Following this coa use coa_laptop.rb ICL to stress further understanding and practice syntax.
 # => Each section of this coa builds upon the previous.
 
@@ -17,23 +17,24 @@
  jimmy[:major] = "Math"
  jimmy[:course] = "Math"
  jimmy[:grade]= "A"
-# 
+#
  pepe = {}
  pepe[:name]= "Pepe Phaenagrotis"
  pepe[:major] = "Music"
  pepe[:course] = "Math"
  pepe[:grade] = "C"
-# 
+#
  edward = {}
  edward[:name] = "Edward Ellis"
  edward[:major] = "Math"
  edward[:course] = "Math"
- edward[:grade] = "C"
-# 
+ edward[:grade] = "D"
+#
 def grade_status(student)
   if student[:grade] == "F"
     "failed"
-  elsif student[:major] == student[:course] && student[:grade] >= "C"
+  elsif ["D", "E"].include?(student[:grade]) && student[:major] == student[:course]
+    # if this course is their major, they need a C or higher to pass
     "failed"
   else
     "passed"
@@ -95,14 +96,14 @@ puts "#{edward[:name]} has #{grade_status(edward)} #{edward[:course]}"
 #####################################################################################################
 #####################################################################################################
 #####################################################################################################
-# How about adding the grade_status method to our class? 
+# How about adding the grade_status method to our class?
 # class Student
 #   attr_accessor :name, :major, :course, :grade
 
 #   def grade_status
 #     if @grade == "F"
 #       "failed"
-#     elsif @major == @course && @grade >= "C"
+#     elsif ["D", "E"].include?(@grade) && @major == @course
 #       "failed"
 #     else
 #       "passed"
@@ -126,7 +127,7 @@ puts "#{edward[:name]} has #{grade_status(edward)} #{edward[:course]}"
 # edward.name = "Edward Ellis"
 # edward.major = "Math"
 # edward.course = "Math"
-# edward.grade = "C"
+# edward.grade = "D"
 
 
 # puts "#{jimmy.name} has #{jimmy.grade_status} #{jimmy.course}"
@@ -139,7 +140,7 @@ puts "#{edward[:name]} has #{grade_status(edward)} #{edward[:course]}"
 #####################################################################################################
 #####################################################################################################
 #####################################################################################################
-# One more thing though...We can make this program more efficient with less code. 
+# One more thing though...We can make this program more efficient with less code.
 # Add the initialize methods along with to_s so that the code below runs correctly.
 
 # class Student
@@ -148,7 +149,7 @@ puts "#{edward[:name]} has #{grade_status(edward)} #{edward[:course]}"
 #   def grade_status
 #     if @grade == "F"
 #       "failed"
-#     elsif @major == @course && @grade >="C"
+#     elsif ["D", "E"].include?(@grade) && @major == @course
 #       "failed"
 #     else
 #       "passed"
