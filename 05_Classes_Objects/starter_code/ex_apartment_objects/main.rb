@@ -1,11 +1,11 @@
 # Exercise Goal: This is an exercise in reading and writing code.
 # => The purpose of this exercise is to practice creating classes.
 # Task Instructions:
-# => The main.rb file is where the application starts.
-# => Your job is to write the Apartment, Building and Person classes.
+# => The main.rb file is where the application starts, and we've given you the code below.
+# => Your job is to write the "Apartment", "Building" and "Person" classes.
 # => Read the code below and use it to inform what variables and methods are necessary for each of the classes listed above.
 # => We've also provided a png file of the terminal output from the completed version.
-# => Hint: annotate the code and comment out sections as you test different sections
+# => Hint: Think before you code. Annotate code and comment out sections as you test different sections
 
 require_relative 'lib/building'
 require_relative 'lib/apartment'

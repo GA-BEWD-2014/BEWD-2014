@@ -2,8 +2,8 @@
 #Why use Objects
 #TIME: 45 min
 #INSTRUCTIONAL DESIGN NOTES:
-# => Provide this file (minus these instructions) to students so they can follow along.
-# 	 Focus on logic and understanding rather than stress syntax.
+# => Focus on logic and understanding rather than stress syntax.
+# => We are going to share this file with students(minus the instructions) They should follow along and comment out code to see how things run in isolations.
 # => Dealing with Objects and Classes is an abstract concept and difficult for students to grasp.
 # 	 In previous instances of this course we've seen students struggle with
 #	 the difference between using hashes and objects. This intro code along aims at showing how hashes are inefficient for some tasks, while introducing objects.

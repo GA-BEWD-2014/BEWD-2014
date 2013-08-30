@@ -1,10 +1,10 @@
 #Explaining classes, objects, attr_accessor & load paths.
 #TIME: 30 min
 #INSTRUCTIONAL DESIGN NOTES:
-# => This example is to further highlight objects and classes and the need for attr_acessor (note build getters and setters first.
+# => This example is to further highlight objects and classes and the need for attr_acessor (note build getters and setters first).
 # => Start with a blank document and build.
 # => Give students time to create other instances of apartment, have them experiment with adding/removing renters.
-#=> Students will see the Apartment example again, during lab time, students will build a person and building class based on
+#=> Students will see the Apartment example again, during lab time, students will build a "person" and "building" class based on
 # code seen in the main.rb file.
 
 class Apartment

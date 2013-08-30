@@ -1,15 +1,8 @@
 
-#Why use Objects
+#Code Demo Creating Objects. 
+#Why use Objects?
+# => Follow allowing with the instructor, comment out code and run the file to test your assumptions.
 #TIME: 45 min
-#INSTRUCTIONAL DESIGN NOTES:
-# => Provide this file (minus these instructions) to students so they can follow along.
-# 	 Focus on logic and understanding rather than stress syntax.
-# => Dealing with Objects and Classes is an abstract concept and difficult for students to grasp.
-# 	 In previous instances of this course we've seen students struggle with
-#	 the difference between using hashes and objects. This intro code along aims at showing how hashes are inefficient for some tasks, while introducing objects.
-# => Following this coa use coa_laptop.rb ICL to stress further understanding and practice syntax.
-# => Each section of this coa builds upon the previous.
-
 
 # #These are 3 hashes that have the same fields and share a similar behavior
  jimmy = {}
