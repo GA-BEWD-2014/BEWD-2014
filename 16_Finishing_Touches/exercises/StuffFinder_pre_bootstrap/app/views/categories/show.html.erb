@@ -1,7 +1,0 @@
-<h1><%= @category.name %></h1>
-<h2>Listings under this category</h2>
-<ul>
-  <% @category.classifieds.each do |classified| %>
-    <li><%= link_to "#{truncate(classified.title)} - #{classified.price}", classified %></li>
-  <% end %>
-</ul>
