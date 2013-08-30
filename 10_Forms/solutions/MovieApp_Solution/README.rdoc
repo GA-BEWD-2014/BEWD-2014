@@ -1,0 +1,4 @@
+== README
+Movie App
+
+Used for General Assembly's BEWD Class

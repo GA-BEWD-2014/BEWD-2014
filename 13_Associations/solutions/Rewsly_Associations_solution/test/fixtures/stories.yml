@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+breaking_news:
+  title: Breaking News!
+  link: http\://example.com/breaking
+  upvotes: 1
+  category: breaking
+
+about_cats:
+  title: A story about cats
+  link: http\://example.come/cats
+  upvotes: 1
+  category: cats

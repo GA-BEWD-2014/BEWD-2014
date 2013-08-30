@@ -1,0 +1,9 @@
+<h1>Welcome to the Game Center</h1>
+<p>There <%= game_state @games.count, "is" %> <%=pluralize @games.count, 'game' %> available!</p>
+<ul>
+  <% @games.each do |game, path| %>
+    <li><%= link_to game, path %></li>
+  <% end %>
+</ul>
+
+<%= truncate @rps_description, length: 60, separator: " " %> <%= link_to "More", rps_path %>

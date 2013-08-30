@@ -1,123 +1,99 @@
-Back-End Web Development
-============================
 
-![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD 1.0.1](assets/instructor_bewd_logo.png)
 
-General Assembly's Back-End Web Development course (BEWD) is made up of 20 classes that are 3 hours each. 
-The first 6 classes cover Ruby Basics and the following 14 cover Ruby on Rails.
+##GETTING STARTED WITH CURRICULUM
 
+Welcome to the BEWD Curriculum v. 1.0.1. 
 
-TERMINOLOGY
---------
+This repository contains all the materials GA supplies its Back-End Web Development instructors. 
 
-|Term|Description|
-|---|---|
-|Course|Refers to all 20 classes which make up the BEWD curriculum|
-|Lesson |One 3 hour session of the course. |
-|In Class Lab (ICL)|Exercise files that are to be used in class as examples and practice.|
-|Code Along|ICLs where students follow along as the instructor completes code.|
-|Exercise |ICLs to be completed without instructor guidance.|
-|Quick Fire| A programming challenge students must complete in class. aprox 30 min|
-|Quiz|3-5 questions based on the material from the previous class. To be completed aloud.|
-|Homework|Exercise files that are to be completed at home and reviewed during class.|
-|Final Project|The personal project each student will submit and present during the last class.|
+General Assembly's Back-End Web Development (BEWD) course is made up of 20 lessons that are 3 hours each. The first 6 classes cover Ruby Basics and the following 14 cover Ruby on Rails. 
 
+###Before The Course Responsibilities
+ 
+We __highly recommend__ you begin preparing your lessons before the course starts. You should start prepping to teach the materials 4 - 6 weeks prior to course launch. A good bench mark is to prepare the Ruby section (lesson 1 - 6 )  before the course begins. 
+
+During these preparation weeks you should: 
+
+*	Update slides for each lesson.
+
+*	Review solutions and make sure you agree with the way it was coded. Keep in mind students coding level, but don't share code you don't agree with.
+
+*	Review all curriculum materials and think about how you would like to apply your teaching style to the classroom. 
 
 
-SYLLABUS
----------
-RUBY BASICS
+##AVAILABLE MATERIALS
 
-1.	[Set Up](01_Setup/)
-2.	[Variables Conditionals and Methods](02_Variables_Conditionals)
-3.	[Collections and Loops](03_Collections_Loops)
-4.	[Collections and APIs](04_Collections_APIs)
-5.	[Classes and Objects](05_Classes_Objects)
-6.	[Sharing Behavior](06_Sharing_Behaviour)
+We've supplied a folder for each lesson. In these folders we've included:
 
-RUBY ON RAILS
-
-7.	[My First Rails App](07_First_Rails_App)
-8.	[Routes Views Controllers](08_routes_cont_views)
-9.	[Models & Active Record ](09_models_active_record)
-10.	[Forms](10_Forms)
-11.	[Lab Session](11_Lab_Session)
-12.	[Authentication](12_Authentication)
-13.	[Associations](13_Associations)
-14.	[Getting Started](14_Starting)
-15.	[OAuth](15_OAuth)
-16.	[Finishing Touches](16_Finishing_Touches)
-17. 	[Gems](17_Gems)
-18.	[Third Party APIs](18_Third_Party_API)
-19.	[Project Lab Session](19_Project_Lab_Session)
-20. 	Project Presentations
+|Materials | Description | How to Use It|
+|----|---------|---------------|
+| __README.md__| Topic break down and suggested schedule. | Use this to get a high level view of the course.|
+| __Slides__| Markdown file with slide content.| Customized the deck before sharing with students in GitHub. Use [reveal.js]() to present to the class . Keep the same folder structure so that image relative paths still work.|
+| __Code Demo__ / __Code Along__| Code to be used by instructors to help demonstrate a concept.|Type slowly and explain the concepts while students follow along with code and type their notes. Every code demo has an instructor file and student file.|
+| __instr_code_demo_notes.md__| Notes from the curriculum team about how to use a particular code demo / code along.| As we gain feedback from instructors and students, we've become aware of student pain points for students. This document contains notes to help you deliver the best course.|
+| __Exercises__|Code examples to be completed without instructor guidance.| You should read the instructions and solution files. You must be able to further explain content to students.|
+| __instr_exercise_notes.md__| Notes about how to conduct in class exercises.|Similar to the code demo notes, this documents helps you understand how to execute in class exercises|
+| __Starter Code Folder__| This is a folder with all the starter code students need for that class.| You should share this folder with students before every lesson.|
+| __Solution Folder__| This is a folder with all solution code to code demos and exercises| Share individual solution files as needed. Student should have code demo solutions before lab time to use as a reference.|
+| __Quick Fire__| A programming challenge students must complete in class. aprox 30 min - 1 hour| Some lessons will have a quick fire exercise. Quick fire are meant to be done individually and test the students understanding of the content thus far.|
 
 
+###How to Prepare for Each Lesson
+We will provide a __private repository__ for your course. This is how you will share code files, notes and slides with students. 
+Students will fork your repository and use the fork as their class repo.
 
-MATERIALS
---------
-Each lesson folder includes: 
+1.	Read the instructor agenda in the lesson folder.
 
-*	Additional Exercises
-*	Code Alongs
-*	Exercises
-*	Homework
-*	Slides / student handout
-*	Lesson guide (Readme.md)
+2.	Read the instructor code demo and exercise notes. Become familiar with what we would like students to accomplish.
 
-In addition there is a [student repo](https://github.com/generalassembly-studio/BEWDiful_Students) (aka. BEWDiful Student Repo) for your course.
+3.	View the solution file, and make sure you agree with the solutions. If you don't, change it before you share with students. Students want to feel like you are in command of all materials you share with them.
 
-Your final materials will go here to be shared with the class. 
+4.	Decide how you will bring your expertise to the classroom.
+
+5.	__Customize the deck before sharing with the class.__ The slides_xx.md files we provide is a base. You need to update it and make sure it fits the story you want to tell. If you prefer not to use slides, use the markdown file to help you plan the story you will tell this class.
+
+6.	If not using the GA suggested in class labs, create your own and make sure it hits the same topics and learning objectives for that lesson. In the next iteration we will provide an exercise bank.
+
+7.	Post your personalized materials to your course repo.
+
+8.	Practice using reveal.js.
+
+8.	Made an excellent change? Make note and let us know.
 
 
-SLIDES
------
+###Slides
 
-We are using reveal.js with markdown 
-See [here](https://github.com/hakimel/reveal.js) for further documentation.
+*	We suggest using reveal.js with external markdown. One of our BEWD instructors, Joe Leo wrote a [skeleton framework](https://github.com/jleo3/reveal.ga) for working with BEWD and a locally running reveal.js server. An instructor can start with this and then bring his/her slides over from the BEWD curriculum repo.
 
-You can choose another presentation tool (i.e Keydown is another alernative).
+*	See [here](https://github.com/hakimel/reveal.js) for further documentation about Reveal.js. 
 
-	
-PREPARING FOR CLASS
---------
+The slides are a skeletal deck and require your input! If there are slides you do not agree with then update them. If you want to introduce topics in a different order, then reorder them. 
 
-![](assets/Github_Instructor_WorkFlow.png)
 
-1.	__Customize the deck before sharing with the class.__
-2.	Decide how you will bring your expertise to the classroom.
-3.	Review exercises, code alongs and homework.
-4.	If not using the GA suggested in class labs, look through additional exercises folder and choose one. Still not satisfied, create your own and make sure it hits the same topics and learning objectives for that lesson.
-5.	Post your personalized materials to the BEWDiful_Student repo.
-6.	Made an excellent change? Make note and lets us know during one of your checkins'.	
+##GRADING
 
-	
-GRADING
---------
 In order to pass this course General Assembly students must:
 
 *	Complete and submit 80% of all course homework assignments. 
 	*	Students will receive feedback from instructors on their assignments within 2 - 4 days. 
 	
 
-*	Complete and submit the course project (which may include a presentation), earning 	proficiency. 
-	*	Share project requirements early in the course. 
+*	Complete and submit the course project (which may include a presentation), earning 	proficiency. See [rubric](final_project_rubric.md). 
+
+
+##MORE TERMINOLOGY
+
+|Term|Description|
+|---|---|
+|Course|Refers to all 20 classes which make up the BEWD curriculum|
+| __Lesson__ |One 3 hour session of the course. |
+| __In Class Lab (ICL)__|Exercise files that are to be used in class as examples and practice.|
+|[Final Project](Final_Project/final_project_requirements.md)|The personal project each student will submit and present. Share the project requirements as early as possible.|
 	
 
-CHECK'NS
---------
+##QUESTIONS
 
-You will meet with your instructional designer (ID) 4 times. This is to answer any questions you may have and help you with lesson planning.
-
-|Week|Checkin|Comments|
-|---|---|---|
-| -5 | Lesson Planning Overview| 5 weeks before you begin your course, you will meet with your ID for the first time. We will go over a lesson you have prepared and discuss how you can make the curriculum your own.|
-| 2 | Q & A| 2 weeks into the course you probably have questions. This check'in is to answer those questions.|
-| 7 | Final Project Grading | Students should be working on their final project, and you may have some questions about grading. We will discuss grading here.|
-| 11 | Exit |Debrief about the course and your experience.|
-
-QUESTIONS
----------
 If you have any questions please send them to [Jessica Skeete](jessicat@generalassemb.ly)
 
 

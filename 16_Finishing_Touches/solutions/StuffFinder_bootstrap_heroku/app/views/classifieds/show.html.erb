@@ -1,0 +1,8 @@
+<h1><%= @classified.title %> - <%= number_to_currency @classified.price %></h1>
+<section class="well well-small">
+  <p>Contact this seller <%= mail_to current_user.email, "here", subject: "StuffFinder - #{@classified.title}" %></p>
+  <div>
+    <p class="lead"><%= @classified.description %></p>
+  </div>
+</section>
+More from <%= link_to @classified.category.name, @classified.category %>
