@@ -10,23 +10,16 @@
 ##Agenda
 *	Review
 	*	Quick Fire - Movies App
-* 	Databases
-*	Models 
-	* 	Generating Models
-	*	Migrations	
+*	Models
+	*	Databases
+	* Generating Models
+	*	Migrations
 	*	seeds.rb
-*	Active Record 
+*	Active Record
 *	Lab Time
 
 ---
 
-
-##Review
-###Routes, Views and Controllers
-
-![Request Response Diagram](../../assets/rails/response_request.png)
-
----
 
 ##Review
 
@@ -38,42 +31,68 @@
 ---
 
 
+##Review
+###Routes, Views and Controllers
+
+![Request Response Diagram](../../assets/rails/response_request.png)
+
+---
+
+
+##Review: MVC
+###Model View Controller
+
+*	The controller interacts with the Model
+*	The controller renders the view, passing it Model data (using instance variables)
+*	The view and the model do not interact (need the controller)
+
+![MVC Diagram](../../assets/rails/mvc_diagram.png)
+
+---
+
+##Models
+### Talking to the database
+* 	Models are needed to talk to the database
+* 	We need to use the database to store *persistent* data (lives beyond a request lifecycle)
+* 	Models simplify the task of working with a database
+* 	Each model is used to talk to a specific table (e.g. User model for Users table)
+* 	Rails models have special functionality to allow you to easily lookup data from the table, or make changes without having to use SQL directly*
+
+---
 
 
 ##Database
-###Data Persistence
+###Permanent Data
 
-Data is gone when we close our app (i.e. Params do not persist after we close the app).
-	
-*	Saves data, even after we close the app.
-*	Databases are made to handle LOTS of data.
-*	Perfect for our apps.
+
+*	Permanent store for data (lives beyond a single request)
+*	Designed to handle data at scale (lots of data)
+*	Many different databases we can choose from, Rails handles almost all of them.
 
 
 ---
 
 ##Database
-###Vocab
+###Standard data types
 
-Data: What can we save 
-
-*	text
-*	images
-*	video
+* Text
+* Numbers
+* Dates / Times
+* Booleans
 
 ---
 
 ##Database
-###Vocab
+###Tables
 
-Table: A database is made up of a collection of tables. 
+Table: A database is made up of a collection of tables. Example below is a list of Employees.
 
 ![Table Database](../../assets/rails/tables.png)
 
 ---
 
 ##Database
-###Vocab
+###SQL
 
 SQL: Structured Query Language
 A programming language used to search and save data to databases.
@@ -82,25 +101,15 @@ A programming language used to search and save data to databases.
 
 ---
 
-##MVC
-###Models & Databases
-
-*	Models are how Rails applications interact with the database.
-	*	No SQL required!!!!!	
-
-
----
 
 ##Model
-###Code Along Described
+###Code Along: Shirts
 
 Shirt Management app is an application we will build incrementally during class.
 
-The app allows users to manage their T-Shirts collection, by adding and deleting shirts to the database. 
+The app allows users to manage their T-Shirts collection, by adding and deleting shirts to the database.
 
 For this lesson we will add a basic T-Shirt Model.
-
-Demo complete app [here]()
 
 ---
 
@@ -116,16 +125,16 @@ Let's Add a T-Shirt Model.
 ##Recap
 ###Create a new model
 
-	
-		rails g model Shirt name:string description:text 
-	
+
+		rails g model Shirt name:string description:text
+
 
 ---
 
 ##Recap
 ###Rake
-	
-	rake db:migrate  
+
+	rake db:migrate
 
 ---
 
@@ -153,11 +162,11 @@ Let's Add a T-Shirt Model.
 ###Migration
 
 	# defaults
-	class AddRatingToMovies < ActiveRecord::Migration 
-		def change                                                                       
+	class AddRatingToMovies < ActiveRecord::Migration
+		def change
     		add_column :movies, :rating, :integer, default: 3
-    	end 
     end
+  end
 
 ---
 
@@ -167,16 +176,17 @@ Let's Add a T-Shirt Model.
 
 * Can add fields / columns to existing tables
 
-		# fancy Syntax
+		# shortcut Syntax
 			rails g migration AddImageToShirts image:string
 ---
 
 
-##Recap
-###Migration Types
+##Migrations
+###What can you do in a migration?
 
-####string, text, integer, float, decimal, datetime, timestamp, time, date, binary, boolean
-
+* Adding/removing columns from a table
+* Modifying columns on a table
+* Adding/removing tables
 
 ---
 
@@ -186,8 +196,8 @@ Let's Add a T-Shirt Model.
 ###Seeds
 
 *	Fast and easy way to add data to your tables
-
-	rake db:seeds	
+*	Place a `seeds.rb` file into your `db/` folder
+*	Run `rake db:seeds`
 
 ---
 
@@ -203,21 +213,12 @@ Let's Add a T-Shirt Model.
 ##Recap
 ###Active Record
 
-*	The Active Record pattern represents rows of data as objects
-*	All database interaction is managed through ActiveRecord objects, no SQL is required*	[ActiveRecord is built into Rails]( http://ar.rubyonrails.org/ http://api.rubyonrails.org/classes/ActiveRecord/Base.html)
-
----
-
-
-##Recap
-###Active Record
-
 Create
 
 	Shirt.create(name: "White Tee")
 
 Read
-	
+
 	Shirt.find_by name: "White Tee"
 
 Update
@@ -233,11 +234,41 @@ Delete
 ---
 
 
+##Recap
+###Active Record
+
+*	Rails has a library called ActiveRecord to help Models talk to the database.
+*	Thus, Rails models are called ActiveRecord models.
+*	While ActiveRecord makes it easy to avoid SQL almost entirely, it's still valuable to know some SQL. Later in your development path, you will want to know which queries are more/less efficient so you can optimize them.
+*	For now though, we can enjoy the super-simple syntax of ActiveRecord to talk to our database.
+
+
+---
+
+##Models
+###Summary
+*	We want to store our data in a persistent manner, so we need databases.
+*	Communicating with databases in SQL is complex, so we use ActiveRecord models to help us.
+*	ActiveRecord models are just Ruby Objects, so we can call methods on them and pass them around like any other object.
+*	Each Model *class* maps to a database table
+	*	`>> User.all`
+	*	`>> User.create first_name: 'Salman'`
+	*	`>> User.find(1)`
+*	Each Model *instance* maps to a single record in a table in the database
+	*	`>> user = User.find(1)`
+	*	`=> #<User:0x007fcf8e9eebd8>`
+	*	`>> user.id`
+	*	`=> 1`
+	*	`>> user.update last_name: 'Ansari'`
+
+
+---
+
 ##MVC
 ###Model View Controller
 
-*	The controller interacts with the model
-*	The controller also interacts with the view
+*	The controller interacts with the Model
+*	The controller renders the view, passing it Model data (using instance variables)
 *	The view and the model do not interact (need the controller)
 
 ![MVC Diagram](../../assets/rails/mvc_diagram.png)
@@ -249,7 +280,7 @@ Delete
 ##MVC
 ###Controller
 
-*	Controller intreating with the model
+*	Controller interacting with the model
 
 __shirts_controller.rb__
 
@@ -265,7 +296,7 @@ __shirts_controller.rb__
 __shirts/index.html.erb__
 
 		#Can be used in the view
-		@shirts 
+		@shirts
 
 ---
 
@@ -295,17 +326,18 @@ Let's start now.
 ####Create Models
 
 ```bash
-	rails g model ModelName attribute_name:migration_type attribute_2:migration_type 
+	rails g model ModelName attribute_name:migration_type attribute_2:migration_type
 ```
-*	Use spaces to separate attributes. If you don't list a migration_type (text, integer, float, etc.) the default will be string.
-####Migrations
-
+*	Use spaces to separate attributes. If you don't list a migration_type (text, integer, float, etc.) the default will be string.
+
+####Migrations
+
 __Migrations__
 
 *	Forgot an attribute / field in your model? Create a migration
 	*	Code below adds a field called ratings to the Movies model.
 
-```bash
+```
 	rails g migration AddRatingToMovies rating:integer
 ```
 
@@ -313,7 +345,7 @@ __Seed Files__
 
 *	Populating an entire database with the console would take a while. Use the seeds.rb file.
 
-```bash
+```
 rake db:seed
 ```
 
@@ -321,13 +353,13 @@ __Drop The Database__
 
 *	_You will loose your data if you do this._
 
-```bash
+```
 	rake db:drop
 ```
 
 __Drop database, run migrations, run seeds__
 
-```bash
+```
 	rake db:reset
 ```
 
@@ -335,36 +367,36 @@ __Drop database, run migrations, run seeds__
 
 __Create__
 
-	```ruby
+	```
 		Movie.create(title: "Jaws")
 	```
 
 __Read__
 
-	```ruby
+	```
 		Movie.find_by title: "Jaws"
 	```
-	
-	```ruby
+
+	```
 		# Returns all movie objects in an array.
 		Movie.all
 	```
 
 __Update__
 
-	```ruby
+	```
 		jaws = Movie.find_by title: "Jaws"
 		jaws.update description: "Big Shark, bites people"
 	```
 
 __Delete__
 
-	```ruby
+	```
 		jaws.destroy
 	```
 
 
-###Still Feel Lost? 
+###Still Feel Lost?
 
 At the end of this course you should have an understanding of what databases are and the general structure of a database table (rows and colums). In addition you should be familiar with how to create, update and delete records using active record in the Rails console.
 
@@ -381,12 +413,12 @@ At the end of this course you should have an understanding of what databases are
 
 
 __Rake__
-Rake is Rails software task management tool, often used to automate moving, compiling, and deleting Ruby filesRake executes tasks defined in rake files which describe tasks to be completed using Ruby anonymous function blocks[Introduction to using rake](http://guides.rubyonrails.org/command_line.html#rake) [User guide to rake](http://docs.rubyrake.org/user_guide/index.html
+Rake is Rails software task management tool, often used to automate moving, compiling, and deleting Ruby files
+
+Rake executes tasks defined in rake files which describe tasks to be completed using Ruby anonymous function blocks
+
+[Introduction to using rake](http://guides.rubyonrails.org/command_line.html#rake
 )
 
-
-
-
-
-
-
+[User guide to rake](http://docs.rubyrake.org/user_guide/index.html
+)
