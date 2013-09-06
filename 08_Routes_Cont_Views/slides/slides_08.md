@@ -37,7 +37,11 @@ Learning Objective: Understand flow of control in a Rails app.
 ##The Dispatcher
 ###routes.rb
 
-*	Located at config/routes.rb*	Connects URLs to code	* Used for mapping urls to your code*	Current Routes: $ rake routes	*	Rails 4: Can be seen at http://localhost:3000/rails/info/routes
+*	Located at config/routes.rb
+*	Connects URLs to code
+	* Used for mapping urls to your code
+*	Current Routes: $ rake routes
+	*	Rails 4: Can be seen at http://localhost:3000/rails/info/routes
 
 ![](../../assets/rails/routes.png)
 
@@ -74,9 +78,10 @@ GET, POST, PUT/PATCH, DELETE
 ##MVC
 ###Routes to Controller
 
-Controllers: 
+Controllers:
 
-*	Render a View*	Redirect to another view
+*	Render a View
+*	Redirect to another view
 
 ---
 
@@ -84,7 +89,11 @@ Controllers:
 ##Controllers
 ###Controllers Are Objects!
 
-*	Responsible for parsing user request*	It can display some text to the browser, redirect to another path or send an error message.*	Contains actions (aka functions)
+*	Responsible for parsing user request
+
+*	It can display some text to the browser, redirect to another path or send an error message.
+
+*	Contains actions (aka functions)
 
 
 ---
@@ -93,8 +102,11 @@ Controllers:
 ##Controllers
 ###Methods
 
-*	Methods are called actions in Rails.
-
+*	Recall: methods are "def blocks" in Ruby classes.
+* Controllers are also classes, like any other.
+* However, methods inside a controller are not like any other method; they are special (called Controller Actions)
+* A Rails action gets invoked when a route matches to that controller/action combination
+* Note: a private/protected method in a controller is NOT an action (you cannot hit that method via a URL). You can use private/protected methods to have helper methods inside a controller without being actions.
 
 ---
 
@@ -102,8 +114,8 @@ Controllers:
 ##Controllers
 ###Params
 
-*	http://localhost:3000/games/secret_number/7
-	*	7 is a param	
+*	http://localhost:3000/games/secret_number/7
+*	7 is a param, based on URL convention in the routes
 
 ---
 
@@ -111,7 +123,10 @@ Controllers:
 ##MVC
 ###Controller to Views
 
-*	Views can be rendered directly by the controller	*	Note: Not scalable when HTML file gets more complex*	By default your controller renders the view named controller_name/action_name.html.erb
+*	Views can be rendered directly by the controller
+	*	Note: Not scalable when HTML file gets more complex
+
+*	By default your controller renders the view named controller_name/action_name.html.erb
 
 
 ![Views Folder](../../assets/rails/views.png)
@@ -127,7 +142,7 @@ Controllers:
 		<% @games.each do |game| %>
 			<%= game %>
 		<% end %>
-		
+
 		<% 1 + 1 %> // won't show
 		<%= 2 + 2 %> // will show!
 
@@ -140,15 +155,20 @@ Controllers:
 ##Views
 ###application.html.erb
 
-*	All views are wrapped inside application.html.erb	*	It loads the assets	*	sets up the meta tags, titles etc...	*	You can render no layout Or a different layout
+*	All views are wrapped inside application.html.erb
+	*	It loads the assets
+	*	sets up the meta tags, titles etc...
+	*	You can render no layout Or a different layout
 
 ---
 
 
 ##Views
-###Asset Folder
+###Assets Folder
 
-![](../../assets/rails/app_assets.png)
+* Keeps javascript files, stylesheets, and images
+
+![](../../assets/images/some_image.png)
 
 ---
 
@@ -176,8 +196,10 @@ Add Rock Paper Scissors to Games on Rails
 ```bash
 $ rails generate controller game index show
 ```
-*	Creates game_controller.rb with action index and show*	Adds entries to the routes.rb*	Creates the view 
-	*	```app/views/games/index.html.erb```  
+*	Creates game_controller.rb with action index and show
+*	Adds entries to the routes.rb
+*	Creates the view
+	*	```app/views/games/index.html.erb```
 	*	```app/views/games/show.html.erb``
 
 ####Adding Ruby To A View
@@ -186,7 +208,7 @@ $ rails generate controller game index show
  	<%  These are ruby tags %>
  ```
 
-###Still Feel Lost? 
+###Still Feel Lost?
 
 At the end of this lesson you should be able to describe the flow of control in a Rails app.
 

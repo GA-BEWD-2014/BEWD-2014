@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GamingApp</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <title>Games on Rails</title>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <!-- Built with love by Salman Ansari, BEWD Instructor in Sep 2013 -->
 </head>
 <body>
 
-<%= yield %>
+<% unless controller.controller_name == 'games' %>
+  <%= link_to '< Back to Game Center', '/' %>
+<% end %>
+
+<div id="content">
+  <%= yield %>
+</div>
 
 </body>
 </html>

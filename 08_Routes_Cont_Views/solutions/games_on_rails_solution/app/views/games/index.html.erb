@@ -1,9 +1,18 @@
-<h1>Welcome to the Game Center</h1>
-<p>There <%= game_state @games.count, "is" %> <%=pluralize @games.count, 'game' %> available!</p>
-<ul>
-  <% @games.each do |game, path| %>
-    <li><%= link_to game, path %></li>
-  <% end %>
-</ul>
+<h1>Welcome to the Game Center!</h1>
 
-<%= truncate @rps_description, length: 60, separator: " " %> <%= link_to "More", rps_path %>
+<p>Choose a game below to get started:</p>
+
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <%=link_to image_tag("games/secret-number.jpg"), new_secret_number_path %>
+      <h4>SECRET NUMBER</h4>
+    </td>
+    <td>
+      <%=link_to image_tag("games/rock-paper-scissors.jpg"), new_rock_paper_scissor_path %>
+      <h4>ROCK PAPER SCISSORS</h4>
+    </td>
+  </tr>
+</table>
