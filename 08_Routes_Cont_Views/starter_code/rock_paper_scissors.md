@@ -13,12 +13,10 @@
 
 * Add the game Rock Paper Scissors to the "Games on Rails App".
 
-*	Create a route that goes from ```/games/rock_paper_scissors/:throw``` to ```games#rock_paper_scissors_play```
+*	Create a rock_paper_scissors_controller.rb similar to the secret number controller
 
-*	Use params[:throw] as the user's choice
+*	Use params[:id] as the user's throw number
 
-*	Compare the 2! If the user's throw matches the apps throw, the user wins.
+* Calculate the throw (rock, paper, scissors) based on the throw number (0, 1, 2)
 
-	*	i.e. If a user throws rock ```http://localhost:3000/games/rock_paper_scissors/rock``` and the app throws rock, the player wins! (Yes, I know those are not the official rules for RPS).
-
-Bonus: Set the win or lose condition based on the real rules of [Rock Paper Scissors](http://en.wikipedia.org/wiki/Rock-paper-scissors).
+*	Compare the 2! If the user's throw matches the apps throw, the user wins. If both are same, show a tie. Otherwise, show a loss message.

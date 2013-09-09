@@ -1,0 +1,32 @@
+<table>
+  <tr>
+    <td>
+      <p>You threw:</p>
+      <%=image_tag "rock_paper_scissors/#{@user_throw}.jpeg" %>
+      <h4><%=@user_throw.upcase%></h4>
+    </td>
+    <td>
+      <h1>VS.</h1>
+    </td>
+    <td>
+      <p>Rails threw:</p>
+      <%=image_tag "rock_paper_scissors/#{@game_throw}.jpeg" %>
+      <h4><%=@game_throw.upcase%></h4>
+    </td>
+  </tr>
+</table>
+
+<% if @status == :win %>
+  <h1>CONGRATS! YOU WIN!</h1>
+  <%= image_tag "games/winner.gif" %>
+<% elsif @status == :tie %>
+  <h1>It's a tie!</h2>
+  <%= image_tag "games/tie.jpg" %>
+<% else %>
+  <h1>Sorry, you lose...</h1>
+  <%= image_tag "games/cat-always-wins.jpeg" %>
+<% end %>
+
+<br/>
+
+<h2><%=link_to "PLAY AGAIN", new_rock_paper_scissor_path %></h2>

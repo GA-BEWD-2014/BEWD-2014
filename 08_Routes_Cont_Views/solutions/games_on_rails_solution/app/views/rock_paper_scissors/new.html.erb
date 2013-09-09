@@ -1,0 +1,16 @@
+<h1>Welcome to Rock Paper Scissors!</h1>
+
+</br>
+
+<h4>To play the game, choose a throw:</h4>
+
+<table>
+  <tr>
+    <% @throws.each_with_index do |throw, num| %>
+      <td>
+        <%=link_to image_tag("rock_paper_scissors/#{throw}.jpeg"), rock_paper_scissor_path(num) %>
+        <h3><%=throw.upcase%></h3>
+      </td>
+    <% end %>
+  </tr>
+</table>
