@@ -3,7 +3,7 @@
 
 ##GETTING STARTED WITH CURRICULUM
 
-Welcome to the BEWD Curriculum v. 1.0.1. 
+Welcome to the BEWD Curriculum v. 1.0.2. 
 
 This repository contains all the materials GA supplies its Back-End Web Development instructors. 
 
@@ -39,7 +39,7 @@ We've supplied a folder for each lesson. In these folders we've included:
 | __Quick Fire__| A programming challenge students must complete in class. aprox 30 min - 1 hour| Some lessons will have a quick fire exercise. Quick fire are meant to be done individually and test the students understanding of the content thus far.|
 
 
-###How to Prepare for Each Lesson
+###How To Prepare For Each Lesson
 We will provide a __private repository__ for your course. This is how you will share code files, notes and slides with students. 
 Students will fork your repository and use the fork as their class repo.
 
