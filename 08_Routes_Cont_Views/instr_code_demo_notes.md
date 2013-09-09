@@ -2,7 +2,7 @@
 
 ##Games On Rails
 
-####Time: 120 min
+####Time: 90 min
 
 | | |
 | ------------- |:-------------|
@@ -11,7 +11,7 @@
 
 ####App Description
 
-Games on Rails is a web application with two games
+This application is a game center with two games, Secret Number and Rock Paper Scissors. Students will use the secret number code demo as a reference to add Rock Paper Scissors to the application.
 
 __Secret Number__
 
@@ -19,17 +19,23 @@ __Secret Number__
 
 __Rock Paper Scissors__
 
-*	Students add this game during lab time. The controller picks a random throw and if it matches the users throw it renders a winning message (otherwise, it shows a tie or loss message).
+*	Students add this game during lab time. The controller picks a random throw and if it matches the user's throw it renders a winning message (otherwise, it shows a tie or loss message).
 
+
+###Secret Number
 
 ####Key Teaching Points
 
-This application is a game center with two games, Secret Number and Rock Paper Scissors. Students should be able to see the example from secret number and implement the rest of Rock Paper Scissors.
+*	Shows that logic in the controller can render a specific view
 
-Each game further explains the use of Routes Views and Controllers:
+*	Demonstrate how views can link to a path and pass param to the controller.
 
-*	__Secret Number__
-	*	Demonstrates how views can link to a path and pass param to the controller.
-  *	Shows that logic in the controller can render a specific view
+*	Show how the app can be styled using CSS.
 
+*	Demonstrate how you would add images to the application.
 
+You should push the complete code prior to students adding Rock Paper Scissors.
+
+  
+###Rock Paper Scissors
+*	see [instr_exercise_notes](instr_exercise_notes.md)

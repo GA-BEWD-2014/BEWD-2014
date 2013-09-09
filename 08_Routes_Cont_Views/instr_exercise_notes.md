@@ -11,6 +11,8 @@
 | __Activity Type__| Pair Programming|
 
 
-####Instructional Design Notes: 
+####Instructor Notes: 
 
-*	Students practice skills learned during the code along. We also test their ruby skills with the bonus question by having students write the logic that matches the real Rock Paper Scissors game.
+*	Students practice skills learned during the code along. We also test their ruby skills with the bonus question by having students write the logic that matches the real Rock Paper Scissors game. 
+
+*	Students are required to lightly style the views and add images. (We've provided images in the starter code).

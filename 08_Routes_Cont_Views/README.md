@@ -8,7 +8,7 @@
 ###Learning Objectives
 
 
-*	Explain the MVC structure and differentiate between viewS and controllers. 
+*	Explain the MVC structure and differentiate between views and controllers. 
 *	Describe the request reponse cycle and the flow of control in a Rails app.
 *	Generate a controller with a view.
 *	Identify where to put css and JavaScript files.
