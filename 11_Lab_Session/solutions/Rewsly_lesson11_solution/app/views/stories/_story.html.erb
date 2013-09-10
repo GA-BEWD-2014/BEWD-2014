@@ -1,9 +1,7 @@
-<article>
-  <li>
-  <header>
-    <%= link_to story.title, story.link %>
-  </header>
-  <p>Upvotes: <%= story.upvotes %> | 
-  Category: <%= story.category %> |</p>
-  </li>
-</article>
+<li>
+  <h3><%= link_to story.title, story.link %></h3>
+  <p>
+    <b>Upvotes</b>: <%= story.upvotes %> ||
+    <b>Category</b>: <%= story.category %> ||
+  </p>
+</li>

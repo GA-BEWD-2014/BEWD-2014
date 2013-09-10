@@ -1,6 +1,6 @@
 class StoriesController < ApplicationController
   def index
-    @stories = Story.all
+    @stories = Story.search_for params[:q]
   end
 
   def show
@@ -13,16 +13,12 @@ class StoriesController < ApplicationController
 
   def create
     safe_story_params = params.require(:story).permit(:title, :link, :category)
-    @story = Story.new safe_story_params
-    @story.upvotes = 1
+    @story = Story.new safe_story_params.merge(:upvotes => 1)
+
     if @story.save
       redirect_to @story
     else
       render :new
     end
-  end
-
-  def search
-    @stories = Story.search_for params[:q]
   end
 end
