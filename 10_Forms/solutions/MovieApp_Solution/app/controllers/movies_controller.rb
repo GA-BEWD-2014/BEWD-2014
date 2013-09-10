@@ -1,7 +1,8 @@
 class MoviesController < ApplicationController
-  before_action :find_movie, only: [:update, :edit, :show]
+  before_action :load_movie, only: [:update, :edit, :show]
+
   def index
-    @movies = Movie.all
+    @movies = Movie.search_for(params[:q])
   end
 
   def new
@@ -9,8 +10,8 @@ class MoviesController < ApplicationController
   end
 
   def create
-    safe_movie = params.require(:movie).permit(:title, :description, :year_released, :rating)
-    @movie = Movie.new safe_movie
+    @movie = Movie.new safe_movie_params
+
     if @movie.save
       redirect_to @movie
     else
@@ -22,8 +23,7 @@ class MoviesController < ApplicationController
   end
 
   def update
-    safe_movie = params.require(:movie).permit(:title, :description, :year_released, :rating)
-    if @movie.update(safe_movie)
+    if @movie.update(safe_movie_params)
       redirect_to @movie
     else
       render 'edit'
@@ -33,14 +33,13 @@ class MoviesController < ApplicationController
   def show
   end
 
-  def search
-    query = params[:q]                                                             
-    @movies = Movie.search_for query 
-  end
+  private
 
-  private 
+    def load_movie
+      @movie = Movie.find params[:id]
+    end
 
-  def find_movie
-    @movie = Movie.find params[:id]
-  end
+    def safe_movie_params
+      params.require(:movie).permit(:title, :description, :year_released, :rating)
+    end
 end

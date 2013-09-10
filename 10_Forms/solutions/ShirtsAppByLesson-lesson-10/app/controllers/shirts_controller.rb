@@ -1,8 +1,8 @@
 class ShirtsController < ApplicationController
-  before_action :set_shirt, only: [:edit, :show, :update]
+  before_action :load_shirt, only: [:edit, :show, :update]
 
   def index
-    @shirts = Shirt.all
+    @shirts = Shirt.search_for(params[:q])
   end
 
   def new
@@ -10,7 +10,7 @@ class ShirtsController < ApplicationController
   end
 
   def create
-    @shirt = Shirt.new(shirt_params)
+    @shirt = Shirt.new(safe_shirt_params)
     if @shirt.save
       redirect_to @shirt
     else
@@ -26,24 +26,19 @@ class ShirtsController < ApplicationController
     redirect_to @shirt
   end
 
-  def search
-    query = params[:q]
-    @shirts = Shirt.search_for(query)
-  end
-
   def show
   end
 
   private
 
-  def shirt_params
-    params.require('shirt').permit(:name, :description, :image)
-  end
+    def safe_shirt_params
+      params.require('shirt').permit(:name, :description, :image)
+    end
 
-  def set_shirt
-    @shirt = Shirt.find(params[:id])
-  rescue ActiveRecord::RecordNotFound
-    flash.now[:notice] = "Invalid Shirt ID #{params[:id]}"
-    redirect_to root_path
-  end
+    def load_shirt
+      @shirt = Shirt.find(params[:id])
+    rescue ActiveRecord::RecordNotFound
+      flash.now[:notice] = "Invalid Shirt ID #{params[:id]}"
+      redirect_to root_path
+    end
 end

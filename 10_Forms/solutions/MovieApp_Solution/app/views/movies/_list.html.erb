@@ -1,7 +1,10 @@
 <% @movies.each do |movie| %>
   <section>
-    <header><%= link_to movie.title, movie %></header>
-    <p><%= movie.description %></p>
-    <b><%= movie.year_released %></b>
+    <header>
+      (<b><%= movie.year_released %></b>)
+      <%= link_to movie.title, movie %>
+    </header>
+    <%= movie.description %>
   </section>
+  <br/>
 <% end %>

@@ -1,6 +1,13 @@
 <h1>All the shirts!</h1>
 <p><%= notice %></p>
-<%= render 'search' %>
-<%= link_to "Add a new shirt!", new_shirt_path %>
+
+<h3><%= link_to "+ Add New Shirt", new_shirt_path %></h3>
+
+<%= form_tag "/", method: "GET" do %>
+  <%= text_field_tag :q %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<br/>
 
 <%= render "list" %>

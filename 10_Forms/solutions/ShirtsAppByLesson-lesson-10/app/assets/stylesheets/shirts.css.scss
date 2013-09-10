@@ -2,6 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.fields label{
-  display:block;
+* {
+  font-family: Arial, sans-serif;
+}
+
+input[type='text'] {
+  font-size: 16px;
+}
+
+.fields label {
+  display: block;
+}
+
+section {
+  padding: 10px;
+  width: 500px;
+  border: 1px solid #eee;
+  margin: 10px 0;
 }

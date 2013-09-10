@@ -1,3 +1,12 @@
-<h1>Welcome to The Movies app!</h1>
-<%= link_to "Add a movie", new_movie_path %>
+<h1>Welcome to the Movies App!</h1>
+
+<h3><%= link_to "+ Add New Movie", new_movie_path %></h3>
+
+<%= form_tag "/", method: "GET" do %>
+  <%= text_field_tag :q, params[:q] %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<br/><br/>
+
 <%= render 'list' %>
