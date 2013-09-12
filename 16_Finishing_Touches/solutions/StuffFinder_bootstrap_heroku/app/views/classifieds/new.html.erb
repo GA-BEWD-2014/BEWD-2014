@@ -1,4 +1,7 @@
-<h1>Add a classified</h1>
+<h1>New Classified</h1>
+
+<br/>
+
 <%= form_for @classified do |f| %>
   <fieldset>
     <%= label_tag :category %>
@@ -9,9 +12,12 @@
     <%= f.text_area :description, required: true%>
     <%= f.label :price %>
     <span class="add-on">$</span>
-    <%= f.number_field :price, :size => 5, :value => 0, :step => 1, :min => 0 %>
+    <%= f.number_field :price, :size => 5, :value => 0, :step => 1, :min => 0, :style => 'width: 85px; height: 18px;' %>
     <span class="add-on">.00</span>
   </fieldset>
-  <%= f.submit class: "btn btn-success btn-large" %>
-  <%= link_to "Back", :back,  class: "btn btn-danger btn-large" %>
+
+  <br/><br/>
+
+  <%= f.submit class: "btn btn-success btn-medium" %>
+  <%= link_to "Cancel", classifieds_path,  class: "btn btn-danger btn-medium" %>
 <% end %>
