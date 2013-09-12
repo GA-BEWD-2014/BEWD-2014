@@ -1,24 +1,31 @@
- <%= link_to "Add a new Painting!", new_painting_path %>
+<h1>Painting Gallery</h1>
+
+<h3><%= link_to "+ Add New Painting", new_painting_path %></h3>
 
 
-<%= form_tag "/search", method: "GET" do %>
-  <%= label_tag :q, "Search By Title" %>
+<%= form_tag "/", method: "GET" do %>
   <%= text_field_tag :q %>
   <%= submit_tag "Search" %>
 <% end %>
 
+<br/><hr/>
 
-<h1>All the Paintings!</h1>
-<% @paintings.each do |painting| %>
-  <section>
-  	
-    <h3>Title: <%= link_to painting.title, painting %></h3>
-    <%= image_tag painting.image %>
-    <p>Year: <%= painting.year%></p>
-    <p>Style: <%= painting.style%></p>
-    <p>Museum: <%= link_to painting.museum.name, painting.museum %></p>
+<% if @paintings.any? %>
 
-    <hr>
-  </section>
+  <% @paintings.each do |painting| %>
+    <section>
+      <h3><b>Title</b>: <%= link_to painting.title, painting %></h3>
+      <%= image_tag painting.image %>
+      <p><b>Year</b>: <%= painting.year%></p>
+      <p><b>Style</b>: <%= painting.style%></p>
+      <p><b>Museum</b>: <%= link_to painting.museum.name, painting.museum %></p>
+
+      <hr>
+    </section>
+  <% end %>
+
+<% else %>
+
+  <h4>Sorry, no paintings matched your query.</h4>
+
 <% end %>
-

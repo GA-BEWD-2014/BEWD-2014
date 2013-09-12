@@ -1,5 +1,8 @@
 <section>
   <h2>Classifieds</h2>
+
+  <br/>
+
   <% @categories.each do |category| %>
     <article>
       <section class="well well-small">
@@ -25,4 +28,4 @@
       <li><%= link_to category.name, category %></li>
     <% end %>
   </ul>
-<% end %> 
+<% end %>

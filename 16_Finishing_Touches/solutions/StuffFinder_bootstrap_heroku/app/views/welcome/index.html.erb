@@ -1,8 +1,11 @@
 <section class="hero-unit">
-  <h1>Your place for finding stuff you want, and dumping stuff you don't</h1>
+  <h1 style="text-align:center;">Your place for finding stuff you want, and dumping stuff you don't</h1>
+
+  <br/>
 
   <div class='action-buttons'>
-    <%= link_to "Create a new classified!", new_classified_path, class: 'btn btn-success btn-large' %>
-    <%= link_to "See our current classifieds", classifieds_path, class: 'btn btn-primary btn-large' %>
+    <%= link_to "Browse Classifieds", classifieds_path, class: 'btn btn-primary btn-large' %>
+    <%= link_to "Sign In & Create Your Own", new_classified_path, class: 'btn btn-success btn-large' %>
+
   </div>
 </section>

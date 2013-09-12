@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
-  layout 'welcome'
   before_action :redirect_if_logged_in
+
   def index
     @categories = Category.all
   end

@@ -2,26 +2,26 @@
 
 #Rewsly
 ###App Description
- 
 
-News aggregator app.  
 
-*	The front page welcomes visitors "Welcome to Rewsly" and list all titles in the stories table. 
+News aggregator app.
+
+*	The front page welcomes visitors "Welcome to Rewsly" and list all titles in the stories table.
 *	Visitors can view more details by clicking on the title from the front page.
 *	Visitors can search for a specific story by title or category from the front page.
-*	Visitors can add stories to the database if all fields are present. 
+*	Visitors can add stories to the database if all fields are present.
 	*	Prevent visitors from saving a record if it has errors.
-	
+
 
 This app is a continuation from the previous class.
 
 
-## Review 
+## Review
 ####Time: 15 min
 
 | | |
 | ------------- |:-------------|
-| __Topics__ |views, controllers, forms, models| 
+| __Topics__ |views, controllers, forms, models|
 
 
 ####Key Teaching Points
@@ -30,12 +30,12 @@ This app is a continuation from the previous class.
 
 
 
-##Adding Devise 
+##Adding Devise
 ####Time: 30 min
 
 | | |
 | ------------- |:-------------|
-| __Topics__ |devise, gems, documentation| 
+| __Topics__ |devise, gems, documentation|
 
 
 ####Key Teaching Points
@@ -50,7 +50,7 @@ __Here is our suggestion on how to incrementally build__
 
 1.	Add Devise gem to the app
 2.	Change "sign_in" to "login", and "sign_out" to "logout"
-3.	Prevent unauthorized users from adding stories. 
+3.	Prevent unauthorized users from adding stories.
 	*	Visitors can view and search for stories.
 
 

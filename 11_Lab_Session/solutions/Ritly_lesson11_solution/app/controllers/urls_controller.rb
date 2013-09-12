@@ -20,7 +20,7 @@ class UrlsController < ApplicationController
 
   def show
     @url = Url.find params[:id]
-    @full_path = "#{request.host_with_port}/#{@url.hash_code}"
+    @full_path = "#{request.protocol}#{request.host_with_port}/#{@url.hash_code}"
   end
 
   def redirector
