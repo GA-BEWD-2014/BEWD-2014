@@ -7,15 +7,15 @@
 
 ###Task Instructions
 
-We are going to add authentication to Ritly using Devise. 
- 
-Here is the functionality we need to add this lesson. 
+We are going to add authentication to Ritly using Devise.
 
-* 	Users must be logged in to Ritly in order to request a randomly generated code for their URL link.
+Here is the functionality we need to add this lesson.
 
-*	Visitors to Ritly can go to ```localhost:3000/random_generated_code``` and the application will redirect them to the  matched link in the database. 
+* Users must be logged in to Ritly in order to request a randomly generated code for their URL link.
 
-*	Visitors to Ritly can go to ```localhost:3000/random_generated_code/preview``` and preview the matching URL link from the database. 
+*	Visitors to Ritly can go to ```localhost:3000/code``` and the application will redirect them to the  matched link in the database.
+
+*	Visitors to Ritly can go to ```localhost:3000/code/preview``` and preview the matching URL link from the database.
 
 Note: A visitor is anyone who comes to your site, they are not logged in users. A logged in user is also a visitor.
 

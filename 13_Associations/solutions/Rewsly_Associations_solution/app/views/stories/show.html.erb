@@ -4,7 +4,7 @@
 
 <%= form_for [@story, @comment] do |f| %>
   <p>
-    <%= f.text_area :post, placeholder: "Add a comment..." %>
+    <%= f.text_area :post, placeholder: "Add a comment...", :rows => 8, :cols => 40 %>
   </p>
   <%= f.submit %>
 <% end %>
