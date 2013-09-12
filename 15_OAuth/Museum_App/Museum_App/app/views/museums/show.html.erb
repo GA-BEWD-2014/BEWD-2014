@@ -1,13 +1,14 @@
 <h1><%= @museum.name %></h1>
-<p>Located in: <%= @museum.city %></p>
+<p><%= @museum.city %></p>
 
+<hr/>
 
 <% @museum.paintings.each do |painting| %>
   <section>
-    <h3>Title: <%= link_to painting.title, painting %></h3>
+    <h3><b>Title</b>: <%= link_to painting.title, painting %></h3>
     <%= image_tag painting.image %>
-    <p>Year: <%= painting.year%></p>
-    <p>Style: <%= painting.style%></p>
-    <hr>
+    <p><b>Year</b>: <%= painting.year%></p>
+    <p><b>Style</b>: <%= painting.style%></p>
+    <hr/>
   </section>
  <% end %>

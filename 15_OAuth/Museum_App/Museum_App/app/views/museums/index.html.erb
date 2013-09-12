@@ -1,11 +1,10 @@
-<h1>All the Museums!</h1>
-
+<h1>Museums</h1>
 
 <% @museums.each do |museum| %>
-  <section>  	
-    <h3>Name: <%= link_to museum.name, museum %></h3>
-    <p>City: <%= museum.city%></p>
-    
-    <hr>
+  <hr/>
+  <section>
+    <h3><%= link_to museum.name, museum %></h3>
+    <p><%= museum.city%></p>
   </section>
+
 <% end %>

@@ -1,8 +1,8 @@
 class PaintingsController < ApplicationController
-	  before_action :set_painting, only: [:edit, :show, :update]
-  
+	  before_action :load_painting, only: [:edit, :show, :update]
+
   def index
-  	@paintings = Painting.all
+  	@paintings = params[:q] ? Painting.search_for(params[:q]) : Painting.all
   end
 
   def new
@@ -10,7 +10,7 @@ class PaintingsController < ApplicationController
   end
 
   def create
-    @painting = Painting.new(painting_params)
+    @painting = Painting.new(safe_painting_params)
     if @painting.save
       redirect_to @painting
     else
@@ -24,22 +24,16 @@ class PaintingsController < ApplicationController
   def update
   end
 
-  def search
-    query = params[:q]
-    @painting = Painting.find_by_title(query)
-    render "show"
-  end
-
   def show
   end
 
   private
 
-  def painting_params
+  def safe_painting_params
     params.require('painting').permit(:title, :year, :style, :image)
   end
 
-  def set_painting
+  def load_painting
     @painting = Painting.find(params[:id])
   rescue ActiveRecord::RecordNotFound
     flash.now[:notice] = "Invalid Painting ID #{params[:id]}"
