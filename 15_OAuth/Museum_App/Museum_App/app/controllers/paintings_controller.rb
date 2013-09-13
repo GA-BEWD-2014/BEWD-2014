@@ -22,6 +22,11 @@ class PaintingsController < ApplicationController
   end
 
   def update
+    if @painting.update(safe_painting_params)
+      redirect_to @painting
+    else
+      render 'edit'
+    end
   end
 
   def show
