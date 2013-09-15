@@ -1,17 +1,21 @@
-<section>
-  <% @users.each do |user| %>
-    <article>
-      <%= form_tag user_messages_path(user), method: :post do %>
-        <header>
-        <p><%= user.name %></p>
-        </header>
-        <div>
-        <%= text_area_tag :body, "", placeholder: "Enter a message for #{user.name}" %></li>
-        </div>
-        <%= submit_tag "Send message" %>
-      <% end %>
-    </article>
-  <% end %>
-</section>
+<h1>Contact List</h1>
 
-<p><%= link_to "Add a new contact", new_user_path %></p>
+<h3><%= link_to "+ Add New Contact", new_user_path %></h3>
+
+<br/>
+
+<div class="contact-list">
+<% @users.each do |user| %>
+  <div class="contact">
+      <div class="name"><%= user.name %></div>
+      <div class="contact-form">
+        <%= form_tag user_messages_path(user), method: :post do %>
+          <%= text_area_tag :body, "", cols: 40, rows: 5, placeholder: "Enter a message for #{user.name}" %>
+          <br/>
+          <%= submit_tag "Send Message" %>
+        <% end %>
+      </div>
+      <div class="clear"></div>
+  </div>
+<% end %>
+</div>

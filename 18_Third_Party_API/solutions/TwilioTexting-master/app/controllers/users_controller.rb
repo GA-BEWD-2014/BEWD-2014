@@ -8,8 +8,8 @@ class UsersController < ApplicationController
   end
 
   def create
-    safe_user = params.require(:user).permit(:name, :phone)
-    User.create(safe_user)
+    User.create(params.require(:user).permit(:name, :phone))
+
     redirect_to root_path
   end
 end

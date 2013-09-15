@@ -6,7 +6,7 @@
 
 A phone book application that can send sms messages from your Rails app.
 
-This is a project used in web development immersive, that we are offering to BEWD students. It has been updated to be rails 4 compliant. 
+This is a project used in web development immersive, that we are offering to BEWD students. It has been updated to be rails 4 compliant.
 
 
 ###Key Teaching Points
@@ -15,20 +15,20 @@ This is a project used in web development immersive, that we are offering to BEW
 
 *	Reference the API and tackle the application as if you were approaching this projects for the first time. How would you start? How would you deal with troubleshooting? Knowing how to answer these questions will give students confidence to continue coding beyond this course.
 
-*	Explain the purpose of ENV[‘TW_SID’] and ENV[‘TW_TOK’].
+*	Explain the purpose of ENV[‘TW_SID’], ENV[‘TW_TOKEN’] and ENV['TW_SOURCE_NUMBER'].
 
 
 ####Our Suggested Task Instructions
 
-*	Have all students go to [Twilio](https://www.twilio.com/user/account) and create a free trial account. 
-	*	Trial accounts allow a few free text.	
-	*	Sending text messages costs a penny per text message and the minimum account is $20 and includes a phone number. 
+*	Have all students go to [Twilio](https://www.twilio.com/user/account) and create a free trial account.
+	*	Trial accounts allow a few free text.
+	*	Sending text messages costs a penny per text message and the minimum account is $20 and includes a phone number.
 
 *	Create a new lab with a Postgres or sql lite database.
-		
-*	Update the database.yml file and the Gemfile. 
 
-	*	Add the twilio-ruby gem. Run bundle. 
+*	Update the database.yml file and the Gemfile.
+
+	*	Add the twilio-ruby gem. Run bundle.
 
 *	Create the user model with name, phone
 
@@ -51,15 +51,17 @@ This is a project used in web development immersive, that we are offering to BEW
 
 *	Go to Twilio > Dashboard. At the top, there are two numbers there that you want to keep to yourself, the Account SID and the Auth Token. Add token and SID to app.
 
-		export TW_SID=
-		export TW_TOK=
-	
-*	Reload your terminal environment and test.
-	
-		echo $TW_SID
-		echo $TW_TOK
+	export TW_SID="<Twilio Account SID>"
+	export TW_TOKEN="<Twilio Auth Token>"
+	export TW_SOURCE_NUMBER="<Twilio Number>" (e.g. export TW_SOURCE_NUMBER="+16503535688")
 
-*	Go into your seeds.rb and add a user with a real phone number. 
+*	Reload your terminal environment and test.
+
+		echo $TW_SID
+		echo $TW_TOKEN
+		echo $TW_SOURCE_NUMBER
+
+*	Go into your seeds.rb and add a user with a real phone number.
 
 
 
