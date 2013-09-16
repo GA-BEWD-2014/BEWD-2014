@@ -4,33 +4,33 @@
 
 ###Instructor Name
 
-
 ---
 
 
 ##Agenda
 
-*	Finding Associations
-*	Coding Associations
-*	Nested Forms
+*	Discovering Associations
+	*	Twitter Associations [Code-Along]
+	*	Netflix Associations [Exercise]
+*	Building Associations
+	*	Rewsly Associations [Code-Along]
 
 ---
 
+##Associations
 
-##Rewsly
-###New  Feature
-
-We want to track which user posted a specific story. 
-````stories.find_by_user_id()````
-
-…stories does not have a user id.
+* As the data we want to store in each table grows, sometimes we need more than just attributes
+* For example, if we want to store the user who wrote a story, we could start by storing the user_name as an attribute on a story
+* Then we'd add user_email, user_nickname, etc… and it would quickly get messy
 
 ---
 
 
 ##Associations
 
-Users need to be __associated__ to a story.
+* Eventually we realize, we actually want to store user data in a _users_ table
+* Somehow, we'd need to link each story to its corresponding record in the users table
+* This link is known as an _association_
 
 ---
 
@@ -42,14 +42,30 @@ Model associations are how models interact with each other.
 
 Adding associations will help us know which user posted which story. 
 
-With associations its best to step away from the code and understand conceptually what is happening.
+With associations its best to step away from the code and understand conceptually what is happening at a database level.
+
+In the database, two tables can be linked together using a _foreign key_.
 
 ---
-
 
 <img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 ##Twitter Associations
 
+
+---
+
+##Associations
+### Primary Keys
+
+A unique key (field) that can uniquely identify each row in a table
+
+
+---
+
+##Associations
+### Foreign Keys
+
+Definition: A foreign key is a _column_ that is used to establish and enforce a link between data from two distinct tables.
 
 ---
 
@@ -92,25 +108,8 @@ Tweet __has_many__ hash_tags __through__ hash_tagging
 
 ![](../../assets/rails/has_many_through.png)
 
----
-
-
-##Associations
-### Primary Keys
-
-A unique key (field) that can uniquely identify each row in a table
-
 
 ---
-
-
-##Associations
-### Foreign Keys
-
-… a foreign key is a column or a combination of columns that is used to establish and enforce a link between the data in two tables. - __Wikipedia__
-
----
-
 
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Netflix Associations

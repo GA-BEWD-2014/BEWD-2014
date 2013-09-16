@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-#BEWD - Getting Started
+#BEWD - Final Project: Getting Started
 
 ###Instructor Name
 
@@ -10,55 +10,34 @@
 
 ##Agenda
 
-*	How To Start
+*	Plan Your App
 *	User Stories
 *	Wireframes / Paper Prototype
 *	User Testing
 *	Database Schema
 
----
-##How To Start
-###Before you code
-
-
-My proposal was accepted, now what…?
-
 ---
 
 
- 
-##How To Start
-###Before you code
-
-If you fail to plan, you are planning to fail - Benjamin Franklin
-
----
-
-
-##How To Start
+##Plan Your App
 ###Before you code
 
 We are going to borrow some best practices from project managers and UX designers to help us plan our final project.
 
-*	Planning before code will help prevent timely errors.
-
-
----
-
-##How To Start
-###Before you code
-
-What do you want your app to do? 
+*	Planning before code will help prevent uniformed (and expensive) decisions.
+*	Thinking deeply about how you want your app to function will help provide direction.
+*	Visualizing your application flow will simplify implementation.
 
 ---
 
 ##User Stories
-###Definition
 
-	As a user, I want to take a photo of what I am eating and share it with the world so that everyone 	knows . - User Story for Instagram.
+	As a user, I want to take a photo of where I am and share it with the world. - Simple User Story for Instagram.
 
 
-User stories are used with agile software development methodologies as the basis for defining the functions a business system must provide, and to facilitate requirements management. It captures the 'who', 'what' and 'why' of a requirement in a simple, concise way, often limited in detail by what can be hand-written on a small paper notecard. User stories are written by or for the business user as that user's primary way to influence the functionality of the system being developed.  - wikipedia.org
+*	User stories are used with agile software development methodologies as the basis for defining the functions a business system must provide, and to facilitate requirements management. 
+*	A user story captures the 'who', 'what' and 'why' of a requirement in a simple, concise way, often limited in detail by what can be hand-written on a small paper notecard. 
+*	User stories are written from the perspective of the user (a regular user, admin user, or otherwise), not the developer.
 
 ---
 
@@ -78,12 +57,19 @@ User stories are used with agile software development methodologies as the basis
 
 This is the user story template: 
 
-	“As a __<type of user>__, I want __<some goal>__ so that __<some reason>__.” 
+	“As a __<type of user>__, when I __<perform some action>__ then I should see __<something happen>__.” 
 
 
-Example User Story:
+Example User Story for Amazon:
 
-*	_“As a movie fan, I want to be able to add movies to my list which I can share with friends, so that they can order a movie from Amazon straight from my list.”_
+*	_“As an Amazon user, when I add a movie to my Amazon Wish List, then I should see the movie when I visit my Wish List page.”_
+*	_“As an Amazon user, when I add a movie to my Amazon Wish List, and click 'Share to Facebook', then my Facebook friends should see a story about the event in their Facebook newsfeed.”_*	
+
+---
+
+
+<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
+##User Stories
 
 
 ---
@@ -119,10 +105,20 @@ They can be used by:
 ---
 
 
+
+<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
+##Wireframes
+
+
+---
+
+
 ##Wireframes and Paper Prototypes
 ###How we will use them
 
-We are going to create simple prototypes using pen and paper. This is the fastest way to test your ideas.
+*	We are going to create simple prototypes using pen and paper. This is the fastest way to test your ideas.
+*	However, doing so enables you to seek out the help of others to test your application, rather than just reviewing it yourself…
+*	One methodology to solicit feedback for your app is User Testing.
 
 ---
 
@@ -131,7 +127,7 @@ We are going to create simple prototypes using pen and paper. This is the fastes
 ###Definition
 
 
-A simple method to evaluate a product by testing it on users. 
+A simple method to evaluate a product by testing out a sample of the user experience on users. 
 
 ---
 
@@ -158,17 +154,12 @@ During this class we will use our paper prototypes and test our ideas and layout
 
 
 ##User Testing
-###How it Works
+###Advanced Example
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/GrV2SZuRPv0" frameborder="0" allowfullscreen></iframe>
-
----
+##### Hanmail Paper Prototype: [https://www.youtube.com/embed/GrV2SZuRPv0](https://www.youtube.com/embed/GrV2SZuRPv0)
 
 
-
-<img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
-##Writing User Stories and Wireframing
-
+<iframe width="420" height="315" src="http://www.youtube.com/embed/GrV2SZuRPv0" frameborder="0" allowfullscreen></iframe>
 
 ---
 

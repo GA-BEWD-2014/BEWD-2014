@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-#BEWD - Finishing Touches
+#BEWD - Third Party APIs
 
 ###Instructor Name
 
@@ -20,13 +20,13 @@
 *	We've worked with APIs before!
 	*	Ruby (Mashable, Reddit, Digg)
 	*	OAuth with Twitter
- 
+
 ---
 
 
 ##API
 ###Protected APIs - OAuth
-	
+
 *	Require an API key
 *	Give your app access to resources
 *	Give your users permission to delegate rights to your application
@@ -72,7 +72,7 @@
 ---
 
 ##API
-###How do I use them all?  
+###How do I use them all?
 
 
 ---
@@ -80,7 +80,7 @@
 ##API
 ###Documentation
 
-*	Reading API documentation is a skill, it takes practice. Don't feel overwhelmed if everything doesn't click right away. 
+*	Reading API documentation is a skill, it takes practice. Don't feel overwhelmed if everything doesn't click right away.
 
 *	How to read API documentation articles are available in the resources section.
 
@@ -96,7 +96,7 @@
 ####The countdown is on!
 ####2 lessons left!
 
-Continue to work on your final project. 
+Continue to work on your final project.
 
 ---
 
