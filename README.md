@@ -1,5 +1,5 @@
 
-![BEWD 1.0.1](assets/instructor_bewd_logo.png)
+![BEWD 1.0.2](assets/instructor_bewd_logo.png)
 
 ##GETTING STARTED WITH CURRICULUM
 

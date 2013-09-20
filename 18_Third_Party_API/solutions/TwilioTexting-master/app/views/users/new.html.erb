@@ -1,11 +1,22 @@
+<h1>New Contact</h1>
+
 <%= form_for @user do |f| %>
-  <div>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-  </div>
-  <div>
-  <%= f.label :phone %>
-  <%= f.telephone_field :phone %>
-  </div>
-  <%= f.submit %>
+<table>
+  <tr>
+    <td><%= f.label :name %></td>
+    <td><%= f.text_field :name %></td>
+  </tr>
+  <tr>
+    <td><%= f.label :phone %></td>
+    <td><%= f.telephone_field :phone %></td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:right;"><%= f.submit %></td>
+  </tr>
+</table>
 <% end %>
+
+
+<br/>
+
+<%=link_to 'Back to Contact List', users_path %>

@@ -14,7 +14,10 @@
 *	Front-End Frameworks
 *	Deploying to Heroku
 
----<img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
+---
+
+
+<img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Stuff Finder - Build
 
 ---

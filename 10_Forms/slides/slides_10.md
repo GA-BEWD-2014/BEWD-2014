@@ -56,10 +56,10 @@
 
 When a user clicks 'Search'
 
-1.  Goes to routes.rb: ```get "search", to: "shirts#search"```
-	*  "GET" is the http method used to 'GET' requests 
-2.  Goes to the Shirts controller search action. 
-3.  Searches for shirt by name or description.
+1.  Goes to the Shirts controller index action. 
+2.  Sends the query as a querystring parameter (params[:q])
+3.  Filters results by the query
+4.  Searches shirts by name or description fields
 
 
 ---
