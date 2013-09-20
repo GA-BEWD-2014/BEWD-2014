@@ -6,7 +6,7 @@
 | | |
 | ------------- |:-------------|
 | __Topics__ |rails app planning, user stories| 
-| __Objective__ | Teach students how to approach an app from inseption to construction.| 
+| __Objective__ | Teach students how to approach an app from inception to construction.| 
 
 
 ####Key Teaching Points

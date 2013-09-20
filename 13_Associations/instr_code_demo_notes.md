@@ -15,7 +15,7 @@
 	*	__has_many__
 	*	__has_many :through__
 
-Before we get into the code and syntax, we want to show students how to identify model associations with a familiar application.  For students, its easier to start with a familiar application rather than finding associations for an application they do not know. We are using Twitter (instructors can change if they wish).
+Before we get into the code and syntax, we want to show students how to identify model associations with a familiar application.  For students, its easier to start with a familiar application rather than finding associations for an application they do not know. We are using Twitter if this is not popular in your market, feel free to change.
 
 
 ####Task Instructions

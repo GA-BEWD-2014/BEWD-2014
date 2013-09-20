@@ -1,6 +1,6 @@
 ![Exercise - Instructor](../assets/ICL_icons/instr_lab.png)
 
-This lesson is a lab session where students will spend the whole class building. Students will need the solution files as a reference to complete the two labs for this lesson. Make all code demo and exercise rails app solutions available for students.
+This lesson is a lab session where students will spend the whole class building. Students will need the solution files as a reference to complete the two labs for this lesson. Make code demo and exercise rails app solutions from lessons 07 - 10 available to students.
 
 
 ##[Ritly](starter_code/)
@@ -10,21 +10,20 @@ This lesson is a lab session where students will spend the whole class building.
 | | |
 |------------- |:-------------|
 | __Topics__ | forms, routes, controllers, views| 
-| __Description__|Students add search functionality to the movies app. |
+| __Description__|A Bitly clone that creates a URL alias. |
 | __Activity Type__| Pair Programming|
 
 
 ####Instructional Design Notes
 
-*	Students are going to build an app similar to [Bitly](https://bitly.com), called Ritly. In this example we've given students a lot of hints to guide and help them determine what routes, views, controllers and models they should create.
+*	Students are going to build an app similar to [Bitly](https://bitly.com), called Ritly. In this example we've given students hints to guide and help them determine what routes, views, controllers and models they should create.
 
 
-*	Students will most likely struggle with flow of control in a Rails app. This is not like any app students have built during this lesson, but they do have all the skills to complete.
+*	Students will most likely struggle with flow of control in a Rails app. This is not like any app students have built, but they do have all the skills to complete.
  
-*	Students often struggle with task instructions before they being to build. We suggest you demo the app for students prior to them coding. This will help students understand the task.
+*	Students often struggle with task instructions before they being to build. We suggest you demo the app for students prior to them coding. And make sure everyon knows what is expected. 
 
-
-*	Help students that are struggling with where to start.
+*	You will most likely need to help students that are struggling with where to start.
 
 ##[Rewsly](starter_code/)
 
@@ -49,7 +48,7 @@ You will build Rewsly during lesson 11 & 12.
 
 *	We want students to get into the habit of breaking the task down intro parts. Don't demo the app this time around, but for those that are struggling with task instructions try to break down the task with them. (i.e. what do I need, what should I do first?)
 
-*	For advanced students we added 2 bonus questions.
+*	We added 2 bonus questions for those that finish early.
 
 
 

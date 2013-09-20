@@ -45,7 +45,7 @@ We will build a Rails app for RetFlix during lesson 9 & 10. Each lesson students
 ####Instructional Design Notes
 
 *	Review requirements with students before they begin. You may need to coach students on how to start.
-*	Students aren't expected to completed this exercise in class. It should be turned in as homework lesson 11. 
+*	Students aren't expected to complete this exercise in class. It should be turned in as homework lesson 11. 
 *	Ideally we would like students to move all complex data queries to the model, however most will struggle with queries. The instructional team should walk the floor and use this time to help those that are struggling.
 
 

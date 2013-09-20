@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MuseumApp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <!-- Styled with love by Salman Ansari :) -->
+</head>
+<body>
+<%= link_to "All Museums", museums_path %>
+<%= link_to "All Paintings", paintings_path %>
+<div id="container">
+  <%= yield %>
+</div>
+
+</body>
+</html>

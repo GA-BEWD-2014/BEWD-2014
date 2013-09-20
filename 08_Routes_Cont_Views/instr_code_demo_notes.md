@@ -34,7 +34,7 @@ __Rock Paper Scissors__
 
 *	Demonstrate how you would add images to the application.
 
-You should push the complete code prior to students adding Rock Paper Scissors.
+You should push the complete code prior to students adding Rock Paper Scissors. 
 
   
 ###Rock Paper Scissors

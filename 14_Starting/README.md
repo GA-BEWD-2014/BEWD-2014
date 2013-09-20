@@ -36,7 +36,7 @@ If this is not your "new project workflow", please teach students your method.
 
 ###Homework
 
-Due Lesson 15:
+Due Lesson 15: Milestone 2
 
 *	At least 5 User Stories.
 *	Diagram of database schema (models, attributes for those models, associations).

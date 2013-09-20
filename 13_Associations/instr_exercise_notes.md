@@ -16,10 +16,10 @@
 
 ###Instructional Design Notes
 
-If you are unfamiliar with Netflix, read about their services [here](https://signup.netflix.com/MediaCenter/HowNetflixWorks).
+If you are unfamiliar with Netflix, you can change the exercise or read about their services [here](https://signup.netflix.com/MediaCenter/HowNetflixWorks).
 
-*	In groups students should think about how NetFlix' database tables. To make things easier, we've given students the tables they should work with. 
+*	In groups students should think about how NetFlix' database tables are related. To make things easier, we've given students the tables they should work with. 
 
-*	Allow students to brainstorm together about which tables should be related and how.
+*	Allow students time to brainstorm together about which tables should be related and how.
 
 *	We provide a picture from one student in our solutions folder. Ask groups to present their findings. Together you should draw the associations on the white board.

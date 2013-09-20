@@ -18,7 +18,7 @@ The final encapsulates everything you’ve learned in this course. We want to ma
 ##CORE REQUIREMENTS
 To pass projects must include:
 
--	About me page that describes your app.
+-	About page/or a detailed descript of your app.
 
 -	User accounts. Your application must utilize user accounts.
 
@@ -54,4 +54,4 @@ Your instructor and T.As will provide feedback on how well you execute best prac
 
 
 ##GRADING
-A project is considered satisfactory if it meets all core requirements. Anything extra is above satisfactory. 
+A project is considered satisfactory if it meets all core requirements. Anything extra is encouraged. 

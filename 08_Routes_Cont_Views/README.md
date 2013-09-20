@@ -23,17 +23,17 @@
 | 60 min | Routes | [Games On Rails](instr_code_demo_notes.md)| Games on Rails is the only rails app for this lesson.| 
 | 30 min | Controller | Games On Rails  | |
 | 30 min | Views | Games On Rails | |
-| 60 min | Lab Time | Games On Rails (add [Rock Paper Scissors](instr_exercise_notes.md)) | |
+| 60 min | Lab Time | Games On Rails (add [Rock Paper Scissors](instr_exercise_notes.md)) |Students add the game rock paper scissors to games on rails. |
 
 
 
 ###Homework
 
-None
+Final project proposal
 
 
 ### What's Due?
 
 
 *	Ruby midterm due.
-*	Final project proposal due lesson 9.
+

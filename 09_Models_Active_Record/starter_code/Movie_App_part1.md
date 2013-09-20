@@ -3,7 +3,7 @@
 
 #Movie App
 
-Our client RetFlix wants BEWDiful students to develop an app.
+Our client RetFlix wants BEWD students to develop an app.
 
 They want an application that allows visitors to:
 
@@ -14,7 +14,7 @@ They want an application that allows visitors to:
 
 We will build a Rails app for RetFlix during lesson 9 & 10. Each lesson we will add more functionality to the app.
 
-Pairing is Sharing, and happy coding :)
+Pairing is sharing, and happy coding :)
 
 ##Quick Fire: 20 min
 

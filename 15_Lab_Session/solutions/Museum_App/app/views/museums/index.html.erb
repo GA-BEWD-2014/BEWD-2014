@@ -1,0 +1,12 @@
+<h1>Museums</h1>
+
+<h3><%= link_to "+ Add New Museum", new_museum_path %> | <%= link_to "+ Add New Painting", new_painting_path %></h3>
+
+<% @museums.each do |museum| %>
+  <hr/>
+  <section>
+    <h3><%= link_to museum.name, museum %></h3>
+    <p><%= museum.city%></p>
+  </section>
+
+<% end %>

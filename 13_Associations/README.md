@@ -4,7 +4,6 @@
 ##Lesson 13: Associations
 
 
-
 ###Learning Objectives
 
 
@@ -17,11 +16,11 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 90 min | Identifying Associations | coa [Twitter Associations](instr_code_demo_notes.md) <br> ex [Netflix Associations](instr_exercise_notes.md) | Work in groups to draw model association diagrams. We will not focus on ERD or UML diagrams. This exercise should be free form. Focus is on understanding, and drawing will help students understand associations. | 
-| 60 min | Coding Associations | coa [Rewsly_Associations](instr_code_demo_notes.md) | | 
+| 90 min | Identifying Associations | [Twitter Associations](instr_code_demo_notes.md) <br> [Netflix Associations](instr_exercise_notes.md) | Work in groups to draw model association diagrams. We will not focus on ERD or UML diagrams. This exercise should be free form. Focus is on understanding, and drawing will help students understand associations. | 
+| 60 min | Coding Associations | [Rewsly_Associations](instr_code_demo_notes.md) | | 
  
 
-Note: There is no lab time this session. 
+Note: There is no official lab time this session. 
 
 
 ###Homework

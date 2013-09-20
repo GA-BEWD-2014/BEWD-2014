@@ -1,0 +1,16 @@
+<h1><%= @museum.name %></h1>
+<p><%= @museum.city %></p>
+
+<hr/>
+
+<% @museum.paintings.each do |painting| %>
+  <section>
+    <h3><b>Title</b>: <%= link_to painting.title, painting %></h3>
+    <%= image_tag painting.image %>
+    <p><b>Year</b>: <%= painting.year%></p>
+    <p><b>Style</b>: <%= painting.style%></p>
+    <hr/>
+  </section>
+
+ <p><%= link_to "Edit Museum", edit_museum_path(@museum) %></p>
+ <% end %>

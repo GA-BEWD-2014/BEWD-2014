@@ -4,7 +4,7 @@ Below is the task instructions we created for students lab time.
 
 *	Note that students struggle most with how to start. They have an idea and are eager to begin, but don't know how to approach building. 
 
-*	Throughout the course we've given them specific task. However when coding your own project, this is a little different. If you do not agree with this approach to building an app, please feel free to teach students your way. This most important take away from this lesson is that students have guidance on how to begin an app.
+*	Throughout the course we've given them specific task. However when coding your own project, this is a little different. If you do not agree with this approach to building an app, please feel free to teach students your way. The most important take away from this lesson is that students have guidance on how to begin an app.
 
 
 #Rapid Prototype Your App

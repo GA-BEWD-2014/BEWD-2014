@@ -7,7 +7,7 @@
 
 Congratulations on joining us at General Assembly for the Back-End Web Development course! We are excited to have you, and are looking forward to working with you all soon!
 
-In order to best prepare and ensure success in the course, we’ve gathered a list of resources that we’d like you to complete prior to the course start date ( __ENTER DATE__ ). When you arrive on your first day, everyone will be up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.
+In order to best prepare and ensure success in the course, we’ve gathered a list of resources that we’d like you to complete prior to the course start date ( September 24th, 2013). When you arrive on your first day, everyone will be up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.
 
 Learning Ruby on Rails, is not just about learning to code, it is also about exposure to other developer tools. So, in order to be most prepared we recommend going through the tutorials listed below. This should take you around 5– 7 hours to complete. 
 
@@ -38,7 +38,7 @@ __SIGN UP__
 
 #####For Windows Users
 
-If you are using a Windows machine you will have to install [Gow](https://github.com/bmatzelle/gow) before you can complete the the tutorials on command line basics. The terminal is how developers navigate their computers. Windows functions a little differently then what we will be using in class, however thanks to some brilliant devs we have tools such as Gow to make the transition easier. During lesson 0, instructors will help you install Ruby and Rails.
+If you are using a Windows machine you will have to install [Gow](https://github.com/bmatzelle/gow) before you can complete the the tutorials on command line basics. The terminal is how developers navigate their computers. Windows functions a little differently then what we will be using in class, however thanks to some brilliant devs we have tools such as Gow to make the transition easier. During lesson 0, instructors will help you install Ruby and Rails. Alternatively you can just read through the commands in Command Line Basics tutorial. You will practice lesson 1.
 
 1. [Download](https://github.com/bmatzelle/gow/downloads) and Install Gow
 2. Start the Command Prompt 
@@ -46,6 +46,8 @@ If you are using a Windows machine you will have to install [Gow](https://github
 	2.	Type ```cmd``` and hit enter
 	3. Voila the Command Prompt is open. 
 3. You are ready to follow along in the terminal with the tutorials below. 
+
+
 
 
 #####For Mac Users

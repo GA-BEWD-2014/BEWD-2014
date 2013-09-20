@@ -1,0 +1,25 @@
+<% if @museum.errors.any? %>
+  <h2>There were errors saving your museum</h2>
+  <ul>
+    <% @museum.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+
+<%= form_for @museum do |f| %>
+  <fieldset>
+    <div class='fields'>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+    <div class='fields'>
+      <%= f.label :city %>
+      <%= f.text_field :city %>
+    </div>
+  </fieldset>
+  <%= f.submit %>
+<% end %>
+
+<br/>

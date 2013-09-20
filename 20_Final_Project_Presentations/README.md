@@ -7,7 +7,7 @@ BACK-END WEB DEVELOPMENT
 
 
 
-###Learning Osjectives
+###Learning Objectives
 
 *	Present all your hard work.
  
@@ -15,6 +15,8 @@ BACK-END WEB DEVELOPMENT
 
 ###What's Due? 
 
-Final Projects!
+Final Projects!!!!!!
 
 
+
+###Make sure to share links to all final projects with your producer. 
