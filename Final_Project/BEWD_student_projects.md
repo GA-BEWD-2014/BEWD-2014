@@ -1,8 +1,8 @@
 #BEWD Final Project Sample
 
-Below you will find a list of projects from BEWD graduates. These projects range in complexity and will give you a good idea of what students are able to accomplish at the end of 10 weeks. It is very important that we at General Assembly are able to gather as many final projects as possible. It helps our BEWD product team determine what curriculum changes need to be made.
+Below you will find a list of projects from BEWD graduates. These projects range in complexity and will give you a good idea of what students are able to accomplish at the end of 10 weeks. It is very important that we at General Assembly are able to gather as many final projects as possible. It helps our BEWD product team determine what curriculum changes need to be made. Please submit links to your final projects to your producer at the end of your course.
 
-Below I have grouped the projects based on the version of the curriculum.
+Projects are grouped by curriculum version.
 
 ---
 
@@ -45,7 +45,7 @@ Below I have grouped the projects based on the version of the curriculum.
 
 
 ##V.1.0.1 
-No projects, live for one week.
+
 
 
 ##V.1.0.2
