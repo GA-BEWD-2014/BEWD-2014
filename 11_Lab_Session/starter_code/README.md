@@ -33,7 +33,7 @@ Here are a few hints.
 
 ####The routes.rb file
 
-	```ruby
+```ruby
 		Ritly::Application.routes.draw do
 			root "home#index"
 			resources :urls #TODO: restrict this to just :create, :new and :show
