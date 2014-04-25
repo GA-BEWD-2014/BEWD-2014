@@ -80,9 +80,10 @@ If your database is compromised then passwords are compromised as well.
 
 Use one way hash
 
-	```Digest::SHA1.hexdigest("secret")
-	# => "e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4"
-	```
+```
+Digest::SHA1.hexdigest("secret")
+# => "e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4"
+```
 ---
 
 
@@ -92,11 +93,12 @@ Use one way hash
 Salt is random data that are used as an additional input to a one-way function that hashes a password.
 
 
-	```salt = "a761ce3a45d97e41840a788495e85a70d1bb3815"
-		password = "secret"
-		Digest::SHA1.hexdigest(salt+password)
-		# =>"7963ca00e2e48ea80c615d037494de00a0964682"
-	```
+```
+salt = "a761ce3a45d97e41840a788495e85a70d1bb3815"
+password = "secret"
+Digest::SHA1.hexdigest(salt+password)
+# =>"7963ca00e2e48ea80c615d037494de00a0964682"
+```
 
 ---
 
