@@ -179,7 +179,7 @@ During this class we will use our paper prototypes and test our ideas and layout
 
 
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
-##Rapid Prototype You App
+##Rapid Prototype Your App
 
 
 *	Write User Stories (Time 20min)
