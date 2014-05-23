@@ -5,13 +5,13 @@
 
 
 #1 - Let's say we wanted to perform the task of multiplying 22 by 44  
-###########
-###########
+22*44
 	
 #2 - Great, what if we wanted to multiply 22*4 again. If we had to type that out each time, it would be inefficient
 # So, let's try and save that code to a method...
-###########
-###########
+def multiply 
+	22*44
+end
 
 
 
@@ -27,10 +27,13 @@
 ##4 - Now, let's say we wanted to make it a little smarter. Our  method will take two parameters passed to it.
 # Let's name the parameters as variables x and y
 # and then multiply them together.
-###########
-###########
+def multiply(x,y)
+	x*y
+end 
 
-
+def yay(z,y)
+	z+y
+end
 
 #5 - Now CALL that method:
 ###########
