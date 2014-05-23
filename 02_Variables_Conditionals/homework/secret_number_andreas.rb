@@ -35,3 +35,55 @@
 # Remember to cast input from the Player into the appropriate data type.
 #
 ###############################################################################
+
+
+
+# introduction, ask for player name
+puts "Hello, Welcome to the '\Secret Number'\ Game created by Andreas"
+puts "What is your name?"
+player_name = gets.chomp
+puts "Enjoy the Game #{player_name}"
+puts "Your task is to guess the '\Secret Number'\ between 1-10. You have 3 tries to identify the '\Secret Number'\. You win by guessing the number right withing the 3 attempts, otherwise you lose the game!"
+
+# generate random secret number between 1-10
+ran_num = rand(1..10)
+puts "Ran num = #{ran_num}"
+counter = 0
+attempts = 3
+
+# let players guess 3 times
+while counter < attempts do
+
+		# guess 
+		counter += 1
+		puts "Input your #{counter} number"
+		guess = gets.chomp.to_i
+		puts "Your #{counter}st guess is #{guess}"
+
+		# player guesses correctly and wins game
+		if guess == ran_num
+				#wins after 1st try
+				if counter == 1
+					puts "Congrats you WIN after your #{counter}st guess! The secret number was #{ran_num}!"
+					break
+				#wins after 2nd try
+				elsif counter == 2
+					puts "Congrats you WIN after your #{counter}nd guess! The secret number was #{ran_num}!"
+					break
+				#wins after 3rd try
+				elsif counter == 3
+					puts "Just in time. You WIN after your #{counter}rd guess! The secret number was #{ran_num}!"
+					break
+				end	
+		# player guesses number too high
+		elsif guess > ran_num && attempts - counter != 0
+				puts "The secret number is smaller. You have #{attempts - counter} guesses left"
+		# player guesses number too low
+		elsif guess < ran_num && attempts - counter != 0
+				puts "The secret number is larger. You have #{attempts - counter} guesses left"
+		# player looses game
+		else
+				puts "You LOST! The secret number was #{ran_num}. Next time :)"	
+		end
+end
+# 		more text
