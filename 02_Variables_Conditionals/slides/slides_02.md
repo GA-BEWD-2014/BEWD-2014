@@ -2,7 +2,11 @@
 
 #BEWD - Variables and Conditional Logic
 
+<<<<<<< HEAD
 ###Instructor Name
+=======
+###Mari Miyachi
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
 
 ---
 
@@ -21,6 +25,20 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+
+## Homework
+###Secret Number
+
+Let's see a demo of Secret Number
+
+*	HW 1 - Secret Number
+	*	Secret number is a game we will incrementally build for homework during the Ruby portion of the course. 
+		Players must guess a secret number and your program will provide feedback. 
+---
+
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
 ##QUIZ
 1.	How do I change directories using the command line?
 2.	What is Git and GitHub?
@@ -28,7 +46,13 @@
 4.	What is a GitHub Repository?
 5.  What is the correct way to push changes to your GitHub repo?
 	a. git pull origin master
+<<<<<<< HEAD
 	b. git commit -m "push to GitHub"
+=======
+
+	b. git commit -m "push to GitHub"
+
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
 	c. git push origin master
 
 ---
@@ -39,7 +63,11 @@
 *	An open source programming language
 *	Easy to read and natural to write
 *	Created by Yukihiro Matsumoto (aka Matz) with the goal of building a language FOR developers
+<<<<<<< HEAD
 *	Regularly maintained and evolved (recently reached version 2.0.0)
+=======
+*	Regularly maintained and evolved (recently reached version 2.1.0)
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
 
 <div style="text-align:center;">
   <img src="../../assets/ruby/ruby_img.png" />
@@ -79,6 +107,7 @@
 
  –Bret Victor, Learnable Programming
 
+<<<<<<< HEAD
 ---
 
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
@@ -87,6 +116,25 @@
 
 ---
 
+=======
+---
+
+![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+##Robot
+
+---
+
+##One example
+	counter to keep track
+	for email in inbox ->
+		check date of email
+		if date is less than 1 week ago
+			increment counter
+	return counter number
+
+---
+
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
 ##Robot Recap
 ###Its about changing how you think
 *	Think in logical steps to solve a problem
@@ -185,6 +233,7 @@ Let's learn how to call simple methods, and how to declare our own methods.
 ---
 
 
+<<<<<<< HEAD
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
 ##Teddit - Strings
 
@@ -193,6 +242,8 @@ Teddit is a news aggregator we will build during this course.
 ---
 
 
+=======
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
 ##More Data Types
 ###Booleans 
 
@@ -235,6 +286,17 @@ Variables
 
 ---
 
+<<<<<<< HEAD
+=======
+
+![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
+##Teddit - Strings
+
+Teddit is a news aggregator we will build during this course.
+
+---
+
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
 ##Conditional Logic
 ###Decision Time 
 
@@ -279,6 +341,7 @@ you are an adult
 ---
 
 
+<<<<<<< HEAD
 ## Homework
 ###Secret Number
 
@@ -289,3 +352,6 @@ Let's see a demo of Secret Number
 		Players must guess a secret number and your program will provide feedback. 
 ---
 
+=======
+
+>>>>>>> 0fa50e6db5dc71e0fb53a10ac7c4f02fcd608683
