@@ -2,7 +2,7 @@
 
 #BEWD - Classes and Objects
 
-###Instructor Name
+###Mari Miyachi
 
 ---
 
@@ -44,6 +44,7 @@ What are some pros and cons of using hashes?
 
 *	Adding variables to a class
 
+
 		# Hashes
 		story = {}
 		story[:title] = "Sand angry with flip-flops"
@@ -68,6 +69,7 @@ What are some pros and cons of using hashes?
 
 *	Adding methods to our class
 
+
 		class Story
 			attr_accessor :title, :category, :upvotes
 			def upvote!
@@ -75,10 +77,12 @@ What are some pros and cons of using hashes?
 			end
 		end
 
+
 		story = Story.new
 		story.title = "Fruit Flies find fleas facetious"
 		story.category = "Turf War"
 		story.upvotes = 1
+
 
 		story.upvote!
 		story.upvotes #=> 2
@@ -98,11 +102,13 @@ What are some pros and cons of using hashes?
 *	to_s method called automatically on objects interpolated in a string (e.g. with puts)
 *	to_s can be overridden:
 
+
 		class My_Class
 			def to_s
 				"The puts method was called."
 			end
 		end
+
 
 		>> my_object = My_Class.new
 		>> puts my_object
@@ -207,6 +213,8 @@ __Create A Class__
 	end
 ```
 
+---
+
 __Creating Objects__
 
 ```ruby
@@ -230,6 +238,7 @@ __Creating Objects__
 
 >GA has a course on UXD
 
+---
 
 __Variable Scope__
 
@@ -241,6 +250,8 @@ __Variable Scope__
 | Class   | @@name  | Same shared value for all instances of a class, available from any method of that class.|
 | Global   | $name  | Same shared value for all code running within a single Ruby program.|
 
+
+---
 
 ###Still Feel Lost?
 ####Catch Up With These Resources
