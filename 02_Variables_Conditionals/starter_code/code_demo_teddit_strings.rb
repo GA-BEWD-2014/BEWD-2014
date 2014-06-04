@@ -14,11 +14,15 @@
 ###########
 ###########
 #
-#'Welcome to Teddit! a text based news aggregator. Get today\'s news tomorrow!'
-#'Story: Man raised by wolverines, then eaten Current upvotes: 4'
+# puts'Welcome to Teddit! a text based news aggregator. Get today\'s news tomorrow!'
+# puts'Story: Man raised by wolverines, then eaten Current upvotes: 4'
 
 
 #Version 2 - Replace the story title and upvotes with variables.
+headline = "FBI doesn't like weed"
+upvotes = 10
+puts "story: " + headline + "\nCurrent Upvotes:\t" + upvotes.to_s
+# or puts "Story: #{headline} \nCurrent Upvoates:\t #{upvotes.to_s}
 ###########
 ###########
 
