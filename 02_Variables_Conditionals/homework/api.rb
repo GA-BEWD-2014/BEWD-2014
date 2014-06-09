@@ -198,35 +198,57 @@ when 7
 	end
 
 
-	puts "Which of these posts do you like to add to your favorites? Add one number below"
-	selection3 = gets.chomp.to_i
+	puts "Which of these posts do you like to add to your favorites? Add one number below. If you don't like to add any more favorite post just say 'no' "
 
+	selection3 = gets.chomp#.to_i
 	favorite_hash = Hash.new
+
+	while selection3 != "no" do
+		selection3 = selection3.to_i
+		
+		hash.each do |key, value|
+			if selection3 == key
+				favorite_hash[key] = value
+				puts "We have added the follwing post to you favorite #{key}: #{value}"
+				
+				puts "These are the post you have added as favorites so far:"	
+					favorite_hash.each do |key, value|
+				 		puts "#{key}: #{value}"
+				 	end
+			end	
+		end
 	
-	hash.each do |key, value|
-		if selection3 == key
-			puts "We have added the follwing post to you favorite #{key}: #{value}"
-			favorite_hash[key] = value
-		end	
+	
+	puts "Do you like to add more favorite posts? If so just add the number for a post from the list above. If not just say 'no' "
+	selection3 = gets.chomp	
+
+	end	
+	
+	puts "Thanks: Here are you favorite posts:"
+	favorite_hash.each do |key, value|
+		puts "#{key}: #{value}"
+	
+	#puts favorite_hash.inspect	
 	end
 
-	puts "do you like to add another favorite post? if so add a number, if not type 'no' " 
-	selection4 = gets.chomp
 
-	# if selection4 == "no"
-	# 	favorite_hash.each do |key, value|
-	# 	puts "Favorite posts: #{key}: #{value}"
+	# puts "do you like to add another favorite post? if so add a number, if not type 'no' " 
+	# selection4 = gets.chomp
+
+	# # if selection4 == "no"
+	# # 	favorite_hash.each do |key, value|
+	# # 	puts "Favorite posts: #{key}: #{value}"
+	# # 	end
+	# # else 	
+	# 	selection4.to_i
+	# 	hash.each do |key, value|
+	# 	if selection4 == key
+	# 		puts "We have added the follwing post to your favorite #{key}: #{value}"
+	# 		favorite_hash[key] = value
+	# 	end	
 	# 	end
-	# else 	
-		selection4.to_i
-		hash.each do |key, value|
-		if selection4 == key
-			puts "We have added the follwing post to your favorite #{key}: #{value}"
-			favorite_hash[key] = value
-		end	
-		end
-	#end	
-	puts favorite_hash.inspect
+	# #end	
+	
 
 else
 	puts "Not a valid selection"

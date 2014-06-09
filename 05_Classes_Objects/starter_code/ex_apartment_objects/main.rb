@@ -7,9 +7,9 @@
 # => We've also provided a png file of the terminal output from the completed version.
 # => Hint: Think before you code. Annotate code and comment out sections as you test different sections
 
-require_relative 'lib/building'
-require_relative 'lib/apartment'
-require_relative 'lib/person'
+require_relative 'lib/building_ae'
+require_relative 'lib/apartment_ae'
+require_relative 'lib/person_ae'
 
 ## First, define our methods
 
@@ -83,11 +83,15 @@ apt_count = gets.to_i
   end
 end
 
-puts "What would you like to do next, (v)iew all apartments? (q)uit?"
+puts "What would you like to do next, (v)iew all apartments, (r) renters (q)uit?"
 response = gets.strip
 
 if response == 'v'
   building.view_apartments
-else
+elsif response == 'r'
+  building.view_renters
+else  
   puts "Thanks for using Ruby Building Manager"
+
 end
+
