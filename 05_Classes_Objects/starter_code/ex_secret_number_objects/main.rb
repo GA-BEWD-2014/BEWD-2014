@@ -41,10 +41,40 @@
 # Tips: Copy paste your code from homework 1 where necessary.
 
 $:.unshift (File.dirname(__FILE__))
-require 'lib/game'
+require_relative 'lib/game'
+require_relative 'lib/person'
+require_relative 'lib/secret_number'
 
-# put code here print a welcome message for your user
 
-# put code here ask the user for their name, and save it
+class Main
 
-# put code here to create a new game, and start it
+	# put code here print a welcome message for your user
+	def make_intro
+		puts "Hello, Welcome to the '\Secret Number'\ Game created by Andreas"
+	end
+
+
+end
+
+# call Main class for intro
+main = Main.new	
+main.make_intro
+
+#create player and ask for players name
+game = Game.new
+game.ask_for_name.player_name
+
+#generate sec num
+#secretnumber = SecretNumber.new
+
+#welcome player
+game.welcome
+
+#comapare numbers
+game.compare_number
+
+
+
+
+
+#end
