@@ -3,11 +3,12 @@ require 'twilio-ruby'
 require 'json'
 
 class Player
-	attr_accessor :name, :phone_number
+	attr_accessor :name, :phone_number, :assigned_charade
 
-	def initialize(name, phone_number)
+	def initialize(name, phone_number, assigned_charade)
 		@name = name
 		@phone_number = phone_number
+		@assigned_charade = assigned_charade
 	end
 
 	def send_Twilio_SMS
@@ -22,7 +23,7 @@ class Player
 			#FROM is from Paul's Twilio Phone number
 			:from => '+13129975477',    
 			:to => "+1#{@phone_number}",
-			:body => 'Your assignment Johnny Walker',
+			:body => "Your charade assignment is #{assigned_charade}",
 		})
 	end
 
