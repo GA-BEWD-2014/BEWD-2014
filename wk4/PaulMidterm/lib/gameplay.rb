@@ -1,5 +1,3 @@
-#require lib/organizer?
-
 class Game
 
 	attr_accessor :participant_count, :chosen_topic, :players
@@ -10,12 +8,12 @@ class Game
 		@players = []
 	end
 
-def start_playing
-	@players.each do |player|
+	def start_playing
+		@players.each do |player|
 		puts "Sending #{player.name} an SMS with their assigned role at #{player.phone_number}"
 		player.send_Twilio_SMS
-	end
+		end
 
-end
+	end
 
 end

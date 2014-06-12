@@ -11,13 +11,13 @@ class Player
 	end
 
 	def send_Twilio_SMS
-# Paul's Twilio API credentials
+	# Paul's Twilio API credentials
 		account_sid = 'AC277cf35a20573e1d13f3c50f45b92612' 
 		auth_token = '0379092183f9ef2732e7a08f82bb50fe' 
- 
-# set up a client to talk to the Twilio REST API 
+
+	# set up a client to talk to the Twilio REST API 
 		@client = Twilio::REST::Client.new account_sid, auth_token 
- 
+
 		@client.account.messages.create({
 			#FROM is from Paul's Twilio Phone number
 			:from => '+13129975477',    
