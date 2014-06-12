@@ -41,7 +41,7 @@ puts
 puts "(1) Famous Greeks and Romans \n(2) Children's Book Characters \n(3) Silicon Valley Who's-Who"
 chosen_topic = gets.to_i
 
-game=Game.new(participant_count, chosen_topic, [])
+game=Game.new(participant_count, chosen_topic)
 
 #Creates players and puts them into the player array
 0.upto(participant_count-1) do |participant|
@@ -54,8 +54,10 @@ while 1==1
 puts "Ready to Play? (y/n)"
 answer = gets.chomp.downcase
 if answer=="y"
-	puts "OK - sending messages now. Have fun!"
+	puts
 	game.start_playing
+	puts
+	puts "All messages sent - now go have fun without your computer!"
 	exit
 elsif answer == "n"
 	puts "No problem - just exit the program and start over"
