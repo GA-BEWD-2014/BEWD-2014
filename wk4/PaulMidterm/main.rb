@@ -7,7 +7,7 @@ require_relative 'lib/organizer'
 require_relative 'lib/gameplay'
 
 def create_player
-puts "---- New Player ----"
+puts "---- Player Details----"
 puts "Player name: "
 name = gets.strip
 puts "Player's phone number: "
@@ -21,17 +21,9 @@ end
 puts
 puts "*=*=*=*=*=*= Welcome to the Automatic Charade Generator! *=*=*=*=*=*="
 puts
-puts "What is your name?"
-#grab organizer's name
-organizer_name = gets.chomp
-puts "What is your phone number?"
-#grab organizer's phone number
-organizer_phone_number = gets.to_i
-organizer = Organizer.new(organizer_name, organizer_phone_number)
-
 #Ask the organizer to choose a set of roles for the game
-puts "How many players (other than you) are going to play charades?"
-# TO DO: validate that input is a number
+puts "How many players (including you) are going to play charades?"
+# TO DO: validate that input is a number >1
 participant_count = gets.to_i
 
 #Asks organizer to choose what category the game will draw from.
@@ -42,6 +34,9 @@ puts "(1) Famous Greeks and Romans \n(2) Children's Book Characters \n(3) Silico
 chosen_topic = gets.to_i
 
 game=Game.new(participant_count, chosen_topic)
+puts
+puts "Awesome! Who's going to play charades?"
+puts
 
 #Creates players and puts them into the player array
 0.upto(participant_count-1) do |participant|
