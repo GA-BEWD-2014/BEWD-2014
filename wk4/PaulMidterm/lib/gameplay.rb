@@ -10,11 +10,23 @@ class Game
 		@players = []
 	end
 
+#Experimental method 2
 def start_playing
-	puts "Your chosen topic is #{@chosen_topic}"
-	puts "There are #{@participant_count} players in this game"
-	puts"Now I would send an SMSS"
+	@players.each do |player|
+		puts player.name
+		puts player.phone_number
+		player.send_Twilio_SMS
+	end
+
 end
+
+
+#This method works
+# def start_playing
+# 	puts "Your chosen topic is #{@chosen_topic}"
+# 	puts "There are #{@participant_count} players in this game"
+# 	puts"Now I would send an SMSS"
+# end
 
 
 end
