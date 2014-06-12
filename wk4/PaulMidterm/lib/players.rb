@@ -22,7 +22,7 @@ class Player
 			#FROM is from Paul's Twilio Phone number
 			:from => '+13129975477',    
 			:to => "+1#{@phone_number}",
-			:body => 'Assigned role: Johnny Walker',
+			:body => 'Your assignment Johnny Walker',
 		})
 	end
 
