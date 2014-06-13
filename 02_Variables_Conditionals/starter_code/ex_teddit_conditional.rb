@@ -5,7 +5,7 @@
 # Where you see comments (lines that begin with #) replace it with code so that the program works.
 
 def get_input
-  #Get input from the user.
+	gets.strip
 end
 
 def calculate_upvotes(story, category)
@@ -16,6 +16,23 @@ def calculate_upvotes(story, category)
 
 	#For example:
 	# "Cats frolic despite tuna shortage" should give you 5 times the upvotes!
+
+	upvotes = 1
+
+	if story.downcase.include? "cat" or category.downcase.include? "cat"
+		upvotes = upvotes * 5
+	end
+
+	if story.downcase.include? "bacon" or category.downcase.include? "bacon"
+		upvotes = upvotes * 8
+	end
+
+	if category.capitalize == "Food"
+		upvotes = upvotes * 3
+	end
+
+	return upvotes
+
 end
 
 puts "Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!"
