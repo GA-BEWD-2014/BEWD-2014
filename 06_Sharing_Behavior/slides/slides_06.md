@@ -2,7 +2,7 @@
 
 #BEWD - Sharing Behavior
 
-###Instructor Name
+###Mari Miyachi
 
 ---
 
@@ -18,21 +18,21 @@
 ##Scope
 ###Method Scope
 
-	def SuperHero
-		def fly
-      "Here we go!"
+    def SuperHero
+    	def fly
+          "Here we go!"
+        end
     end
-	end
 
-  def fly
-    "I can't."
-  end
+    def fly
+      "I can't."
+    end
 
-	>> superman = SuperHero.new
-  >> superman.fly
-  => "Here we go!"
-  >> fly
-  => "I can't."
+  	>> superman = SuperHero.new
+      >> superman.fly
+      => "Here we go!"
+      >> fly
+      => "I can't."
 
 ---
 
@@ -40,17 +40,17 @@
 ###Class Methods
 
 * You don't need an instance to call a class method
-* Below is an example of the SecretNumber class re-implemented to use a class method
+* Here is an example of the SecretNumber class re-implemented to use a class method
 * BONUS: Go back and re-implement secret number exercise using a class method (HINT: the Game object stores the number, so you dont need a secret number object to do so)
 
-  class SecretNumber
-    # gets a random number between 0-9, adds one so it's between 1-10
-    def self.generate
-      rand(10)+1
-    end
-  end
+      class SecretNumber
+        # gets a random number between 0-9, adds one so it's between 1-10
+        def self.generate
+          rand(10)+1
+        end
+      end
 
-  >> number = SecretNumber.generate
+      >> number = SecretNumber.generate
 ---
 
 ##Class Methods
@@ -58,33 +58,40 @@
 
 *	self keyword is used when definining a method name to indicate a class method
 * self is also used INSIDE a method definition to indicate the current object
-* a common use of self is to call the current objects methods (such as one of its attr_accessors)
-* below, self is used to indicate that 'generate_random_story' is a class method
-* in addition, self is then used to call the "stories" attr_accessor method on the NewsPaper instance (an attr_accessor getter method returns the instance variable e.g. @stories)
-
-		class NewsPaper
-      attr_accessor :stories
-
-			def self.generate_random_story
-				"This random event happened on day #{rand(28)} of this month."
-			end
-
-			def add_story(story)
-        # the below code is the same as: @stories << story
-				self.stories << story
-			end
-		end
-
-    >> story = NewsPaper.generate_random_story
-    => "This random event happened on day 20 of this month."
-    >> paper = NewsPaper.new
-    >> paper.add_story(story)
-    >> paper.stories
-    => ["This random event happened on day 20 of this month."]
+* A common use of self is to call the current objects methods (such as one of its attr_accessors)
 
 ---
 
+* below, self is used to indicate that 'generate_random_story' is a class method
+* in addition, self is then used to call the "stories" attr_accessor method on the NewsPaper instance (an attr_accessor getter method returns the instance variable e.g. @stories)
 
+```ruby
+  		class NewsPaper
+            attr_accessor :stories
+
+            def initialize
+              @stories = []
+            end
+
+  			def self.generate_random_story
+  				"This random event happened on day #{rand(28)} of this month."
+  			end
+
+  			def add_story(story)
+          # the below code is the same as: @stories << story
+  				self.stories << story
+  			end
+  		end
+
+      >> story = NewsPaper.generate_random_story
+      => "This random event happened on day 20 of this month."
+      >> paper = NewsPaper.new
+      >> paper.add_story(story)
+      >> paper.stories
+      => ["This random event happened on day 20 of this month."]
+```
+
+---
 
 ##Sharing Behavior
 ###Sharing is Caring
@@ -103,28 +110,25 @@
 
 ---
 
-
 ##Inheritance
 ![Inheritance Diagram](../../assets/ruby/inheritance_diagram.png)
 
 ---
-
 
 <img id ='icon' src="../../assets/ICL_icons/Code_along_icon_md.png">
 ##Inheritance
 
 ---
 
-
-
 ##Inheritance
 ###Glimpse into Rails
 
 *	Where you'll see it…
 
-		class User < ActiveRecord::Base
-		end
-
+```ruby
+      class User < ActiveRecord::Base
+      end
+```
 
 ---
 
@@ -140,7 +144,6 @@ class.
 
 ---
 
-
 ##Sharing Behavior
 ###Getting Ready For Rails
 
@@ -150,7 +153,6 @@ class.
 
 
 ---
-
 
 ##Sharing Behavior
 ###Mixins
@@ -163,22 +165,19 @@ class.
 
 ---
 
-##Mixins
-###Teddit as an example
+##Mixins: Teddit as an example
 
 *	Lets say teddit now accepts photos, videos and stories.
-
 
 ![Why use mixins](../../assets/ruby/redundant_methods.png)
 
 *	You can up and down vote all of them.
 
-
 ---
 
 ##Mixins
 ###Upvotable Example
-
+```ruby
 	module Upvotable
 		def upvote!
   		@upvote += 1
@@ -215,14 +214,14 @@ class.
   >> story.upvote!
   >> photo = Photo.new
   >> photo.downvote!
-
+```
 ---
 
 ##Sharing Behavior
 ###Modules
 
 *	What if we wanted to have two bat classes.
-
+```ruby
 		class Bat
 			def fly!
 				puts "So free.. and blind"
@@ -238,7 +237,7 @@ class.
 
 		slugger = Bat.new
 		slugger.fly?!??!
-
+```
 ---
 
 ##Inheritance vs Mixins
@@ -256,7 +255,6 @@ class.
 
 ---
 
-
 <img id ='icon' src="../../assets/ICL_icons/Exercise_icon_md.png">
 ##Lab Time
 
@@ -264,7 +262,6 @@ class.
 *	Secret Number
 
 ---
-
 
 ## Homework
 
