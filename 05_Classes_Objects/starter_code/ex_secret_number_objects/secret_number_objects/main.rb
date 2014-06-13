@@ -1,3 +1,15 @@
+
+require_relative 'lib/game' 
+require_relative 'lib/person'
+require_relative 'lib/secret_number'
+
+def intro
+	puts 'Hello player! Welcome to Marija\'s Magnificant Test of Psychic Abilities game! What is your name?'
+	name = gets.chomp.capitalize # .capitalize will make the first letter of the name capitalized.
+	puts 'Hello, ' + name + '!'
+	puts 'Let us begin! You get 3 guesses. I am thinking of a number between 1 and 10, please guess what number this is!'
+	guess = gets.to_i
+
 ###############################################################################
 #
 # Introduction to Ruby on Rails

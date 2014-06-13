@@ -1,0 +1,40 @@
+require "json"
+require 'rest-client'
+
+# response = RestClient.get("http://www.omdbapi.com/?s=potter?")
+# movies = JSON.load(response)
+
+# movies["Search"].each do |film|
+# 	puts film ["Title"]
+# end 
+
+puts "Here are the top 25 REDDIT posts!"
+
+response = RestClient.get("http://www.reddit.com/.json")
+top_responses = JSON.load(response)
+
+top_responses["data"]["children"].each do |posts|
+	puts posts ["data"]["title"]
+end
+
+# _________________
+
+# subred = RestClient.get("http://reddit.com/r/aww/.json")
+# sub_post = JSON.load(subred)
+
+# sub_post["data"]["children"].each do |post|
+# 	puts post ["data"]["title"]
+# end
+
+# ________________
+
+input = gets.chomp
+subred = RestClient.get("http://reddit.com/r/#{input}/.json")
+sub_post = JSON.load(subred)
+
+sub_post["data"]["children"].each do |post|
+	puts post ["data"]["title"]
+end
+
+up - last code
+cntrl + command + up - reverse lines in code
