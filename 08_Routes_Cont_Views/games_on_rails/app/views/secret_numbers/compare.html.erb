@@ -1,0 +1,8 @@
+<% if @thow == @choosen_number %>
+<h1> Congrats, you won! </h1>
+<% else %>
+<h1> You lost </h1>
+<p>The thow was <%= @thow %> </p>
+<% end %> 
+
+<%= link_to "Play again", new_rock_paper_scissors_path %>

@@ -1,0 +1,52 @@
+<!-- 1 = rock -->
+<!-- 2 = paper -->
+<!-- 3 = scissor -->
+
+
+<table style="width:600px">
+<tr>
+	<td>
+	<h3> Your Choice </h3>
+	<%= image_tag("rock_paper_scissors/#{@choosen_number}.jpeg") %>
+	</td>
+
+	<td>
+	<h3> App's Pick </h3>
+	<%= image_tag("rock_paper_scissors/#{@throw}.jpeg") %>
+	</td>
+</tr>
+</table>
+
+
+<% if @choosen_number == @throw %>
+		<h1> You tie! </h1>
+	<% elsif @choosen_number == 1 && @throw == 2 %>
+		<h1> You loose! </h1>
+	<% elsif @choosen_number == 1 && @throw == 3 %>
+		<h1> You win! </h1>
+	<% elsif @choosen_number == 2 && @throw == 1 %>
+		<h1> You win! </h1>
+	<% elsif @choosen_number == 2 && @throw == 3 %>
+		<h1> You loose! </h1>
+	<% elsif @choosen_number == 3 && @throw == 1 %>
+		<h1> You loose! </h1>
+	<% elsif @choosen_number == 3 && @throw == 2 %>
+		<h1> You win! </h1>	
+	<% else %>
+		<h1> Something went wrong!</h1>				
+<% end %> 
+<p>The App's choice was <%= @throw %> </p>
+
+
+
+<!--
+<% if @choosen_number == @throw %>
+	<h1> Congrats, you won! </h1>
+<% else %>
+	<h1> You lost! </h1>
+	<p>The thow was <%= @throw %> </p>
+<% end %> -->
+
+<%= link_to "Play again", new_rock_paper_scissor_path %> 
+</br>
+<%= link_to "Main Menu", root_path %>

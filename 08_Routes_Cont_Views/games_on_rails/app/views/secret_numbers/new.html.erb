@@ -1,0 +1,10 @@
+<h1>This is the Secret Number Game</h1>
+
+<% (1..5).each do |number| %>
+	<%= link_to image_tag("secret_numbers/#{number}.jpeg"), secret_number_path(number) %>
+
+<!--	<%= link_to number.to_s, secret_number_path(number) %> -->
+<% end %>
+</br>
+</br>
+<%= link_to "Main Menu", root_path %>

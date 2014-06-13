@@ -1,0 +1,14 @@
+<h1>This is the Rock Paper Scissors Game</h1>
+<!-- 1 = rock -->
+<!-- 2 = paper -->
+<!-- 3 = scissor -->
+
+<% (1..3).each do |number| %>
+<!--	<%= link_to number, rock_paper_scissor_path(number) %> -->
+	<%= link_to image_tag("rock_paper_scissors/#{number}.jpeg"), rock_paper_scissor_path(number) %>
+
+<!--	<%= link_to number.to_s, secret_number_path(number) %> -->
+<% end %>
+</br>
+</br>
+<%= link_to "Main Menu", root_path %>
