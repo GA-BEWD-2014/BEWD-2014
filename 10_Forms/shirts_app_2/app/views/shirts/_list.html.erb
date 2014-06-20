@@ -1,0 +1,7 @@
+<% @shirts.each do |shirt| %>
+    <div>
+        <h3><%= link_to shirt.name, shirt_path(shirt.id) %></h3>
+        <p><%= shirt.description %></p>
+        <p><%= image_tag "shirts/"+shirt.image %></p>
+    </div>
+<% end %>
