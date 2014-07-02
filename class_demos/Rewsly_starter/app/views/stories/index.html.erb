@@ -1,0 +1,16 @@
+<h1>Welcome to Rewsly</h1>
+
+<h3><%= link_to "+ Add New Story", new_story_path %></h3>
+
+<%= form_tag '/', method: :get do %>
+  <%= search_field_tag :q, params[:q] %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<br/>
+
+<div id="stories">
+  <ul>
+    <%= render @stories %>
+  </ul>
+</div>

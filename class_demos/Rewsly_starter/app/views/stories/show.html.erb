@@ -1,0 +1,14 @@
+<h1><%= @story.title %></h1>
+<p><%= link_to @story.link, @story.link %>
+<p><%= link_to "Back to home page", root_path %></p>
+
+<%= form_for [@story, @comment] do |f| %>
+<%= f.text_area :post, :rows =>8, :cols => 40 %>
+<%= f.submit %>
+<% end %>
+
+<ul>
+<% @story.comments.each do |comment| %>
+<li><%= "#{comment.user.email} posted: #{comment.post}" %></li>
+<% end %>
+</ul>
