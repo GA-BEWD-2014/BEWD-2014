@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @course.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @course.description %>
+</p>
+
+<p>
+  <strong>Teacher:</strong>
+  <%= @course.teacher %>
+</p>
+
+<h2>Assignments</h2>
+<% @assignments.each do |assignment| %>
+<div class="row">
+<div class="span4">
+	<%= assignment.name %>
+</div>
+<div class="span8">
+	<%= assignment.description %>
+</div>
+</div>
+<% end %>
+
+
+<%= link_to 'Edit', edit_course_path(@course) %> |
+<%= link_to 'Back', courses_path %>
