@@ -1,4 +1,11 @@
 class UrlsController < ApplicationController
+  before_filter :is_superuser?, :only => :new
+  # use this only if you have two different models
+  # use different user models only if
+  # 1) you are changing the experience, not just the content
+  # 2) you are adding supplemental information to the different user models
+  #before_action :is_logged_in
+
   def new
     @url = Url.new
   end
@@ -38,4 +45,17 @@ class UrlsController < ApplicationController
       redirect_to root_path
     end
   end
+
+  def is_superuser?
+    if current_user.superuser?
+      true
+    else
+      redirect_to root_path
+    end
+  end
+
+  def is_logged_in
+    redirect_to root_path unless user_signed_in? or admin_signed_in?
+  end
+
 end
