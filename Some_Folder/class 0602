@@ -1,0 +1,37 @@
+# jimmy = {}
+# jimmy[:name] = "Jimmy J"
+# jimmy[:major] = "Math"
+# jimmy[:course] = "Math"
+# jimmu[:grade] = "A"
+
+# ed = {}
+# ed[:name] = "Ed E"
+# ed[:major] = "English"
+# ed[:course] = "English"
+# ed[:grade] = "C"
+
+# carl = {}
+# carl[:name] = "Carl C"
+# carl[:major] = "History"
+# carl[:course] = "History"
+# carl[:grade] = "D"
+
+class Student
+	attr_accessor :name, :major, :course, :grade
+end
+
+jimmy = Student.new
+jimmy.name = "Jimmy J"
+jimmy.major = "Math"
+jimmy.course = "Math"
+jimmu.grade = "A"
+
+def grade_status(student)
+	if student.grade == "F"
+		"failed"
+	elsif ["D", "F"].inclde?(student.grade) and student.major == student.course
+	"failed"
+	else
+	"passed"
+end
+end

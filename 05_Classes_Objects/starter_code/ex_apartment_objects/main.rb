@@ -7,9 +7,9 @@
 # => We've also provided a png file of the terminal output from the completed version.
 # => Hint: Think before you code. Annotate code and comment out sections as you test different sections
 
-require_relative 'lib/building'
-require_relative 'lib/apartment'
-require_relative 'lib/person'
+require_relative 'lib/building' #create a separate file
+require_relative 'lib/apartment' #create a separate file
+require_relative 'lib/person' #create a separate file
 
 ## First, define our methods
 
